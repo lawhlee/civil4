@@ -2,18 +2,26 @@
   "reviewedAt": "2026-10-16T15:16:00.022033+00:00",
   "displayDate": "2026-10-17 (KST)",
   "scope": {
-    "caseQuestions": 265,
+    "caseQuestions": 264,
     "civilActQuestions": 155,
-    "total": 420,
-    "examQuestions": 0
+    "total": 419,
+    "examQuestions": 0,
+    "reviewedIncludingRetired": 420,
+    "retiredQuestionIds": [
+      "q098"
+    ]
   },
   "method": "420문항의 발문·정답·해설을 연결된 제공 원문과 개별 대조하였다. 민법 조문은 국가법령정보센터의 해당 조문과 대조했고, 판례의 변경·예외·불명확한 조건 및 수정 항목은 대법원·국가법령정보센터 공식 자료로 확인하였다. 모든 판결의 외부 전문을 새로 전부 열람한 검토는 아니다.",
   "summary": {
-    "answerCorrections": 1,
-    "conditionOrExplanationClarifications": 10,
+    "answerCorrections": 0,
+    "conditionOrExplanationClarifications": 11,
     "sourceDateCorrections": 2,
-    "unchanged": 407,
-    "unresolved": 0
+    "unchanged": 406,
+    "unresolved": 0,
+    "removedQuestions": 1,
+    "withdrawnAnswerCorrections": [
+      "q098"
+    ]
   },
   "items": [
     {
@@ -33,7 +41,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q002",
@@ -47,7 +56,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q003",
@@ -66,7 +76,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q004",
@@ -85,7 +96,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q005",
@@ -99,7 +111,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q006",
@@ -118,7 +131,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q007",
@@ -137,7 +151,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q008",
@@ -151,7 +166,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q009",
@@ -170,7 +186,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q010",
@@ -184,7 +201,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q011",
@@ -203,7 +221,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q012",
@@ -227,7 +246,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q013",
@@ -246,7 +266,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q014",
@@ -265,7 +286,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q015",
@@ -279,7 +301,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q016",
@@ -293,7 +316,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q017",
@@ -312,7 +336,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q018",
@@ -326,7 +351,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q019",
@@ -340,7 +366,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q020",
@@ -354,7 +381,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q021",
@@ -368,7 +396,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q022",
@@ -382,7 +411,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q023",
@@ -396,7 +426,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q024",
@@ -410,7 +441,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q025",
@@ -424,7 +456,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q026",
@@ -438,7 +471,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q027",
@@ -452,7 +486,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q028",
@@ -466,7 +501,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q029",
@@ -480,7 +516,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q030",
@@ -494,7 +531,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q031",
@@ -533,7 +571,8 @@
         "statement": "상속이나 변제자의 법정대위와 같이 법률규정에 따라 채권의 귀속주체가 바뀌는 경우에도, 계약에 의한 지명채권양도와 마찬가지로 채무자에 대한 통지 또는 채무자의 승낙이 있어야 한다. 따라서 이러한 대항요건을 갖추지 못한 법률상 채권 취득자는 채무자에게 채권의 이전을 주장할 수 없다.",
         "answer": false,
         "explanation": "상속·변제자의 법정대위·손해배상자대위 등 법률규정에 따른 채권 이전에는 지명채권양도의 대항요건에 관한 민법 제450조가 적용되지 않는다. 따라서 이러한 법률상 이전에 통지나 승낙을 요구한 발문은 틀리다. 다만 변제자의 임의대위는 민법 제480조 제2항에 따라 제450조부터 제452조까지를 준용하므로 법정대위와 구별하여야 한다."
-      }
+      },
+      "active": true
     },
     {
       "id": "q032",
@@ -547,7 +586,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q033",
@@ -581,7 +621,8 @@
         "statement": "채권양도로 양수인은 양도인이 가지고 있던 채권을 동일성을 유지한 채 그대로 취득한다. 채무자가 이의를 보류하지 않고 채권양도를 승낙하여 항변을 상실한 경우가 아니라면, 대항요건이 갖추어지기 전에 채무자가 양도인에게 주장할 수 있었던 사유는 채권이 양도되었다는 이유만으로 없어지는 것이 아니므로 채무자는 그러한 사유로 양수인에게도 대항할 수 있다.",
         "answer": true,
         "explanation": "양수인은 원칙적으로 양도인의 채권을 동일성을 유지한 채 취득하므로, 대항요건이 갖추어지기 전에 양도인에게 주장할 수 있었던 사유로 양수인에게도 대항할 수 있다. 다만 민법 제451조 제1항에 따라 채무자가 이의를 보류하지 않고 승낙하면 원칙적으로 종전 항변을 상실한다. 이 경우에도 양수인이 그 항변사유에 관하여 악의 또는 중과실이면 채무자는 승낙 당시까지 양도인에 대하여 생긴 사유로 대항할 수 있다. 발문은 이의 없는 승낙으로 항변이 상실된 경우를 제외한 원칙을 묻는다."
-      }
+      },
+      "active": true
     },
     {
       "id": "q034",
@@ -595,7 +636,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q035",
@@ -609,7 +651,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q036",
@@ -623,7 +666,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q037",
@@ -637,7 +681,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q038",
@@ -651,7 +696,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q039",
@@ -665,7 +711,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q040",
@@ -684,7 +731,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q041",
@@ -698,7 +746,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q042",
@@ -712,7 +761,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q043",
@@ -726,7 +776,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q044",
@@ -740,7 +791,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q045",
@@ -759,7 +811,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q046",
@@ -773,7 +826,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q047",
@@ -787,7 +841,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q048",
@@ -806,7 +861,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q049",
@@ -820,7 +876,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q050",
@@ -834,7 +891,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q051",
@@ -848,7 +906,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q052",
@@ -867,7 +926,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q053",
@@ -881,7 +941,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q054",
@@ -895,7 +956,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q055",
@@ -909,7 +971,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q056",
@@ -923,7 +986,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q057",
@@ -937,7 +1001,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q058",
@@ -951,7 +1016,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q059",
@@ -965,7 +1031,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q060",
@@ -979,7 +1046,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q061",
@@ -993,7 +1061,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q062",
@@ -1012,7 +1081,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q063",
@@ -1026,7 +1096,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q064",
@@ -1040,7 +1111,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q065",
@@ -1054,7 +1126,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q066",
@@ -1068,7 +1141,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q067",
@@ -1087,7 +1161,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q068",
@@ -1101,7 +1176,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q069",
@@ -1115,7 +1191,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q070",
@@ -1129,7 +1206,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q071",
@@ -1143,7 +1221,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q072",
@@ -1162,7 +1241,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q073",
@@ -1181,7 +1261,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q074",
@@ -1200,7 +1281,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q075",
@@ -1214,7 +1296,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q076",
@@ -1228,7 +1311,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q077",
@@ -1247,7 +1331,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q078",
@@ -1261,7 +1346,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q079",
@@ -1275,7 +1361,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q080",
@@ -1289,7 +1376,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q081",
@@ -1303,7 +1391,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q082",
@@ -1317,7 +1406,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q083",
@@ -1331,7 +1421,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q084",
@@ -1345,7 +1436,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q085",
@@ -1359,7 +1451,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q086",
@@ -1378,7 +1471,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q087",
@@ -1397,7 +1491,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q088",
@@ -1411,7 +1506,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q089",
@@ -1425,7 +1521,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q090",
@@ -1439,7 +1536,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q091",
@@ -1453,7 +1551,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q092",
@@ -1467,7 +1566,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q093",
@@ -1481,7 +1581,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q094",
@@ -1495,7 +1596,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q095",
@@ -1514,7 +1616,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q096",
@@ -1533,12 +1636,13 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q097",
-      "status": "ok",
-      "reason": "X 유지. 2025년 전합 다수의견은 기존 이행소송 계속 시 추심채권자가 참가해야 하며 별개 소 제기가 허용되지 않는다고 설명한다. 보충의견도 중복제소 결론을 구체화한다. 해설은 종전 2013년 전합과 현재 법리를 구별하였다.",
+      "status": "clarify",
+      "reason": "2025년 다수의견 본문은 ‘추심채권자는 참가의 방법 외에 별도의 소를 제기할 수 없게 되므로’라고 직접 설시한다. 따라서 X는 보충의견만을 법정의견으로 오인한 결과가 아니다. 다만 직접 쟁점은 당사자적격이고, 판례 변경 항목에 2013다202120을 사건번호로 열거하지는 않았다. 현 해설의 교재 주석 의존 표현을 위 본문 근거로 교체하면 정확하다. 2013년 다수의견 자체는 별소를 허용하였음도 확인하였다.",
       "sourceReferences": [
         {
           "reference": "2013다202120",
@@ -1548,16 +1652,33 @@
           "reference": "2021다252977",
           "url": "https://law.go.kr/LSW/precInfoP.do?evtNo=2021%EB%8B%A4252977",
           "support": "다수의견 및 보충의견의 이행소송 계속 시 별도 추심소 제기 제한"
+        },
+        {
+          "reference": "2021다252977 전원합의체 다수의견 이유 2.나.3)나)",
+          "url": "https://law.go.kr/LSW/precInfoP.do?evtNo=2021%EB%8B%A4252977",
+          "support": "별도의 추심소송을 제기할 수 없다는 설명이 다수의견 본문에 직접 있다. 보충의견을 근거로 대체하지 않는다."
         }
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true,
+      "opinionType": "2021다252977 다수의견 이유에서 직접 설시된 별소 금지; 종전 2013다202120 다수의견과 구별",
+      "before": {
+        "statement": "채무자가 제3채무자를 상대로 피압류채권의 이행을 구하는 소가 법원에 계속 중인 상태에서 그 채권에 관하여 압류 및 추심명령을 받은 채권자는, 채무자의 이행소송에 참가하지 않고 같은 제3채무자를 상대로 동일한 채권의 이행을 구하는 추심의 소를 별도로 제기할 수 있으며, 이는 중복제소에 해당하지 않는다.",
+        "answer": false,
+        "explanation": "X. 수록된 종전 전원합의체 판결은 별도의 추심소송을 허용하였으나, 교재는 2025년 전원합의체 판결로 이 부분이 변경되어 중복제소가 된다고 명시한다. 채무자의 이행소송 계속 중 추심명령이 내려져도 채무자의 당사자적격이 유지되므로, 추심채권자는 참가를 통하여 소송에 관여하여야 하며 동일한 채권에 관한 추심의 소를 별도로 제기할 수 없다."
+      },
+      "after": {
+        "statement": "채무자가 제3채무자를 상대로 피압류채권의 이행을 구하는 소가 법원에 계속 중인 상태에서 그 채권에 관하여 압류 및 추심명령을 받은 채권자는, 채무자의 이행소송에 참가하지 않고 같은 제3채무자를 상대로 동일한 채권의 이행을 구하는 추심의 소를 별도로 제기할 수 있으며, 이는 중복제소에 해당하지 않는다.",
+        "answer": false,
+        "explanation": "대법원 2025. 10. 23. 선고 2021다252977 전원합의체 판결의 다수의견은, 채무자의 이행소송 계속 중 추심명령이 있더라도 채무자의 당사자적격이 유지되며, 추심채권자는 참가 외에 별도의 소를 제기할 수 없다고 설명한다. 따라서 동일한 채권에 관하여 별도의 추심소송을 제기할 수 있다는 발문은 틀리다. 추심채권자는 사실심 변론종결 시까지 공동소송참가를 하거나 상고심까지 공동소송적 보조참가를 할 수 있다. 이는 별소를 허용하였던 종전 2013다202120 판결의 설명과 구별해야 한다."
+      }
     },
     {
       "id": "q098",
-      "status": "fix",
-      "reason": "기존 지문은 2020년 판결을 그대로 반영하므로 종전 판례 설명으로는 맞지만 현재 법리의 일반명제로 O 처리해서는 안 된다. 2025년 전원합의체 다수의견은 채무자의 당사자적격 유지 및 채무자가 받은 확정판결의 추심채권자에 대한 효력을 인정한다. 그 다수의견에 대한 보충의견은 종전의 2016다35390 판결을 구체적으로 거론하며, 새로운 법리에서는 한 추심채권자의 추심소송 확정판결의 기판력이 채무자를 통하여 다른 추심채권자에게도 미치고 추심명령이 변론종결 전인지 후인지를 불문한다고 설명한다. 이 설명은 반대의견만의 비판이 아니라 다수의견 측의 명시적인 보충 설명이다. 발문에 다수의견 보충의견까지 판단 기준으로 명시하여 정오의 기준을 한정한다.",
+      "status": "removed",
+      "reason": "사용자 요청에 따라 이 문항을 출제에서 제거하였다. 기존 문항은 2016다35390의 기판력 쟁점이며, 앞선 O→X 정정에 사용한 설명은 2021다252977 다수의견에 대한 보충의견에 있다. 보충의견만으로 종전 문항을 확정적으로 오답 처리한 조치는 철회한다. 다수의견의 직접 판시와 반대·별개·보충의견을 구별한다.",
       "sourceReferences": [
         {
           "reference": "대법원 2025. 10. 23. 선고 2021다252977 전원합의체 판결, 다수의견 2.나.2) 및 보충의견 6.나.1)나), 6.나.3)",
@@ -1569,26 +1690,16 @@
           "support": "현재 지문 및 O 정답은 이 종전 판결의 법리를 반영한 것이다. 종전 원문은 삭제하지 않고 새 법리와의 차이를 별도 안내해야 한다."
         }
       ],
-      "answerChanged": true,
-      "proposed": {
-        "statement": "추심명령 후에도 채무자의 당사자적격을 인정하는 판례 법리와 그에 관한 다수의견 보충의견에 따르더라도, 동일한 채권에 관하여 복수의 채권자들이 압류·추심명령을 받은 경우 어느 한 채권자가 제기한 추심금소송의 확정판결의 기판력은 그 소송의 변론종결일 이전에 이미 압류·추심명령을 받은 다른 추심채권자에게 원칙적으로 미치지 않는다. 다만 그 다른 채권자가 법원의 참가명령을 받은 경우에는 참가하지 않았더라도 그 재판의 효력이 미친다.",
-        "answer": false,
-        "explanation": "이 지문의 기판력 제한은 대법원 2020. 10. 29. 선고 2016다35390 판결의 종전 법리이다. 그러나 대법원 2025. 10. 23. 선고 2021다252977 전원합의체 판결은 추심명령이 있어도 채무자의 이행소송 당사자적격이 유지되고, 특별한 사정이 없는 한 채무자가 받은 확정판결의 효력이 추심채권자에게도 미친다고 보았다. 다수의견에 대한 보충의견은 그에 따라 어느 한 추심채권자가 받은 추심소송 확정판결의 기판력도 채무자를 통하여 다른 추심채권자에게 미치며, 추심명령이 이루어진 시기가 변론종결 전인지 후인지를 불문한다고 설명한다. 따라서 다른 추심채권자가 변론종결 전에 명령을 받았다는 이유만으로 원칙적으로 기판력이 미치지 않는다고 할 수 없다. 참가명령을 받은 채권자에 관한 민사집행법 제249조 제4항이 존재한다는 사실도, 참가명령을 받지 않은 다른 추심채권자에게 기판력이 미치지 않는다는 종전 결론을 그대로 유지할 근거는 되지 않는다.",
-        "comparison": true
-      },
+      "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": false,
+      "answerAfter": null,
       "before": {
         "statement": "동일한 채권에 관하여 복수의 채권자들이 압류·추심명령을 받은 경우, 어느 한 채권자가 제기한 추심금소송의 확정판결의 기판력은 그 소송의 변론종결일 이전에 이미 압류·추심명령을 받은 다른 추심채권자에게 원칙적으로 미치지 않는다. 다만 그 다른 채권자가 법원의 참가명령을 받은 경우에는 참가하지 않았더라도 그 재판의 효력이 미친다.",
         "answer": true,
         "explanation": "O. 각 추심금소송의 소송물이 같은 피압류채권의 존부라고 하더라도 소송당사자가 다르므로, 먼저 확정된 판결의 기판력이 다른 추심채권자에게 당연히 미치는 것은 아니다. 다만 민사집행법의 참가명령에 관한 규정은 참가명령을 받은 채권자에게는 실제 참가 여부와 관계없이 재판의 효력이 미치도록 하여 그 범위를 확장한다."
       },
-      "after": {
-        "statement": "추심명령 후에도 채무자의 당사자적격을 인정하는 판례 법리와 그에 관한 다수의견 보충의견에 따르더라도, 동일한 채권에 관하여 복수의 채권자들이 압류·추심명령을 받은 경우 어느 한 채권자가 제기한 추심금소송의 확정판결의 기판력은 그 소송의 변론종결일 이전에 이미 압류·추심명령을 받은 다른 추심채권자에게 원칙적으로 미치지 않는다. 다만 그 다른 채권자가 법원의 참가명령을 받은 경우에는 참가하지 않았더라도 그 재판의 효력이 미친다.",
-        "answer": false,
-        "explanation": "이 지문의 기판력 제한은 대법원 2020. 10. 29. 선고 2016다35390 판결의 종전 법리이다. 그러나 대법원 2025. 10. 23. 선고 2021다252977 전원합의체 판결은 추심명령이 있어도 채무자의 이행소송 당사자적격이 유지되고, 특별한 사정이 없는 한 채무자가 받은 확정판결의 효력이 추심채권자에게도 미친다고 보았다. 다수의견에 대한 보충의견은 그에 따라 어느 한 추심채권자가 받은 추심소송 확정판결의 기판력도 채무자를 통하여 다른 추심채권자에게 미치며, 추심명령이 이루어진 시기가 변론종결 전인지 후인지를 불문한다고 설명한다. 따라서 다른 추심채권자가 변론종결 전에 명령을 받았다는 이유만으로 원칙적으로 기판력이 미치지 않는다고 할 수 없다. 참가명령을 받은 채권자에 관한 민사집행법 제249조 제4항이 존재한다는 사실도, 참가명령을 받지 않은 다른 추심채권자에게 기판력이 미치지 않는다는 종전 결론을 그대로 유지할 근거는 되지 않는다.",
-        "comparison": true
-      }
+      "active": false,
+      "disposition": "inactive; excluded from study, review, bookmarks and current statistics"
     },
     {
       "id": "q099",
@@ -1602,7 +1713,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q100",
@@ -1616,7 +1728,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q101",
@@ -1630,7 +1743,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q102",
@@ -1644,7 +1758,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q103",
@@ -1658,7 +1773,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q104",
@@ -1672,7 +1788,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q105",
@@ -1686,7 +1803,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q106",
@@ -1700,7 +1818,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q107",
@@ -1714,7 +1833,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q108",
@@ -1728,7 +1848,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q109",
@@ -1742,7 +1863,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q110",
@@ -1756,7 +1878,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q111",
@@ -1770,7 +1893,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q112",
@@ -1784,7 +1908,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q113",
@@ -1798,7 +1923,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q114",
@@ -1812,7 +1938,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q115",
@@ -1826,7 +1953,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q116",
@@ -1840,7 +1968,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q117",
@@ -1854,7 +1983,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q118",
@@ -1868,7 +1998,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q119",
@@ -1882,7 +2013,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q120",
@@ -1896,7 +2028,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q121",
@@ -1910,7 +2043,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q122",
@@ -1924,7 +2058,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q123",
@@ -1938,7 +2073,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q124",
@@ -1972,7 +2108,8 @@
         "statement": "채무자가 재산을 처분하는 법률행위를 하였으나 그 행위로 일반채권자의 공동담보가 되는 책임재산이 감소하지 않아 채권자를 해하지 않은 경우에도, 채권자가 그 처분을 원하지 않았고 이를 취소하여 재산을 보전할 이익이 있다고 주장한다면 그 처분행위는 채권자취소권의 대상이 되는 사해행위에 해당한다.",
         "answer": false,
         "explanation": "채권자취소권의 대상이 되려면 그 재산적 법률행위로 일반채권자의 공동담보가 감소하여 채권자를 해하여야 한다. 발문은 그러한 공동담보 감소와 해함이 없는 경우를 전제로 하므로, 채권자의 반대나 재산을 보전할 이익이 있다는 주장만으로 사해행위가 되지 않는다. 판례의 총재산 감소는 공동담보에 관한 판단이며, 이를 단순히 재산의 명목상 가액 합계가 줄었는지만 확인하는 기준으로 이해해서는 안 된다."
-      }
+      },
+      "active": true
     },
     {
       "id": "q125",
@@ -1986,7 +2123,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q126",
@@ -2000,7 +2138,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q127",
@@ -2014,7 +2153,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q128",
@@ -2028,7 +2168,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q129",
@@ -2042,7 +2183,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q130",
@@ -2056,7 +2198,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q131",
@@ -2070,7 +2213,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q132",
@@ -2084,7 +2228,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q133",
@@ -2098,7 +2243,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q134",
@@ -2112,7 +2258,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q135",
@@ -2126,7 +2273,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q136",
@@ -2145,7 +2293,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q137",
@@ -2164,7 +2313,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q138",
@@ -2178,7 +2328,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q139",
@@ -2192,7 +2343,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q140",
@@ -2206,7 +2358,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q141",
@@ -2225,7 +2378,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q142",
@@ -2239,7 +2393,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q143",
@@ -2263,7 +2418,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q144",
@@ -2277,7 +2433,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q145",
@@ -2291,7 +2448,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q146",
@@ -2305,7 +2463,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q147",
@@ -2319,7 +2478,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q148",
@@ -2333,7 +2493,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q149",
@@ -2347,7 +2508,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q150",
@@ -2366,7 +2528,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q151",
@@ -2380,7 +2543,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q152",
@@ -2399,7 +2563,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q153",
@@ -2413,7 +2578,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q154",
@@ -2427,7 +2593,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q155",
@@ -2441,7 +2608,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q156",
@@ -2455,7 +2623,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q157",
@@ -2469,7 +2638,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q158",
@@ -2483,7 +2653,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q159",
@@ -2497,7 +2668,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q160",
@@ -2511,7 +2683,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q161",
@@ -2525,7 +2698,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q162",
@@ -2539,7 +2713,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q163",
@@ -2553,7 +2728,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q164",
@@ -2567,7 +2743,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q165",
@@ -2581,7 +2758,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q166",
@@ -2595,7 +2773,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q167",
@@ -2609,7 +2788,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q168",
@@ -2623,7 +2803,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q169",
@@ -2637,7 +2818,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q170",
@@ -2651,7 +2833,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q171",
@@ -2665,7 +2848,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q172",
@@ -2679,7 +2863,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q173",
@@ -2698,7 +2883,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q174",
@@ -2712,7 +2898,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q175",
@@ -2736,7 +2923,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q176",
@@ -2755,7 +2943,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q177",
@@ -2769,7 +2958,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q178",
@@ -2783,7 +2973,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q179",
@@ -2797,7 +2988,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q180",
@@ -2836,7 +3028,8 @@
         "statement": "사해행위가 이루어진 뒤에 비로소 채권 발생의 기초가 되는 법률관계가 성립하여 새로 발생한 채권을 취득한 채권자도, 취소와 원상회복은 모든 채권자의 이익을 위한 것이므로 민법 제407조에 따라 사해행위취소와 원상회복의 효력을 받는 채권자에 포함된다.",
         "answer": false,
         "explanation": "사해행위 이후에 새로 발생한 채권을 취득한 채권자는 그 채권의 취득 당시 회복되는 재산을 공동담보로 파악하지 않은 자이므로, 민법 제407조에 정한 취소와 원상회복의 효력을 받는 채권자에 포함되지 않는다. 이 문항은 사해행위 후에 채권 발생의 기초가 되는 법률관계까지 새로 성립한 경우를 묻는다. 사해행위 전에 이미 성립한 채권을 그 후에 양수한 경우에는 채권의 동일성이 유지되므로 양수인이 채권자취소권을 행사할 수 있다는 점과 구별해야 한다(대법원 2012. 2. 9. 선고 2011다77146 판결)."
-      }
+      },
+      "active": true
     },
     {
       "id": "q181",
@@ -2850,7 +3043,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q182",
@@ -2864,7 +3058,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q183",
@@ -2878,7 +3073,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q184",
@@ -2892,7 +3088,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q185",
@@ -2906,7 +3103,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q186",
@@ -2920,7 +3118,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q187",
@@ -2939,7 +3138,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q188",
@@ -2958,7 +3158,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q189",
@@ -2972,7 +3173,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q190",
@@ -2986,7 +3188,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q191",
@@ -3000,7 +3203,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q192",
@@ -3014,7 +3218,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q193",
@@ -3033,7 +3238,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q194",
@@ -3047,7 +3253,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q195",
@@ -3091,7 +3298,8 @@
         "statement": "부동산실명법 시행 후 이루어진 계약명의신탁에서 수탁자가 명의신탁약정을 알지 못하는 매도인과 매매계약을 체결하고 자기 명의로 소유권이전등기를 마쳤다면, 수탁자는 완전한 소유권을 취득하고 신탁자에게 매수자금 상당액의 부당이득반환의무를 부담한다. 이때 수탁자의 재산이 채무 전부를 변제하기에 부족한데 그 부동산을 신탁자 또는 신탁자가 지정한 사람에게 양도하였다면 특별한 사정이 없는 한 다른 채권자들에 대한 사해행위가 된다.",
         "answer": true,
         "explanation": "부동산실명법 시행 후 이루어진 계약명의신탁에서 매도인이 명의신탁약정을 알지 못하면 수탁자가 완전한 소유권을 취득하여 부동산이 수탁자의 책임재산이 된다. 신탁자는 제공한 매수자금 상당액의 부당이득반환채권을 가진 금전채권자 중 한 사람일 뿐이므로, 무자력인 수탁자가 신탁자 등에게 이를 양도하면 특별한 사정이 없는 한 다른 채권자를 해한다. 실명법 시행 전에 명의신탁약정과 그에 따른 등기가 이루어진 뒤 유예기간이 경과한 경우에는 부당이득 반환대상이 부동산 자체가 된다는 법리와 구별해야 한다(대법원 2002. 12. 26. 선고 2000다21123 판결)."
-      }
+      },
+      "active": true
     },
     {
       "id": "q196",
@@ -3105,7 +3313,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q197",
@@ -3119,7 +3328,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q198",
@@ -3153,7 +3363,8 @@
         "statement": "채무초과 상태의 채무자가 채권자들 중 한 사람에게 근저당권을 설정해 주면서 신규자금을 융통받지는 않고 기존채무의 이행을 유예받았을 뿐이더라도, 사업의 갱생이나 계속 추진을 의도하여 담보를 제공하였다면 그 의도만으로 다른 채권자들에 대한 관계에서 사해행위의 성립이 부정된다.",
         "answer": false,
         "explanation": "사업의 갱생 또는 계속 추진 의도가 있다는 사실만으로 사해성이 부정되지는 않는다. 채무초과 상태의 채무자가 신규자금의 융통 없이 기존채무의 이행을 유예받기 위하여 특정 채권자에게 담보를 제공하는 행위는 다른 특별한 사정이 없는 한 다른 채권자에 대한 사해행위이다. 신규자금을 실제로 유입시키는 것과 기존채무의 이행을 유예받는 것은 사업 갱생에 갖는 경제적 의미가 같지 않다."
-      }
+      },
+      "active": true
     },
     {
       "id": "q199",
@@ -3167,7 +3378,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q200",
@@ -3181,7 +3393,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q201",
@@ -3195,7 +3408,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q202",
@@ -3209,7 +3423,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q203",
@@ -3223,7 +3438,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q204",
@@ -3237,7 +3453,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q205",
@@ -3251,7 +3468,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q206",
@@ -3270,7 +3488,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q207",
@@ -3289,7 +3508,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q208",
@@ -3308,7 +3528,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q209",
@@ -3327,7 +3548,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q210",
@@ -3346,7 +3568,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q211",
@@ -3390,7 +3613,8 @@
         "statement": "불법쟁의행위를 기획·지시·지도하는 등 이를 주도한 노동조합 간부 개인과 노동조합 자체가 동일한 손해에 대하여 각각 손해배상책임을 부담하는 경우, 두 손해배상채무는 서로 중첩되는 범위에서 부진정연대채무관계에 있다. 사용자가 성실교섭의무를 다하지 않거나 노동조합과의 기존 합의를 파기하는 등 불법쟁의행위에 원인을 제공하였다고 볼 사정이 있다면, 손해배상액을 산정할 때 사용자의 과실을 참작할 수 있다.",
         "answer": true,
         "explanation": "2006년 판례는 불법쟁의행위를 주도한 간부 개인과 노동조합의 손해배상채무 사이에 부진정연대관계를 인정하고, 사용자가 쟁의행위의 원인을 제공한 사정이 있으면 그 과실을 참작할 수 있다고 하였다. 다만 부진정연대관계라는 이유만으로 두 주체의 최종 배상액이 반드시 같아지는 것은 아니다. 대법원 2023. 6. 15. 선고 2017다46274 판결도 개별 조합원 등의 지위와 역할, 참여 경위·정도와 손해 기여 등을 고려하여 책임제한 정도를 판단하도록 하였다. 발문은 각자의 배상책임이 인정된 경우 각 채무가 중첩되는 범위와 사용자 과실의 참작을 묻는다."
-      }
+      },
+      "active": true
     },
     {
       "id": "q212",
@@ -3409,7 +3633,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q213",
@@ -3428,7 +3653,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q214",
@@ -3442,7 +3668,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q215",
@@ -3456,7 +3683,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q216",
@@ -3475,7 +3703,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q217",
@@ -3494,7 +3723,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q218",
@@ -3508,7 +3738,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q219",
@@ -3522,7 +3753,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q220",
@@ -3536,7 +3768,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q221",
@@ -3550,7 +3783,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q222",
@@ -3564,7 +3798,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q223",
@@ -3578,7 +3813,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q224",
@@ -3592,7 +3828,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q225",
@@ -3606,7 +3843,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q226",
@@ -3620,7 +3858,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q227",
@@ -3634,7 +3873,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q228",
@@ -3653,7 +3893,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q229",
@@ -3667,7 +3908,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q230",
@@ -3681,7 +3923,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q231",
@@ -3695,7 +3938,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q232",
@@ -3714,7 +3958,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q233",
@@ -3733,7 +3978,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q234",
@@ -3752,7 +3998,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q235",
@@ -3771,7 +4018,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q236",
@@ -3790,7 +4038,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q237",
@@ -3804,7 +4053,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q238",
@@ -3818,7 +4068,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q239",
@@ -3832,7 +4083,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q240",
@@ -3846,7 +4098,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q241",
@@ -3860,7 +4113,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q242",
@@ -3874,7 +4128,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q243",
@@ -3893,7 +4148,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q244",
@@ -3907,7 +4163,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q245",
@@ -3921,7 +4178,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q246",
@@ -3935,7 +4193,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q247",
@@ -3949,7 +4208,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q248",
@@ -3980,7 +4240,8 @@
         "statement": "소멸시효 중단사유인 채무승인은 상대방의 권리 또는 자신의 채무가 있음을 알고 있다는 뜻을 표시하는 관념의 통지로서 효과의사를 필요로 하지 않는다. 반면 시효완성 후 시효이익을 포기하려면 그 법적인 이익을 받지 않겠다는 효과의사가 필요하므로, 시효완성 후 채무를 승인하였다는 사실만으로 곧바로 시효이익을 포기하는 의사표시가 있었다고 단정할 수 없다.",
         "answer": true,
         "explanation": "채무의 존재를 인식한다는 통지와 시효완성으로 얻은 법적인 이익을 받지 않겠다는 의사표시는 구별된다. 따라서 시효완성 후 승인행위가 있었다는 사실만으로 포기의 효과의사까지 당연히 인정되는 것은 아니다."
-      }
+      },
+      "active": true
     },
     {
       "id": "q249",
@@ -4021,7 +4282,8 @@
         "statement": "소멸시효 완성 후 주채무자가 채권자에 대하여 채무가 존재함을 인정하는 승인을 한 경우, 채무자가 시효완성으로 인한 법적인 이익을 받지 않겠다는 효과의사를 표시하였는지 따로 살피지 않고, 그 승인 사실만으로 시효이익의 포기를 추정하여야 한다.",
         "answer": false,
         "explanation": "대법원 2025.7.24. 선고 2023다240299 전원합의체 판결은 시효완성 후 채무승인만으로 시효완성의 인식과 시효이익 포기를 추정하던 법리를 폐기하였다. 따라서 승인 사실만으로 포기를 추정하는 발문은 틀리다. 시효완성 후의 승인이 구체적인 사정상 실제 시효이익 포기에 해당하더라도, 그 효력은 민법 제433조 제2항에 따라 보증인에게 미치지 않으므로 보증인은 주채무의 시효소멸을 원용할 수 있다. 발췌 원문 일부의 참고 선고일 2025.7.25.는 2025.7.24.의 오기이다."
-      }
+      },
+      "active": true
     },
     {
       "id": "q250",
@@ -4035,7 +4297,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q251",
@@ -4054,7 +4317,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q252",
@@ -4068,7 +4332,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q253",
@@ -4087,7 +4352,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q254",
@@ -4101,7 +4367,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q255",
@@ -4115,7 +4382,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q256",
@@ -4129,7 +4397,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q257",
@@ -4148,7 +4417,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q258",
@@ -4162,7 +4432,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q259",
@@ -4176,7 +4447,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q260",
@@ -4190,7 +4462,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q261",
@@ -4204,7 +4477,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "q262",
@@ -4218,7 +4492,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "q263",
@@ -4257,7 +4532,8 @@
         "statement": "보증채무의 최고액을 서면으로 특정하여야 한다는 규정이 적용되지 않는 종전의 법률관계에서, 계속적 어음할인거래로 장래 발생할 채무에 관하여 보증한도액과 보증기간을 정하지 않은 연대보증계약이 유효하게 성립한 후 보증인이 사망하였다. 이러한 경우 특별한 사정이 없는 한 보증인의 지위는 상속되지 않으므로, 상속인은 보증인이 사망한 후 발생한 주채무에 대한 보증채무를 승계하여 부담하지 않는다.",
         "answer": true,
         "explanation": "2003년 판례는 유효하게 성립한 보증한도액·보증기간 없는 계속적 연대보증에서 보증인의 지위가 특별한 사정 없이 상속되지는 않는다고 보았다. 따라서 사망 후 발생한 주채무까지 상속인이 새로 보증책임을 부담하지 않는다. 다만 현행 민법 제428조의3이 적용되는 근보증은 최고액을 서면으로 특정하지 않으면 효력이 없다. 이 조항은 2016.2.4. 이후 체결하거나 기간을 갱신한 보증계약부터 적용되므로, 종전의 유효한 계약에서의 상속 법리와 현행법상 보증계약의 유효요건을 구별해야 한다."
-      }
+      },
+      "active": true
     },
     {
       "id": "q264",
@@ -4291,7 +4567,8 @@
         "statement": "보증한도액이 정해진 계속적 보증계약에서 보증인이 사망한 경우, 보증채무의 구체적인 액수가 아직 확정되지 않았다면 보증계약은 사망과 동시에 당연히 종료된다. 따라서 특별한 사정이 없더라도 상속인들은 보증인의 지위를 승계하지 않는다.",
         "answer": false,
         "explanation": "보증한도액이 정해진 계속적 보증계약은 보증인의 사망으로 당연히 종료되지 않고, 특별한 사정이 없는 한 상속인들이 보증인의 지위를 승계한다. 판례가 비교하는 보증기간·한도액 모두 없는 계속보증에서는 지위가 상속되지 않고 이미 발생한 채무만 상속되지만, 이는 최고액 특정 의무가 적용되지 않고 유효하게 성립한 종전 계약에 관한 법리이다. 현행 민법 제428조의3이 적용되는 근보증은 최고액을 서면으로 특정하지 않으면 효력이 없다."
-      }
+      },
+      "active": true
     },
     {
       "id": "q265",
@@ -4310,7 +4587,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-449-01",
@@ -4325,7 +4603,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-449-02",
@@ -4355,7 +4634,8 @@
         "statement": "민법의 채권 양도성에 관한 규정은, 채권은 당사자가 반대의 의사를 표시한 경우에는 양도하지 못하지만 그 의사표시로써 선의의 제3자에게 대항하지 못한다고 정한다.",
         "answer": true,
         "explanation": "민법 제449조 제2항의 본문과 단서에 규정된 내용을 묻는다. 법문은 당사자의 반대 의사표시에 따른 양도제한과 선의의 제3자에 대한 대항 제한을 함께 정한다. 이 문항은 그 조문 문언을 확인하는 문제이며, 양수인의 중과실 등에 관한 판례상 해석을 판단하는 문제는 아니다."
-      }
+      },
+      "active": true
     },
     {
       "id": "s-civil-449-03",
@@ -4370,7 +4650,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-450-01",
@@ -4385,7 +4666,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-450-02",
@@ -4400,7 +4682,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-450-03",
@@ -4415,7 +4698,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-451-01",
@@ -4430,7 +4714,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-451-02",
@@ -4445,7 +4730,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-451-03",
@@ -4460,7 +4746,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-451-04",
@@ -4475,7 +4762,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-452-01",
@@ -4490,7 +4778,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-452-02",
@@ -4505,7 +4794,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-610-01",
@@ -4520,7 +4810,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-629-01",
@@ -4535,7 +4826,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-657-01",
@@ -4550,7 +4842,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-979-01",
@@ -4565,7 +4858,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-supp-1958-3-01",
@@ -4580,7 +4874,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-507-01",
@@ -4595,7 +4890,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-487-01",
@@ -4610,7 +4906,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-453-01",
@@ -4625,7 +4922,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-453-02",
@@ -4640,7 +4938,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-453-03",
@@ -4655,7 +4954,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-453-04",
@@ -4670,7 +4970,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-454-01",
@@ -4685,7 +4986,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-454-02",
@@ -4700,7 +5002,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-455-01",
@@ -4715,7 +5018,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-455-02",
@@ -4730,7 +5034,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-455-03",
@@ -4745,7 +5050,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-456-01",
@@ -4760,7 +5066,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-456-02",
@@ -4775,7 +5082,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-457-01",
@@ -4790,7 +5098,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-457-02",
@@ -4805,7 +5114,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-457-03",
@@ -4820,7 +5130,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-458-01",
@@ -4835,7 +5146,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-458-02",
@@ -4850,7 +5162,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-459-01",
@@ -4865,7 +5178,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-459-02",
@@ -4880,7 +5194,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-539-01",
@@ -4895,7 +5210,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-404-01",
@@ -4910,7 +5226,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-404-02",
@@ -4925,7 +5242,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-404-03",
@@ -4940,7 +5258,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-404-04",
@@ -4955,7 +5274,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-405-01",
@@ -4970,7 +5290,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-405-02",
@@ -4985,7 +5306,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-405-03",
@@ -5000,7 +5322,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-681-01",
@@ -5015,7 +5338,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-688-01",
@@ -5030,7 +5354,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-406-01",
@@ -5045,7 +5370,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-406-02",
@@ -5060,7 +5386,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-406-03",
@@ -5075,7 +5402,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-406-04",
@@ -5090,7 +5418,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-406-05",
@@ -5105,7 +5434,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-406-06",
@@ -5120,7 +5450,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-407-01",
@@ -5135,7 +5466,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-407-02",
@@ -5150,7 +5482,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-368-01",
@@ -5165,7 +5498,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-395-01",
@@ -5180,7 +5514,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-839-2-01",
@@ -5195,7 +5530,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-108-01",
@@ -5210,7 +5546,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-408-01",
@@ -5225,7 +5562,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-408-02",
@@ -5240,7 +5578,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-412-01",
@@ -5255,7 +5594,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-412-02",
@@ -5270,7 +5610,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-616-01",
@@ -5285,7 +5626,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-654-01",
@@ -5305,7 +5647,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-832-01",
@@ -5320,7 +5663,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-832-02",
@@ -5335,7 +5679,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-413-01",
@@ -5350,7 +5695,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-414-01",
@@ -5365,7 +5711,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-414-02",
@@ -5380,7 +5727,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-415-01",
@@ -5395,7 +5743,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-416-01",
@@ -5410,7 +5759,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-417-01",
@@ -5425,7 +5775,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-418-01",
@@ -5440,7 +5791,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-418-02",
@@ -5455,7 +5807,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-419-01",
@@ -5470,7 +5823,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-420-01",
@@ -5485,7 +5839,8 @@
         }
       ],
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-421-01",
@@ -5500,7 +5855,8 @@
         }
       ],
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-422-01",
@@ -5515,7 +5871,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-423-01",
@@ -5530,7 +5887,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-424-01",
@@ -5545,7 +5903,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-425-01",
@@ -5560,7 +5919,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-425-02",
@@ -5575,7 +5935,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-425-03",
@@ -5590,7 +5951,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-426-01",
@@ -5605,7 +5967,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-426-02",
@@ -5620,7 +5983,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-426-03",
@@ -5635,7 +5999,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-427-01",
@@ -5650,7 +6015,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-427-02",
@@ -5665,7 +6031,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-427-03",
@@ -5680,7 +6047,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-760-01",
@@ -5695,7 +6063,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-756-01",
@@ -5710,7 +6079,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-409-01",
@@ -5725,7 +6095,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-409-02",
@@ -5740,7 +6111,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-410-01",
@@ -5755,7 +6127,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-410-02",
@@ -5770,7 +6143,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-411-01",
@@ -5785,7 +6159,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-411-02",
@@ -5800,7 +6175,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-411-03",
@@ -5815,7 +6191,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-411-04",
@@ -5830,7 +6207,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-411-05",
@@ -5845,7 +6223,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-411-06",
@@ -5860,7 +6239,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-428-01",
@@ -5875,7 +6255,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-428-02",
@@ -5890,7 +6271,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-428-2-01",
@@ -5905,7 +6287,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-428-2-02",
@@ -5920,7 +6303,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-428-2-03",
@@ -5935,7 +6319,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-428-3-01",
@@ -5950,7 +6335,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-428-3-02",
@@ -5965,7 +6351,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-429-01",
@@ -5980,7 +6367,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-429-02",
@@ -5995,7 +6383,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-430-01",
@@ -6010,7 +6399,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-431-01",
@@ -6025,7 +6415,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-431-02",
@@ -6040,7 +6431,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-431-03",
@@ -6055,7 +6447,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-432-01",
@@ -6070,7 +6463,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-433-01",
@@ -6085,7 +6479,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-433-02",
@@ -6100,7 +6495,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-434-01",
@@ -6115,7 +6511,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-435-01",
@@ -6130,7 +6527,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-435-02",
@@ -6145,7 +6543,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-436-01",
@@ -6160,7 +6559,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-436-2-01",
@@ -6175,7 +6575,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-436-2-02",
@@ -6190,7 +6591,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-436-2-03",
@@ -6205,7 +6607,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-436-2-04",
@@ -6220,7 +6623,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-436-2-05",
@@ -6235,7 +6639,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-436-2-06",
@@ -6250,7 +6655,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-436-2-07",
@@ -6265,7 +6671,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-437-01",
@@ -6280,7 +6687,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-437-02",
@@ -6295,7 +6703,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-438-01",
@@ -6310,7 +6719,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-439-01",
@@ -6325,7 +6735,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-440-01",
@@ -6340,7 +6751,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-441-01",
@@ -6355,7 +6767,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-441-02",
@@ -6370,7 +6783,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-442-01",
@@ -6385,7 +6799,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-442-02",
@@ -6400,7 +6815,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-442-03",
@@ -6415,7 +6831,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-442-04",
@@ -6430,7 +6847,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-442-05",
@@ -6445,7 +6863,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-443-01",
@@ -6460,7 +6879,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-443-02",
@@ -6475,7 +6895,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-444-01",
@@ -6490,7 +6911,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-444-02",
@@ -6505,7 +6927,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-444-03",
@@ -6520,7 +6943,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-445-01",
@@ -6535,7 +6959,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-445-02",
@@ -6550,7 +6975,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-445-03",
@@ -6565,7 +6991,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-446-01",
@@ -6580,7 +7007,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-447-01",
@@ -6595,7 +7023,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-448-01",
@@ -6610,7 +7039,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-448-02",
@@ -6625,7 +7055,8 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     },
     {
       "id": "s-civil-481-01",
@@ -6640,7 +7071,8 @@
       ],
       "answerChanged": false,
       "answerBefore": true,
-      "answerAfter": true
+      "answerAfter": true,
+      "active": true
     },
     {
       "id": "s-civil-482-01",
@@ -6655,7 +7087,10 @@
       ],
       "answerChanged": false,
       "answerBefore": false,
-      "answerAfter": false
+      "answerAfter": false,
+      "active": true
     }
-  ]
+  ],
+  "updatedAt": "2026-10-16T15:30:38.776064+00:00",
+  "majorityOpinionReview": "enbanc-majority-review-20261017.json"
 }

@@ -2,7 +2,7 @@
   "version": 2,
   "scope": {
     "statutes": "민법",
-    "updatedAt": "2026-10-15",
+    "updatedAt": "2026-10-17",
     "retiredQuestionIds": [
       "s-public-pension-39-01",
       "s-public-pension-39-02",
@@ -51,7 +51,21 @@
       "s-guarantor-7-01",
       "s-guarantor-7-02",
       "s-guarantor-7-03",
-      "s-guarantor-7-04"
+      "s-guarantor-7-04",
+      "q098"
+    ],
+    "excludedCaseQuestions": [
+      {
+        "id": "q098",
+        "caseId": 98,
+        "reason": "사용자 요청에 따라 추심채권자 사이의 기판력 문항을 출제에서 제외. 보충의견을 근거로 한 종전 O→X 정정은 철회하고 다수의견과 보충의견을 구별한다.",
+        "relatedCitations": [
+          "2013다202120",
+          "2018다259213",
+          "2016다35390",
+          "2021다252977"
+        ]
+      }
     ]
   },
   "reviewedAt": "2026-10-14",
@@ -67,7 +81,7 @@
   },
   "counts": {
     "A": 229,
-    "B": 166,
+    "B": 165,
     "C": 25
   },
   "byQuestion": {
@@ -2989,19 +3003,6 @@
       "provisional": true,
       "audioReviewed": true,
       "audioMatch": "direct"
-    },
-    "q098": {
-      "level": "B",
-      "reason": "다른 추심채권자에 대한 기판력과 참가명령 예외를 구분한다. 추심소송의 효력 범위를 구체화하는 문항이다.",
-      "evidence": [
-        {
-          "source": "강의안 PDF 39쪽",
-          "quote": "그러한 참가명령을 받은 채권자가 소송에 참가하지 않더라도 그 소에 대한 재판의 효력이 미친다고 정한다."
-        }
-      ],
-      "basis": "lecture-materials",
-      "provisional": true,
-      "audioReviewed": false
     },
     "q099": {
       "level": "C",
@@ -12042,7 +12043,7 @@
   "audioCoverage": {
     "direct": 284,
     "topic": 43,
-    "notLocated": 93
+    "notLocated": 92
   },
   "gradeChanges": [
     {

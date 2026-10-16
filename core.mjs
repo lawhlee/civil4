@@ -44,18 +44,10 @@ export function validate(data,ids,retiredIds=new Set()){
   return out;
 }
 
-// Regrade only the latest answer and resumed session for a corrected answer key.
-// Cumulative counts describe historical attempts and must not be rewritten.
+// Keep active history intact when known questions leave the study scope.
 export function restoreStudyState(data,questions,retiredIds=new Set()){
-  const byId=new Map(questions.map(q=>[q.id,q])),state=validate(data,new Set(byId.keys()),retiredIds),correctedIds=new Set();
-  const changedAnswerIds=new Set(['q098']);
-  for(const id of changedAnswerIds){
-    const q=byId.get(id),r=state.records[id];
-    if(q&&r&&r.lastCorrect!==(r.lastChoice===q.answer)){
-      r.lastCorrect=r.lastChoice===q.answer;
-      correctedIds.add(id);
-    }
-  }
+  const byId=new Map(questions.map(q=>[q.id,q])),state=validate(data,new Set(byId.keys()),retiredIds);
+  const removedIds=[...new Set([...Object.keys(data.records),...data.bookmarks,...(Array.isArray(data.session?.queue)?data.session.queue:[])].filter(id=>retiredIds.has(id)&&!byId.has(id)))];
   const s=data.session;
   const validSession=s&&!Array.isArray(s)&&Array.isArray(s.queue)&&s.queue.length
     &&s.queue.every(id=>byId.has(id))&&new Set(s.queue).size===s.queue.length
@@ -63,15 +55,11 @@ export function restoreStudyState(data,questions,retiredIds=new Set()){
     &&s.answers&&typeof s.answers==='object'&&!Array.isArray(s.answers)
     &&Object.entries(s.answers).every(([id,a])=>s.queue.includes(id)&&a&&typeof a==='object'&&!Array.isArray(a)
       &&[true,false,null].includes(a.choice)&&typeof a.correct==='boolean'
-      &&(changedAnswerIds.has(id)||a.correct===(a.choice===byId.get(id).answer)))
+      &&a.correct===(a.choice===byId.get(id).answer))
     &&typeof s.finished==='boolean';
   if(validSession){
-    const answers=Object.fromEntries(Object.entries(s.answers).map(([id,a])=>{
-      const correct=a.choice===byId.get(id).answer;
-      if(a.correct!==correct)correctedIds.add(id);
-      return [id,{choice:a.choice,correct}];
-    }));
+    const answers=Object.fromEntries(Object.entries(s.answers).map(([id,a])=>[id,{choice:a.choice,correct:a.correct}]));
     state.session={queue:[...s.queue],index:s.index,answers,finished:s.finished};
   }
-  return {state,correctedIds:[...correctedIds]};
+  return {state,removedIds};
 }
