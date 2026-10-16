@@ -1,14 +1,11 @@
 export const sections=['채권의 양도','채무의 인수','채권자대위권','채권자취소권','분할채권과 분할채무','연대채무','불가분채권과 불가분채무','보증채무'];
 export const blank=()=>({version:1,records:{},bookmarks:[],session:null});
-export const questionKinds=['case','statute','exam'];
-export const questionKind=q=>questionKinds.includes(q.kind)?q.kind:'case';
+export const questionKind=q=>q.kind==='statute'?'statute':'case';
 export const priorityFor=(q,priorities={})=>priorities[q.id]||null;
 export const priorityMatches=(q,priorities={},level='all')=>!level||level==='all'||priorityFor(q,priorities)?.level===level;
-export function subjectFor(q,cases,statutes=[]){const kind=questionKind(q);return kind==='exam'?q:kind==='statute'?statutes.find(s=>s.id===q.statuteId):cases[q.caseId-1];}
+export function subjectFor(q,cases,statutes=[]){return questionKind(q)==='statute'?statutes.find(s=>s.id===q.statuteId):cases[q.caseId-1];}
 export function sourceMatches(subject,kind,source){
   if(!source||source==='all')return true;
-  if(source==='exam')return kind==='exam';
-  if(kind==='exam')return false;
   if(source==='extra')return kind==='case'&&subject.extra===true;
   if(source==='week7')return subject.week7===true;
   if(kind==='statute')return source==='book'?subject.sources.some(x=>x==='book'||x==='supplement'):subject.sources.includes(source);
@@ -27,10 +24,10 @@ export function pool(questions,cases,state,filter={},statutes=[],priorities={}){
 }
 export function shuffle(a,random=Math.random){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 export function selectStudyQuestions(items,count,randomize=true,random=Math.random){
-  const banks=questionKinds.map(kind=>items.filter(q=>questionKind(q)===kind)).map(bank=>randomize?shuffle(bank,random):bank);
-  const positions=banks.map(()=>0),selected=[],limit=Math.min(items.length,Math.max(0,count));
+  const banks=['case','statute'].map(kind=>items.filter(q=>questionKind(q)===kind)).map(bank=>randomize?shuffle(bank,random):bank);
+  const positions=[0,0],selected=[],limit=Math.min(items.length,Math.max(0,count));
   while(selected.length<limit){
-    for(let i=0;i<banks.length&&selected.length<limit;i++)if(positions[i]<banks[i].length)selected.push(banks[i][positions[i]++]);
+    for(let i=0;i<2&&selected.length<limit;i++)if(positions[i]<banks[i].length)selected.push(banks[i][positions[i]++]);
   }
   return randomize?shuffle(selected,random):selected;
 }

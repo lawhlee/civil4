@@ -145,7 +145,7 @@ summary{min-height:48px;line-height:1.8}
 .quiz-card-top .tag{flex:1}
 .quiz-card-top .btn{flex-shrink:0}
 
-.kind-choices{border:0;padding:0;margin:24px 0 10px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;min-width:0}
+.kind-choices{border:0;padding:0;margin:24px 0 10px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;min-width:0}
 .kind-choices legend{font-size:13px;color:var(--muted);margin-bottom:10px;padding:0}
 .kind-choices label{display:block;position:relative;min-width:0;cursor:pointer}
 .kind-choices input{position:absolute;opacity:0;inset:0;width:100%;height:100%;margin:0;cursor:pointer}
@@ -295,17 +295,3 @@ summary{min-height:48px;line-height:1.8}
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}
 }
-
-/* A separate source treatment keeps exam conversions recognizable in every view. */
-.type-exam{background:#f3ead9;color:#845d25}
-.exam-origin{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:18px;font-size:12px;color:var(--muted)}
-.exam-origin .pill{font-weight:700;font-size:12px}
-.exam-basis{margin:20px 0;padding:18px;background:#fbf7ef;border:1px solid #e5d9c2;border-radius:10px}
-.exam-basis h4{font-size:15px;margin:0 0 9px}.exam-basis h4:not(:first-child){margin-top:24px}
-.exam-basis blockquote{font-family:Georgia,'Batang',serif;font-size:15px;line-height:1.95;white-space:pre-wrap;overflow-wrap:anywhere;margin:14px 0;padding-left:14px;border-left:3px solid #c5ab7f}
-.exam-basis a{text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
-.exam-legal-basis+.exam-legal-basis{margin-top:18px;padding-top:10px;border-top:1px solid #e5d9c2}
-@media(max-width:760px){.exam-basis{padding:16px 13px}.exam-basis blockquote{font-size:16px;padding-left:11px}.exam-origin{font-size:13px}.kind-choices{grid-template-columns:repeat(2,minmax(0,1fr))}.brand{white-space:normal}.brand>span:last-child{line-height:1.5}}
-
-.exam-transform-note{margin:12px 0;font-size:13px;line-height:1.85;padding:10px 12px;border-left:3px solid #c5ab7f;background:#fbf7ef;color:#6d5738}
-.exam-additional-origins ul{margin:8px 0;padding-left:22px;font-size:13px;line-height:1.9}
