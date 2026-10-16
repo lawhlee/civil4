@@ -185,8 +185,9 @@ summary{min-height:48px;line-height:1.8}
 .summary-counts{display:flex;flex-wrap:wrap;gap:12px 28px;margin-bottom:7px}
 .summary-counts span{color:#506253}.summary-counts strong{font-size:25px;color:var(--green);margin-right:5px}
 .summary-guide details p{font-size:13px;line-height:1.9;margin:9px 0}
-.summary-filters{display:grid;grid-template-columns:minmax(190px,1fr) minmax(230px,1.2fr) minmax(250px,1.6fr);gap:16px;margin-bottom:20px}
-.summary-filters>*{min-width:0}.summary-result-top{margin-bottom:18px}.summary-result-top p{margin:0}
+.summary-filters{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr) minmax(0,1fr);gap:16px;margin-bottom:12px}
+.summary-filters>*{min-width:0}.summary-search{grid-column:1/-1}
+.summary-frequency-guide{font-size:13px;line-height:1.9;color:var(--muted);margin:0 0 22px;overflow-wrap:anywhere}.summary-result-top{margin-bottom:18px}.summary-result-top p{margin:0}
 #summary-result-heading{outline:none;scroll-margin-top:20px}
 .summary-list{display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
 .summary-card{min-width:0;padding:28px 32px}.summary-card-top{margin-bottom:15px}
@@ -198,6 +199,8 @@ summary{min-height:48px;line-height:1.8}
 .summary-holding{font-size:17px;line-height:1.95;word-break:keep-all;overflow-wrap:anywhere;margin:0 0 18px}
 .summary-exam-badges{display:flex;gap:7px;flex-wrap:wrap}.summary-exam-badges .pill{font-size:12px;line-height:1.7}
 .summary-exam-actual{background:#e7edf7;color:#375879}.summary-exam-mock{background:#e7eedf;color:#48603c}.summary-exam-judicial{background:#eee7db;color:#7a6245}
+.summary-frequency{display:flex;align-items:baseline;flex-wrap:wrap;gap:5px 14px;margin:12px 0 0;font-size:13px;line-height:1.8;color:var(--muted);overflow-wrap:anywhere}
+.summary-frequency strong{color:var(--green)}.summary-frequency-supplement{font-size:12px}
 .summary-mappings{margin-top:17px;border-top:1px solid var(--line)}.summary-mappings>summary{font-size:14px;padding-top:10px}
 .summary-mappings ul{list-style:none;padding:0;margin:0 0 10px}.summary-mappings li{padding:15px 0;border-top:1px solid #edf0e8;font-size:14px;line-height:1.9}
 .summary-match{font-size:11px;color:#506253;background:#f0f3e9;border-radius:4px;padding:2px 7px}

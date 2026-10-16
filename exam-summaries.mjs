@@ -63,6 +63,27 @@ export function summaryGroupMappings(group,filter={}) {
   }
   return [...problems.values()].sort((a,b)=>a.problemId.localeCompare(b.problemId,'ko',{numeric:true}));
 }
+// Count distinct casebook problems, not the number of merged ruling links.
+// A later ruling used only to supplement the current law is not a past exam hit.
+export function summaryFrequency(group,filter={}) {
+  const frequency={total:0,direct:0,currentOnly:0};
+  for(const problem of summaryGroupMappings(group,filter)){
+    const types=problem.attributions.map(attribution=>attribution.type);
+    if(types.some(type=>type === '직접 일치' || type === '법리 대응'))frequency.total++;
+    if(types.includes('직접 일치'))frequency.direct++;
+    if(types.length && types.every(type=>type === '현행 판례 보완'))frequency.currentOnly++;
+  }
+  return frequency;
+}
+export function sortSummaryGroups(groups,order='original',filter={}) {
+  if(order !== 'frequency')return [...groups];
+  return groups.map((group,index)=>({
+    group,index,frequency:summaryFrequency(group,filter),
+    firstCaseId:Math.min(...group.allMembers.map(item=>item.caseId)),
+  })).sort((a,b)=>b.frequency.total-a.frequency.total
+    || b.frequency.direct-a.frequency.direct || a.firstCaseId-b.firstCaseId || a.index-b.index)
+    .map(item=>item.group);
+}
 export function summaryCounts(items) {
   const unique = [...new Map(items.map(item => [item.caseId,item])).values()];
   return {
