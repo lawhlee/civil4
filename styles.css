@@ -191,8 +191,10 @@ summary{min-height:48px;line-height:1.8}
 .summary-list{display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
 .summary-card{min-width:0;padding:28px 32px}.summary-card-top{margin-bottom:15px}
 .summary-case-number{color:var(--muted);font-size:12px}.summary-card h2{font-size:21px;line-height:1.65;margin:0 0 8px;letter-spacing:-.35px}
-.summary-citation{font-size:13px;color:var(--muted);margin:0 0 17px;line-height:1.8}
-.summary-opinion{display:inline-block;font-size:12px;font-weight:700;line-height:1.7;color:#64543b;background:#f6eddd;border-radius:5px;padding:3px 9px;margin:0 0 13px}
+.summary-citations{list-style:none;padding:0;margin:0 0 18px}.summary-citations li+li{margin-top:9px}
+.summary-citation{font-size:13px;color:var(--muted);margin:0;line-height:1.8;overflow-wrap:anywhere}.summary-citation b{color:#506253;margin-right:7px;white-space:nowrap}
+.summary-opinion{display:inline-block;font-size:12px;font-weight:700;line-height:1.7;color:#64543b;background:#f6eddd;border-radius:5px;padding:3px 9px;margin:4px 0 0}
+.summary-scope-note{font-size:12px;color:var(--muted);margin:3px 0 0}
 .summary-holding{font-size:17px;line-height:1.95;word-break:keep-all;overflow-wrap:anywhere;margin:0 0 18px}
 .summary-exam-badges{display:flex;gap:7px;flex-wrap:wrap}.summary-exam-badges .pill{font-size:12px;line-height:1.7}
 .summary-exam-actual{background:#e7edf7;color:#375879}.summary-exam-mock{background:#e7eedf;color:#48603c}.summary-exam-judicial{background:#eee7db;color:#7a6245}
@@ -200,9 +202,11 @@ summary{min-height:48px;line-height:1.8}
 .summary-mappings ul{list-style:none;padding:0;margin:0 0 10px}.summary-mappings li{padding:15px 0;border-top:1px solid #edf0e8;font-size:14px;line-height:1.9}
 .summary-match{font-size:11px;color:#506253;background:#f0f3e9;border-radius:4px;padding:2px 7px}
 .summary-mapping-title{margin:7px 0 4px}.summary-mapping-source{font-size:12px;color:var(--muted);margin:0}
+.summary-attribution{margin-top:12px;font-size:12px;color:#506253;overflow-wrap:anywhere}.summary-attribution>p{margin:0}.summary-attribution>p.summary-mapping-note{margin-top:7px}
 .summary-mapping-note{font-size:13px;color:#645b44;background:#faf6ed;border-left:3px solid #dfd2b5;padding:10px 13px;margin:10px 0 0}
-.summary-card-footer{display:flex;align-items:flex-end;justify-content:space-between;gap:15px;border-top:1px solid var(--line);margin-top:10px;padding-top:17px}
-.summary-card-footer>p{font-size:12px;color:var(--muted);line-height:1.8;margin:0;flex:1;min-width:0}.summary-card-footer .label{margin-bottom:4px}
+.summary-card-footer{border-top:1px solid var(--line);margin-top:10px;padding-top:17px}
+.summary-member-source{display:flex;align-items:flex-end;justify-content:space-between;gap:15px;padding:10px 0}.summary-member-source+.summary-member-source{border-top:1px solid #edf0e8}
+.summary-member-source>p{font-size:12px;color:var(--muted);line-height:1.8;margin:0;flex:1;min-width:0;overflow-wrap:anywhere}.summary-card-footer .label{margin-bottom:4px}
 .summary-card-footer .btn{flex-shrink:0;min-height:44px}.summary-pagination{margin-top:28px}
 
 @media(max-width:960px){
@@ -301,8 +305,8 @@ summary{min-height:48px;line-height:1.8}
   .summary-result-top{align-items:flex-start}.summary-result-top p{flex:1 1 180px;font-size:13px}
   .summary-card{padding:22px 20px}.summary-card h2{font-size:19px}.summary-citation{font-size:13px}
   .summary-holding{font-size:16px;line-height:1.95}.summary-mappings li{font-size:14px}
-  .summary-mapping-source{font-size:13px}.summary-card-footer{display:block}
-  .summary-card-footer>p{font-size:13px}.summary-card-footer .btn{width:100%;margin-top:16px}
+  .summary-mapping-source{font-size:13px}.summary-member-source{display:block;padding:14px 0}
+  .summary-member-source>p{font-size:13px}.summary-card-footer .btn{width:100%;margin-top:12px}
 }
 
 @media(max-width:380px){

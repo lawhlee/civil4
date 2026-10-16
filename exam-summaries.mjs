@@ -26,6 +26,43 @@ export function selectSummaries(items,filter={}) {
     return terms.every(term => haystack.includes(term));
   });
 }
+// Scope each original ruling's connections before merging; different members
+// cannot jointly satisfy the exam and chapter filters.
+export function selectSummaryGroups(data,filter={}) {
+  const definitions=new Map();
+  for(const group of data.groups || [])for(const caseId of group.caseIds)definitions.set(caseId,group);
+  const groups=new Map();
+  for(const item of data.cases){
+    const definition=definitions.get(item.caseId),id=definition?.id || `case-${item.caseId}`;
+    if(!groups.has(id))groups.set(id,{
+      id,topic:definition?.topic || item.topic,summary:definition?.summary || item.summary,
+      sentences:definition?.sentences || item.sentences,members:[],allMembers:[],
+    });
+    const group=groups.get(id);
+    group.allMembers.push(item);
+    if(summaryMappings(item,filter).length)group.members.push(item);
+  }
+  const terms=String(filter.search || '').trim().toLocaleLowerCase('ko').split(/\s+/).filter(Boolean);
+  return [...groups.values()].filter(group=>{
+    if(!group.members.length)return false;
+    const haystack=[group.topic,group.summary,...group.members.flatMap(item=>[
+      item.citation,item.topic,item.summary,...(item.sourceLabels || []),
+      ...summaryMappings(item,filter).flatMap(m=>[`사례${m.problemId}`,m.examType,m.examLabel,m.title,summaryMatchLabel(m.type),m.holding,m.notes]),
+    ])].join(' ').toLocaleLowerCase('ko');
+    return terms.every(term=>haystack.includes(term));
+  });
+}
+// One problem row can have multiple distinct ruling connections. Keep those
+// attributions, including their matching status and any cautionary notes.
+export function summaryGroupMappings(group,filter={}) {
+  const problems=new Map();
+  for(const item of group.members)for(const mapping of summaryMappings(item,filter)){
+    if(!problems.has(mapping.problemId))problems.set(mapping.problemId,{...mapping,attributions:[]});
+    const problem=problems.get(mapping.problemId);
+    problem.attributions.push({...mapping,caseId:item.caseId,citation:item.citation});
+  }
+  return [...problems.values()].sort((a,b)=>a.problemId.localeCompare(b.problemId,'ko',{numeric:true}));
+}
 export function summaryCounts(items) {
   const unique = [...new Map(items.map(item => [item.caseId,item])).values()];
   return {
