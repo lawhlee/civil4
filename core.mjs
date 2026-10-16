@@ -43,3 +43,35 @@ export function validate(data,ids,retiredIds=new Set()){
   out.bookmarks=[...new Set(data.bookmarks.filter(x=>ids.has(x)))];
   return out;
 }
+
+// Regrade only the latest answer and resumed session for a corrected answer key.
+// Cumulative counts describe historical attempts and must not be rewritten.
+export function restoreStudyState(data,questions,retiredIds=new Set()){
+  const byId=new Map(questions.map(q=>[q.id,q])),state=validate(data,new Set(byId.keys()),retiredIds),correctedIds=new Set();
+  const changedAnswerIds=new Set(['q098']);
+  for(const id of changedAnswerIds){
+    const q=byId.get(id),r=state.records[id];
+    if(q&&r&&r.lastCorrect!==(r.lastChoice===q.answer)){
+      r.lastCorrect=r.lastChoice===q.answer;
+      correctedIds.add(id);
+    }
+  }
+  const s=data.session;
+  const validSession=s&&!Array.isArray(s)&&Array.isArray(s.queue)&&s.queue.length
+    &&s.queue.every(id=>byId.has(id))&&new Set(s.queue).size===s.queue.length
+    &&Number.isInteger(s.index)&&s.index>=0&&s.index<s.queue.length
+    &&s.answers&&typeof s.answers==='object'&&!Array.isArray(s.answers)
+    &&Object.entries(s.answers).every(([id,a])=>s.queue.includes(id)&&a&&typeof a==='object'&&!Array.isArray(a)
+      &&[true,false,null].includes(a.choice)&&typeof a.correct==='boolean'
+      &&(changedAnswerIds.has(id)||a.correct===(a.choice===byId.get(id).answer)))
+    &&typeof s.finished==='boolean';
+  if(validSession){
+    const answers=Object.fromEntries(Object.entries(s.answers).map(([id,a])=>{
+      const correct=a.choice===byId.get(id).answer;
+      if(a.correct!==correct)correctedIds.add(id);
+      return [id,{choice:a.choice,correct}];
+    }));
+    state.session={queue:[...s.queue],index:s.index,answers,finished:s.finished};
+  }
+  return {state,correctedIds:[...correctedIds]};
+}
