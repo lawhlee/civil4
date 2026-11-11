@@ -1,0 +1,3454 @@
+{
+  "summary": {
+    "statements": 157,
+    "parents": 111,
+    "uniqueCaseNumbers": 119,
+    "officialIndexMatched": 118,
+    "unmatched": 1,
+    "checkedAt": "2026-11-11",
+    "method": "공식 원문 및 공식 사건 목록 대조 기록의 사건번호를 선지별 해설과 다시 대조함. 각 원문의 확인일은 사건별 verifiedAt에 보존하며, 공식 원문 미확인 판례는 별도로 표시함."
+  },
+  "cases": {
+    "2007다55477": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=215531",
+      "kind": "prec",
+      "title": "폐기물처리비용",
+      "court": "대법원",
+      "decisionDate": "2010-01-14",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2007다55477",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=17",
+      "caseNumber": "2007다55477",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2005다71659": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=126079",
+      "kind": "prec",
+      "title": "채무부존재확인등·부당이득반환청구",
+      "court": "대법원",
+      "decisionDate": "2007-11-16",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2005다71659",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=20",
+      "caseNumber": "2005다71659",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2003다60297": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=83783",
+      "kind": "prec",
+      "title": "채무부존재확인",
+      "court": "대법원",
+      "decisionDate": "2005-04-15",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2003다60297",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=24",
+      "caseNumber": "2003다60297",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2013다218156": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=208501",
+      "kind": "prec",
+      "title": "소유권이전등기(양자간 명의신탁 사안에서 명의신탁자의 상속인이 명의수탁자의 상속인을 상대로 진정명의회복을 원인으로 한 소유권이전등기절차의 이행을 구하는 사건)",
+      "court": "대법원",
+      "decisionDate": "2019-06-20",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2013다218156",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=6",
+      "caseNumber": "2013다218156",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2017다3499": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=185164",
+      "kind": "prec",
+      "title": "근저당권말소등기등(무권리자가 문서를 위조해서 근저당권설정등기와 대출을 하였는데, 권리자가 무권리자의 처분을 추인하였는지가 문제된 사건)",
+      "court": "대법원",
+      "decisionDate": "2017-06-08",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2017다3499",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=8",
+      "caseNumber": "2017다3499",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2023다302920": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=601953",
+      "kind": "prec",
+      "title": "부당이득금[매매계약의 무효에 따른 부당이득반환청구권의 소멸시효 기산점이 문제된 사건]",
+      "court": "대법원",
+      "decisionDate": "2024-06-27",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2023다302920",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=1",
+      "caseNumber": "2023다302920",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2017다9039": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=195439",
+      "kind": "prec",
+      "title": "손해배상·손해배상",
+      "court": "대법원",
+      "decisionDate": "2017-07-18",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2017다9039",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=8",
+      "caseNumber": "2017다9039",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2017다9046": {
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=195439",
+      "kind": "prec",
+      "title": "손해배상·손해배상",
+      "court": "대법원",
+      "decisionDate": "2017-07-18",
+      "verifiedAt": "2026-11-11",
+      "verification": "official-header",
+      "provider": "law",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "caseNumberEvidence": "대법원 2017. 7. 18. 선고 2017다9039, 9046 판결",
+      "caseNumber": "2017다9046",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2017다248803": {
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=197600",
+      "kind": "prec",
+      "title": "부당이득금반환·부당이득금",
+      "court": "대법원",
+      "decisionDate": "2018-06-15",
+      "verifiedAt": "2026-11-02",
+      "verification": "official-header",
+      "provider": "law",
+      "sourceInstitution": "국가법령정보센터",
+      "reviewAudit": "validation/case-number-review-20261102.json",
+      "caseNumber": "2017다248803",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2017다248810": {
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=197600",
+      "kind": "prec",
+      "title": "부당이득금반환·부당이득금",
+      "court": "대법원",
+      "decisionDate": "2018-06-15",
+      "verifiedAt": "2026-11-11",
+      "verification": "official-header",
+      "provider": "law",
+      "sourceInstitution": "국가법령정보센터",
+      "reviewAudit": "validation/case-number-review-20261102.json",
+      "caseNumberEvidence": "대법원 2018. 6. 15. 선고 2017다248803, 248810 판결",
+      "caseNumber": "2017다248810",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2002다64957": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=194358",
+      "kind": "prec",
+      "title": "채무부존재확인·부당이득금",
+      "court": "대법원",
+      "decisionDate": "2003-04-08",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2002다64957",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=27",
+      "caseNumber": "2002다64957",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2013다214871": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=175540",
+      "kind": "prec",
+      "title": "부당이득금",
+      "court": "대법원",
+      "decisionDate": "2014-07-24",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2013다214871",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=11",
+      "caseNumber": "2013다214871",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2020다208621": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=216831",
+      "kind": "prec",
+      "title": "부당이득금",
+      "court": "대법원",
+      "decisionDate": "2021-06-24",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2020다208621",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=4",
+      "caseNumber": "2020다208621",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2015다210811": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=179722",
+      "kind": "prec",
+      "title": "부당이득금",
+      "court": "대법원",
+      "decisionDate": "2015-09-15",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2015다210811",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=9",
+      "caseNumber": "2015다210811",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2009다23313": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=138391",
+      "kind": "prec",
+      "title": "소유권이전등기",
+      "court": "대법원",
+      "decisionDate": "2009-07-09",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2009다23313",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=18",
+      "caseNumber": "2009다23313",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2001다61869": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=82904",
+      "kind": "prec",
+      "title": "부당이득금",
+      "court": "대법원",
+      "decisionDate": "2003-11-14",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2001다61869",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=26",
+      "caseNumber": "2001다61869",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2009다15602": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=217557",
+      "kind": "prec",
+      "title": "양수금",
+      "court": "대법원",
+      "decisionDate": "2009-09-24",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2009다15602",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=17",
+      "caseNumber": "2009다15602",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2009다32324": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=215739",
+      "kind": "prec",
+      "title": "소유권이전등기",
+      "court": "대법원",
+      "decisionDate": "2009-12-24",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2009다32324",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=17",
+      "caseNumber": "2009다32324",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2009다40684": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=139619",
+      "kind": "prec",
+      "title": "점유권확인",
+      "court": "대법원",
+      "decisionDate": "2009-09-24",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2009다40684",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=17",
+      "caseNumber": "2009다40684",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2012다92258": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=178142",
+      "kind": "prec",
+      "title": "손해배상(기)등",
+      "court": "대법원",
+      "decisionDate": "2015-05-29",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2012다92258",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=10",
+      "caseNumber": "2012다92258",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2001다46730": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=127122",
+      "kind": "prec",
+      "title": "수분양자지위확인1",
+      "court": "대법원",
+      "decisionDate": "2003-12-26",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2001다46730",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=26",
+      "caseNumber": "2001다46730",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2016다47478": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=231429",
+      "kind": "prec",
+      "title": "매매대금반환",
+      "court": "대법원",
+      "decisionDate": "2017-03-09",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2016다47478",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=8",
+      "caseNumber": "2016다47478",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2000다13948": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=191798",
+      "kind": "prec",
+      "title": "부당이득금반환",
+      "court": "대법원",
+      "decisionDate": "2001-12-11",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2000다13948",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=28",
+      "caseNumber": "2000다13948",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2006다24049": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=194036",
+      "kind": "prec",
+      "title": "소유권말소등기",
+      "court": "대법원",
+      "decisionDate": "2006-09-22",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2006다24049",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=22",
+      "caseNumber": "2006다24049",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2010다31860": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=145723",
+      "kind": "prec",
+      "title": "부당이득반환등(독립당사자참가의소)",
+      "court": "대법원",
+      "decisionDate": "2010-08-19",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2010다31860",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=16",
+      "caseNumber": "2010다31860",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2003다59259": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=83315",
+      "kind": "prec",
+      "title": "부당이득금",
+      "court": "대법원",
+      "decisionDate": "2004-06-24",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2003다59259",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=25",
+      "caseNumber": "2003다59259",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "92다45025": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=123032",
+      "kind": "prec",
+      "title": "토지소유권이전등기말소",
+      "court": "대법원",
+      "decisionDate": "1993-05-14",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "92다45025",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=42",
+      "caseNumber": "92다45025",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2000다68290": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=191502",
+      "kind": "prec",
+      "title": "건물명도",
+      "court": "대법원",
+      "decisionDate": "2001-06-29",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2000다68290",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=29",
+      "caseNumber": "2000다68290",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "95다44290": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=113134",
+      "kind": "prec",
+      "title": "건물명도및임료",
+      "court": "대법원",
+      "decisionDate": "1996-01-26",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "95다44290",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=37",
+      "caseNumber": "95다44290",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2006다83796": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=216329",
+      "kind": "prec",
+      "title": "부당이득금반환",
+      "court": "대법원",
+      "decisionDate": "2007-07-26",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2006다83796",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=21",
+      "caseNumber": "2006다83796",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "99다32905": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=81028",
+      "kind": "prec",
+      "title": "가처분이의",
+      "court": "대법원",
+      "decisionDate": "2001-11-13",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "99다32905",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=28",
+      "caseNumber": "99다32905",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2008다58367": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=124869",
+      "kind": "prec",
+      "title": "채무부존재확인",
+      "court": "대법원",
+      "decisionDate": "2009-01-15",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2008다58367",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=18",
+      "caseNumber": "2008다58367",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2016다12656": {
+      "caseNumber": "2016다12656",
+      "court": "대법원",
+      "decisionDate": "2019-01-31",
+      "status": "unverified",
+      "checkedAt": "2026-11-11",
+      "url": "https://www.law.go.kr/precSc.do?query=2016%EB%8B%A412656",
+      "title": "공식 원문 직접 확인 필요"
+    },
+    "2019다277812": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=217339",
+      "kind": "prec",
+      "title": "보험계약무효확인등청구의소[보험계약이 선량한 풍속 기타 사회질서에 반하여 무효인 경우 보험회사가 보험계약자 등을 상대로 이미 지급한 보험금의 반환을 구하는 사건]",
+      "court": "대법원",
+      "decisionDate": "2021-07-22",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2019다277812",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=4",
+      "caseNumber": "2019다277812",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2019다272275": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=232869",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2022-12-29",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2019다272275",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?searchType=stcDt&searchKeyword=20221229&pageShow=1000&page=1",
+      "caseNumber": "2019다272275",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "97다32680": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=196390",
+      "kind": "prec",
+      "title": "기타(금전)",
+      "court": "대법원",
+      "decisionDate": "1998-03-27",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "97다32680",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=33",
+      "caseNumber": "97다32680",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2001다6213": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=194745",
+      "kind": "prec",
+      "title": "건물명도등",
+      "court": "대법원",
+      "decisionDate": "2002-11-22",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2001다6213",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=27",
+      "caseNumber": "2001다6213",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2016다220044": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=183058",
+      "kind": "prec",
+      "title": "자동차소유권이전등록청구",
+      "court": "대법원",
+      "decisionDate": "2016-07-29",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2016다220044",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=9",
+      "caseNumber": "2016다220044",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "78다1292": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=95365",
+      "kind": "prec",
+      "title": "부당이득금",
+      "court": "대법원",
+      "decisionDate": "1980-09-30",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "78다1292",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=63",
+      "caseNumber": "78다1292",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2009다98706": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=215667",
+      "kind": "prec",
+      "title": "대여금",
+      "court": "대법원",
+      "decisionDate": "2010-03-11",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2009다98706",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=17",
+      "caseNumber": "2009다98706",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2015다71856": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=187811",
+      "kind": "prec",
+      "title": "추심금등·사해행위취소",
+      "court": "대법원",
+      "decisionDate": "2016-07-14",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2015다71856",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=9",
+      "caseNumber": "2015다71856",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2015다71863": {
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=187811",
+      "kind": "prec",
+      "title": "추심금등·사해행위취소",
+      "court": "대법원",
+      "decisionDate": "2016-07-14",
+      "verifiedAt": "2026-11-11",
+      "verification": "official-header",
+      "provider": "law",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "caseNumberEvidence": "대법원 2016. 7. 14. 선고 2015다71856, 71863 판결",
+      "caseNumber": "2015다71863",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2009다24187": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=215497",
+      "kind": "prec",
+      "title": "토지명도등·건물명도",
+      "court": "대법원",
+      "decisionDate": "2010-01-28",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2009다24187",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=17",
+      "caseNumber": "2009다24187",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2009다24194": {
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=215497",
+      "kind": "prec",
+      "title": "토지명도등·건물명도",
+      "court": "대법원",
+      "decisionDate": "2010-01-28",
+      "verifiedAt": "2026-11-11",
+      "verification": "official-header",
+      "provider": "law",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "caseNumberEvidence": "대법원 2010. 1. 28. 선고 2009다24187, 24194 판결",
+      "caseNumber": "2009다24194",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "87다카2114": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=104888",
+      "kind": "prec",
+      "title": "건물명도",
+      "court": "대법원",
+      "decisionDate": "1989-02-28",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "87다카2114",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=51",
+      "caseNumber": "87다카2114",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "98다6800": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=116782",
+      "kind": "prec",
+      "title": "제3자이의",
+      "court": "대법원",
+      "decisionDate": "1998-06-12",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "98다6800",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=33",
+      "caseNumber": "98다6800",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2012다4633": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=186646",
+      "kind": "prec",
+      "title": "임대료등",
+      "court": "대법원",
+      "decisionDate": "2012-05-10",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2012다4633",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=14",
+      "caseNumber": "2012다4633",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2023다257600": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=238047",
+      "kind": "prec",
+      "title": "임대차보증금반환",
+      "court": "대법원",
+      "decisionDate": "2023-11-09",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2023다257600",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=2",
+      "caseNumber": "2023다257600",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2007다51239": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=126149",
+      "kind": "prec",
+      "title": "오입금반환청구및제3자이의의소",
+      "court": "대법원",
+      "decisionDate": "2007-11-29",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2007다51239",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=20",
+      "caseNumber": "2007다51239",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2009다79897": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=215713",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2010-02-11",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2009다79897",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=17",
+      "caseNumber": "2009다79897",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2006마930": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=133433",
+      "kind": "prec",
+      "title": "가압류이의",
+      "court": "대법원",
+      "decisionDate": "2009-01-30",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2006마930",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=18",
+      "caseNumber": "2006마930",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2024다229343": {
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=241235",
+      "kind": "prec",
+      "title": "보증금[민법 제35조 제1항에 따른 손해배상청구에서 피해자의 악의 또는 중과실 인정 여부가 문제된 사건]",
+      "court": "대법원",
+      "decisionDate": "2024-07-25",
+      "verifiedAt": "2026-11-02",
+      "verification": "official-header",
+      "provider": "law",
+      "sourceInstitution": "국가법령정보센터",
+      "reviewAudit": "validation/case-number-review-20261102.json",
+      "caseNumber": "2024다229343",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "99다19384": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=117922",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "1999-07-27",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "99다19384",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=31",
+      "caseNumber": "99다19384",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2002다27088": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=126497",
+      "kind": "prec",
+      "title": "소유권이전등기",
+      "court": "대법원",
+      "decisionDate": "2003-07-25",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2002다27088",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=26",
+      "caseNumber": "2002다27088",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2003다30159": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=216483",
+      "kind": "prec",
+      "title": "예금",
+      "court": "대법원",
+      "decisionDate": "2005-12-23",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2003다30159",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=23",
+      "caseNumber": "2003다30159",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "97다55829": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=116424",
+      "kind": "prec",
+      "title": "매매대금등",
+      "court": "대법원",
+      "decisionDate": "1998-03-10",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "97다55829",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=33",
+      "caseNumber": "97다55829",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "97다13023": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=115582",
+      "kind": "prec",
+      "title": "이행보증금",
+      "court": "대법원",
+      "decisionDate": "1997-08-22",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "97다13023",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=34",
+      "caseNumber": "97다13023",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2001다9496": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=80850",
+      "kind": "prec",
+      "title": "손해배상(자)",
+      "court": "대법원",
+      "decisionDate": "2001-09-04",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2001다9496",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=29",
+      "caseNumber": "2001다9496",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2020다230239": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=214215",
+      "kind": "prec",
+      "title": "근저당권말소[제한이자율을 초과하여 지급된 이자 상당액에 대한 부당이득반환 또는 손해배상을 구하는 사건]",
+      "court": "대법원",
+      "decisionDate": "2021-02-25",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2020다230239",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=4",
+      "caseNumber": "2020다230239",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2011다8980": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=152365",
+      "kind": "prec",
+      "title": "사해행위취소등·주식매수대금",
+      "court": "대법원",
+      "decisionDate": "2011-06-10",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2011다8980",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=15",
+      "caseNumber": "2011다8980",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2004다63019": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=84757",
+      "kind": "prec",
+      "title": "양수금",
+      "court": "대법원",
+      "decisionDate": "2006-10-26",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2004다63019",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=22",
+      "caseNumber": "2004다63019",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "93다52808": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=200070",
+      "kind": "prec",
+      "title": "부당이득금",
+      "court": "대법원",
+      "decisionDate": "1994-08-12",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "93다52808",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=40",
+      "caseNumber": "93다52808",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2011다38325": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=161664",
+      "kind": "prec",
+      "title": "손해 배상(기)",
+      "court": "대법원",
+      "decisionDate": "2012-03-29",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2011다38325",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=14",
+      "caseNumber": "2011다38325",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "94다19129": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=199116",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "1995-07-28",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "94다19129",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=38",
+      "caseNumber": "94다19129",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2006다84874": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=85741",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2008-06-26",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2006다84874",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=19",
+      "caseNumber": "2006다84874",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2001다82507": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=127014",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2004-03-18",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2001다82507",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=26",
+      "caseNumber": "2001다82507",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "98다22048": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=195349",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "1998-09-08",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "98다22048",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=32",
+      "caseNumber": "98다22048",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "98다21366": {
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=194962",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "1998-09-22",
+      "verifiedAt": "2026-11-02",
+      "verification": "official-header",
+      "provider": "law",
+      "sourceInstitution": "국가법령정보센터",
+      "reviewAudit": "validation/case-number-review-20261102.json",
+      "caseNumber": "98다21366",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "88다카16867": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=165258",
+      "kind": "prec",
+      "title": "손해배상(자)",
+      "court": "대법원",
+      "decisionDate": "1989-12-26",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "88다카16867",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=50",
+      "caseNumber": "88다카16867",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2018다248909": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=205791",
+      "kind": "prec",
+      "title": "손해배상(기)[도시일용노동의 경험칙상 가동연한]",
+      "court": "대법원",
+      "decisionDate": "2019-02-21",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2018다248909",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=6",
+      "caseNumber": "2018다248909",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2014다16968": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=187482",
+      "kind": "prec",
+      "title": "손해배상(의)",
+      "court": "대법원",
+      "decisionDate": "2014-07-10",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2014다16968",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=11",
+      "caseNumber": "2014다16968",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "93다180": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=200930",
+      "kind": "prec",
+      "title": "손해배상(자)",
+      "court": "대법원",
+      "decisionDate": "1993-04-09",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "93다180",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=42",
+      "alternateOriginalUrls": [
+        "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=200930",
+        "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=604273"
+      ],
+      "identityReview": "same-court-date-title-and-all-textbook-occurrences",
+      "caseNumber": "93다180",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "75다819": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=207209",
+      "kind": "prec",
+      "title": "손해배상",
+      "court": "대법원",
+      "decisionDate": "1976-06-22",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "75다819",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=67",
+      "caseNumber": "75다819",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "89다카29129": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=106736",
+      "kind": "prec",
+      "title": "구상금",
+      "court": "대법원",
+      "decisionDate": "1990-05-08",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "89다카29129",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=49",
+      "caseNumber": "89다카29129",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "96다30113": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=197254",
+      "kind": "prec",
+      "title": "구상금",
+      "court": "대법원",
+      "decisionDate": "1996-10-25",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "96다30113",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=35",
+      "caseNumber": "96다30113",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "98다48033": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=195217",
+      "kind": "prec",
+      "title": "부당이득금반환",
+      "court": "대법원",
+      "decisionDate": "1999-01-15",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "98다48033",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=32",
+      "caseNumber": "98다48033",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2011다52727": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=211699",
+      "kind": "prec",
+      "title": "구상금",
+      "court": "대법원",
+      "decisionDate": "2012-03-15",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2011다52727",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=14",
+      "caseNumber": "2011다52727",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2003다24147": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=193880",
+      "kind": "prec",
+      "title": "구상금",
+      "court": "대법원",
+      "decisionDate": "2005-10-13",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2003다24147",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=24",
+      "caseNumber": "2003다24147",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2010다52225": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=150850",
+      "kind": "prec",
+      "title": "구상금",
+      "court": "대법원",
+      "decisionDate": "2010-12-23",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2010다52225",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=15",
+      "caseNumber": "2010다52225",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2002다15917": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=81934",
+      "kind": "prec",
+      "title": "구상금",
+      "court": "대법원",
+      "decisionDate": "2002-09-27",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2002다15917",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=27",
+      "caseNumber": "2002다15917",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2005다7085": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=68991",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2007-10-11",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2005다7085",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=20",
+      "caseNumber": "2005다7085",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2013다46023": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=171620",
+      "kind": "prec",
+      "title": "소송비용",
+      "court": "대법원",
+      "decisionDate": "2013-11-14",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2013다46023",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=12",
+      "caseNumber": "2013다46023",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "96다3791": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=198154",
+      "kind": "prec",
+      "title": "구상금",
+      "court": "대법원",
+      "decisionDate": "1996-03-26",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "96다3791",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=36",
+      "caseNumber": "96다3791",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2007다37530": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=85793",
+      "kind": "prec",
+      "title": "구상금",
+      "court": "대법원",
+      "decisionDate": "2008-07-24",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2007다37530",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=19",
+      "caseNumber": "2007다37530",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2010다97426": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=165204",
+      "kind": "prec",
+      "title": "부당이득금",
+      "court": "대법원",
+      "decisionDate": "2012-02-23",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2010다97426",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=14",
+      "caseNumber": "2010다97426",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2012다15336": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=178807",
+      "kind": "prec",
+      "title": "부당이득반환등",
+      "court": "대법원",
+      "decisionDate": "2015-07-23",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2012다15336",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=10",
+      "caseNumber": "2012다15336",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2011므2997": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=187514",
+      "kind": "prec",
+      "title": "손해배상(기)[혼인파탄후 제3자와의 성적행위로 인한 손해배상청구 사건]",
+      "court": "대법원",
+      "decisionDate": "2014-11-20",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2011므2997",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=10",
+      "caseNumber": "2011므2997",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "83므18": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=100592",
+      "kind": "prec",
+      "title": "이혼등",
+      "court": "대법원",
+      "decisionDate": "1985-06-25",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "83므18",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=57",
+      "caseNumber": "83므18",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2009다32454": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=140609",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2009-07-23",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2009다32454",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=17",
+      "caseNumber": "2009다32454",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "92므143": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=123125",
+      "kind": "prec",
+      "title": "이혼및위자료청구",
+      "court": "대법원",
+      "decisionDate": "1993-05-27",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "92므143",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=42",
+      "caseNumber": "92므143",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2004다71881": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=193775",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2005-05-13",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2004다71881",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=24",
+      "caseNumber": "2004다71881",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2015다217843": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=182590",
+      "kind": "prec",
+      "title": "구상금",
+      "court": "대법원",
+      "decisionDate": "2016-06-10",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2015다217843",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=9",
+      "caseNumber": "2015다217843",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2020다240021": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=220433",
+      "kind": "prec",
+      "title": "손해배상(기)[비양육친이 미성년 자녀의 불법행위에 대한 감독의무자책임을 지는지 여부가 문제된 사건]",
+      "court": "대법원",
+      "decisionDate": "2022-04-14",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2020다240021",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=3",
+      "caseNumber": "2020다240021",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2008다15438": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=158891",
+      "kind": "prec",
+      "title": "분양대금 반환",
+      "court": "대법원",
+      "decisionDate": "2011-04-28",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2008다15438",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=15",
+      "caseNumber": "2008다15438",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2020다215469": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=212983",
+      "kind": "prec",
+      "title": "부당이득금반환등청구의소",
+      "court": "대법원",
+      "decisionDate": "2020-06-25",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2020다215469",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=5",
+      "caseNumber": "2020다215469",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "86다카1170": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=228265",
+      "kind": "prec",
+      "title": "대여금",
+      "court": "대법원",
+      "decisionDate": "1987-12-08",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "86다카1170",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=53",
+      "caseNumber": "86다카1170",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2003다15280": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=83104",
+      "kind": "prec",
+      "title": "소유권확인",
+      "court": "대법원",
+      "decisionDate": "2004-02-27",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2003다15280",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=26",
+      "caseNumber": "2003다15280",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "92다29924": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=229049",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "1992-12-08",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "92다29924",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=43",
+      "alternateOriginalUrls": [
+        "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=229049",
+        "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=603221"
+      ],
+      "identityReview": "same-court-date-title-and-all-textbook-occurrences",
+      "caseNumber": "92다29924",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2018다240462": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=206338",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2018-11-09",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2018다240462",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=6",
+      "caseNumber": "2018다240462",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2019다282197": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=219723",
+      "kind": "prec",
+      "title": "손해배상(국)",
+      "court": "대법원",
+      "decisionDate": "2022-01-14",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2019다282197",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?searchType=stcDt&searchKeyword=20220114&pageShow=1000&page=1",
+      "caseNumber": "2019다282197",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "98다34126": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=117174",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "1998-11-10",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "98다34126",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=32",
+      "caseNumber": "98다34126",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2017다261882": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=232861",
+      "kind": "prec",
+      "title": "구상금",
+      "court": "대법원",
+      "decisionDate": "2022-12-29",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2017다261882",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=2",
+      "caseNumber": "2017다261882",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2001다42677": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=191825",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2001-12-24",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2001다42677",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=28",
+      "caseNumber": "2001다42677",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2024다204696": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=241385",
+      "kind": "prec",
+      "title": "대여금[고의의 불법행위로 체결된 소비대차계약에 기한 대여금채권을 수동채권으로 한 상계 허용 여부가 문제된 사건]",
+      "court": "대법원",
+      "decisionDate": "2024-08-01",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2024다204696",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=1",
+      "caseNumber": "2024다204696",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2014다19776": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=184379",
+      "kind": "prec",
+      "title": "약정금등·손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2017-02-15",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2014다19776",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=8",
+      "caseNumber": "2014다19776",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2014다19783": {
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=184379",
+      "kind": "prec",
+      "title": "약정금등·손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2017-02-15",
+      "verifiedAt": "2026-11-11",
+      "verification": "official-header",
+      "provider": "law",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "caseNumberEvidence": "대법원 2017. 2. 15. 선고 2014다19776, 19783 판결",
+      "caseNumber": "2014다19783",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2005다19378": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=84280",
+      "kind": "prec",
+      "title": "구상금",
+      "court": "대법원",
+      "decisionDate": "2006-01-27",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2005다19378",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=23",
+      "caseNumber": "2005다19378",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "80다3277": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=95769",
+      "kind": "prec",
+      "title": "손해배상",
+      "court": "대법원",
+      "decisionDate": "1981-06-09",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "80다3277",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=63",
+      "caseNumber": "80다3277",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "94다22446": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=198756",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "1994-11-11",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "94다22446",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=39",
+      "caseNumber": "94다22446",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2002다35461": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=81995",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2002-10-11",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2002다35461",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=27",
+      "caseNumber": "2002다35461",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2013다31137": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=181677",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2016-04-12",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2013다31137",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=9",
+      "caseNumber": "2013다31137",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2004다12240": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=68220",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2006-10-27",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2004다12240",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=22",
+      "caseNumber": "2004다12240",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2010다48561": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=148756",
+      "kind": "prec",
+      "title": "보증금등반환",
+      "court": "대법원",
+      "decisionDate": "2010-10-14",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2010다48561",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=16",
+      "caseNumber": "2010다48561",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2006다43767": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=85764",
+      "kind": "prec",
+      "title": "상품권판매대금",
+      "court": "대법원",
+      "decisionDate": "2008-07-10",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2006다43767",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=19",
+      "caseNumber": "2006다43767",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2012다74236": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=194227",
+      "kind": "prec",
+      "title": "부당이득금",
+      "court": "대법원",
+      "decisionDate": "2018-03-22",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2012다74236",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=7",
+      "caseNumber": "2012다74236",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2014다49241": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=179727",
+      "kind": "prec",
+      "title": "손해배상금",
+      "court": "대법원",
+      "decisionDate": "2015-12-24",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2014다49241",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=9",
+      "caseNumber": "2014다49241",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2001다53059": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=194584",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2003-04-11",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2001다53059",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=27",
+      "caseNumber": "2001다53059",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2021다216773": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=223809",
+      "kind": "prec",
+      "title": "매매대금",
+      "court": "대법원",
+      "decisionDate": "2022-07-14",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2021다216773",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=3",
+      "caseNumber": "2021다216773",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    },
+    "2004다1899": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=83841",
+      "kind": "prec",
+      "title": "손해배상(기)",
+      "court": "대법원",
+      "decisionDate": "2005-05-13",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2004다1899",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=24",
+      "caseNumber": "2004다1899",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
+      "liveChecked": false
+    }
+  },
+  "questions": {
+    "extra_civil_mock_5_045_management": [
+      {
+        "caseNumber": "2007다55477",
+        "citedDate": "2010-01-14",
+        "rawCaseNumber": "2007다55477",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_2_008_unjust": [
+      {
+        "caseNumber": "2005다71659",
+        "citedDate": "2007-11-16",
+        "rawCaseNumber": "2005다71659",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2003다60297",
+        "citedDate": "2005-04-15",
+        "rawCaseNumber": "2003 다60297",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_2_063_unjust": [
+      {
+        "caseNumber": "2013다218156",
+        "citedDate": "2019-06-20",
+        "rawCaseNumber": "2013다218156",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_2_067_unjust": [
+      {
+        "caseNumber": "2017다3499",
+        "citedDate": "2017-06-08",
+        "rawCaseNumber": "20 17다3499",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_2_075_unjust": [
+      {
+        "caseNumber": "2023다302920",
+        "citedDate": "2024-06-27",
+        "rawCaseNumber": "2023다302920",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_2_080_unjust": [
+      {
+        "caseNumber": "2017다9039",
+        "citedDate": "2017-07-18",
+        "rawCaseNumber": "2017다9039",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2017다9046",
+        "citedDate": "2017-07-18",
+        "rawCaseNumber": "9046",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_2_084_unjust": [
+      {
+        "caseNumber": "2017다248803",
+        "citedDate": "2018-06-15",
+        "rawCaseNumber": "2017 다248803",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2017다248810",
+        "citedDate": "2018-06-15",
+        "rawCaseNumber": "248810",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2002다64957",
+        "citedDate": "2003-04-08",
+        "rawCaseNumber": "2002 다64957",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2013다214871",
+        "citedDate": "2014-07-24",
+        "rawCaseNumber": "2013 다214871",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2020다208621",
+        "citedDate": "2021-06-24",
+        "rawCaseNumber": "2020다208621",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2015다210811",
+        "citedDate": "2015-09-15",
+        "rawCaseNumber": "2015다210811",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_2_085_unjust": [
+      {
+        "caseNumber": "2009다23313",
+        "citedDate": "2009-07-09",
+        "rawCaseNumber": "2009다23313",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_3_025_unjust": [
+      {
+        "caseNumber": "2001다61869",
+        "citedDate": "2003-11-14",
+        "rawCaseNumber": "2001 다61869",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_3_040_unjust": [
+      {
+        "caseNumber": "2009다15602",
+        "citedDate": "2009-09-24",
+        "rawCaseNumber": "2009다15602",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_3_097_unjust": [
+      {
+        "caseNumber": "2009다32324",
+        "citedDate": "2009-12-24",
+        "rawCaseNumber": "2009다32324",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_3_110_unjust": [
+      {
+        "caseNumber": "2009다40684",
+        "citedDate": "2009-09-24",
+        "rawCaseNumber": "2009다40684",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_3_115_unjust": [
+      {
+        "caseNumber": "2012다92258",
+        "citedDate": "2015-05-29",
+        "rawCaseNumber": "2012다92258",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_011_unjust": [
+      {
+        "caseNumber": "2001다46730",
+        "citedDate": "2003-12-26",
+        "rawCaseNumber": "2001다46730",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_040_unjust": [
+      {
+        "caseNumber": "2016다47478",
+        "citedDate": "2017-03-09",
+        "rawCaseNumber": "2016 다47478",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_109_unjust": [
+      {
+        "caseNumber": "2000다13948",
+        "citedDate": "2001-12-11",
+        "rawCaseNumber": "2000다 13948",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_112_unjust": [
+      {
+        "caseNumber": "2000다13948",
+        "citedDate": "2001-12-11",
+        "rawCaseNumber": "2000다 13948",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_5_002_unjust": [
+      {
+        "caseNumber": "2006다24049",
+        "citedDate": "2006-09-22",
+        "rawCaseNumber": "2006다24049",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_5_008_unjust": [
+      {
+        "caseNumber": "2010다31860",
+        "citedDate": "2010-08-19",
+        "rawCaseNumber": "2010다31860",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_5_020_unjust": [
+      {
+        "caseNumber": "2001다46730",
+        "citedDate": "2003-12-26",
+        "rawCaseNumber": "2001다46730",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_5_027_unjust": [
+      {
+        "caseNumber": "2003다59259",
+        "citedDate": "2004-06-24",
+        "rawCaseNumber": "2003다59259",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_5_030_unjust": [
+      {
+        "caseNumber": "92다45025",
+        "citedDate": "1993-05-14",
+        "rawCaseNumber": "92다45025",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_5_045_unjust": [
+      {
+        "caseNumber": "2000다68290",
+        "citedDate": "2001-06-29",
+        "rawCaseNumber": "2000다68290",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_5_048_unjust": [
+      {
+        "caseNumber": "95다44290",
+        "citedDate": "1996-01-26",
+        "rawCaseNumber": "95다44290",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_6_042_unjust": [
+      {
+        "caseNumber": "2006다83796",
+        "citedDate": "2007-07-26",
+        "rawCaseNumber": "2006다83796",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_002_unjust": [
+      {
+        "caseNumber": "99다32905",
+        "citedDate": "2001-11-13",
+        "rawCaseNumber": "99다32905",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_017_unjust": [
+      {
+        "caseNumber": "2008다58367",
+        "citedDate": "2009-01-15",
+        "rawCaseNumber": "2008다58367",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_057_unjust": [
+      {
+        "caseNumber": "2016다12656",
+        "citedDate": "2019-01-31",
+        "rawCaseNumber": "2016다12656",
+        "status": "unverified",
+        "note": "공식 원문 직접 연결을 확인하지 못했습니다. 교재의 표기를 유지하며 확인 완료 판례와 구분합니다."
+      }
+    ],
+    "extra_civil_mock_2_078_unjust": [
+      {
+        "caseNumber": "2023다302920",
+        "citedDate": "2024-06-27",
+        "rawCaseNumber": "2023다302920",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_079_unjust": [
+      {
+        "caseNumber": "2023다302920",
+        "citedDate": "2024-06-27",
+        "rawCaseNumber": "2023다302920",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_085_unjust": [
+      {
+        "caseNumber": "2019다277812",
+        "citedDate": "2021-07-22",
+        "rawCaseNumber": "2019다277812",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_086_unjust": [
+      {
+        "caseNumber": "2020다208621",
+        "citedDate": "2021-06-24",
+        "rawCaseNumber": "2020다208621",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_3_015_unjust": [
+      {
+        "caseNumber": "2019다272275",
+        "citedDate": "2022-12-29",
+        "rawCaseNumber": "2019다272275",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_3_019_unjust": [],
+    "extra_civil_mock_3_021_unjust": [
+      {
+        "caseNumber": "97다32680",
+        "citedDate": "1998-03-27",
+        "rawCaseNumber": "97다32680",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_3_029_unjust": [
+      {
+        "caseNumber": "2001다6213",
+        "citedDate": "2002-11-22",
+        "rawCaseNumber": "2001다6213",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_3_032_unjust": [
+      {
+        "caseNumber": "2016다220044",
+        "citedDate": "2016-07-29",
+        "rawCaseNumber": "2016다220044",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_3_073_unjust": [
+      {
+        "caseNumber": "2013다218156",
+        "citedDate": "2019-06-20",
+        "rawCaseNumber": "2013다218156",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_3_074_unjust": [
+      {
+        "caseNumber": "2013다218156",
+        "citedDate": "2019-06-20",
+        "rawCaseNumber": "2013다218156",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_3_111_unjust": [
+      {
+        "caseNumber": "2012다92258",
+        "citedDate": "2015-05-29",
+        "rawCaseNumber": "2012다92258",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_3_114_unjust": [],
+    "extra_civil_mock_4_007_unjust": [
+      {
+        "caseNumber": "78다1292",
+        "citedDate": "1980-09-30",
+        "rawCaseNumber": "78다1292",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_009_unjust": [
+      {
+        "caseNumber": "2009다98706",
+        "citedDate": "2010-03-11",
+        "rawCaseNumber": "2009다98706",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_016_unjust": [
+      {
+        "caseNumber": "2015다71856",
+        "citedDate": "2016-07-14",
+        "rawCaseNumber": "2015다71856",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2015다71863",
+        "citedDate": "2016-07-14",
+        "rawCaseNumber": "71863",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_024_unjust": [],
+    "extra_civil_mock_4_041_unjust": [
+      {
+        "caseNumber": "2009다24187",
+        "citedDate": "2010-01-28",
+        "rawCaseNumber": "2009다24187",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2009다24194",
+        "citedDate": "2010-01-28",
+        "rawCaseNumber": "24194",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_093_unjust": [
+      {
+        "caseNumber": "2000다13948",
+        "citedDate": "2001-12-11",
+        "rawCaseNumber": "2000다\n13948",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_5_005_unjust": [
+      {
+        "caseNumber": "87다카2114",
+        "citedDate": "1989-02-28",
+        "rawCaseNumber": "87다카2114",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2006다24049",
+        "citedDate": "2006-09-22",
+        "rawCaseNumber": "2006다24049",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_5_009_unjust": [
+      {
+        "caseNumber": "2006다24049",
+        "citedDate": "2006-09-22",
+        "rawCaseNumber": "2006다24049",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_5_039_unjust": [
+      {
+        "caseNumber": "98다6800",
+        "citedDate": "1998-06-12",
+        "rawCaseNumber": "98다6800",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_5_045_unjust": [
+      {
+        "caseNumber": "2012다4633",
+        "citedDate": "2012-05-10",
+        "rawCaseNumber": "2012다4633",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_5_051_unjust": [
+      {
+        "caseNumber": "2023다257600",
+        "citedDate": "2023-11-09",
+        "rawCaseNumber": "2023다257600",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_5_076_unjust": [
+      {
+        "caseNumber": "2007다51239",
+        "citedDate": "2007-11-29",
+        "rawCaseNumber": "2007다51239",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_2_002_tort": [],
+    "extra_civil_bar_2_008_tort": [
+      {
+        "caseNumber": "2009다79897",
+        "citedDate": "2010-02-11",
+        "rawCaseNumber": "2009다79897",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_2_009_tort": [
+      {
+        "caseNumber": "2006마930",
+        "citedDate": null,
+        "rawCaseNumber": "2006마930",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2024다229343",
+        "citedDate": "2024-07-25",
+        "rawCaseNumber": "2024다229343",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "99다19384",
+        "citedDate": "1999-07-27",
+        "rawCaseNumber": "99다19384",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_2_013_tort": [
+      {
+        "caseNumber": "2002다27088",
+        "citedDate": "2003-07-25",
+        "rawCaseNumber": "2002다27088",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_2_021_tort": [
+      {
+        "caseNumber": "2003다30159",
+        "citedDate": "2005-12-23",
+        "rawCaseNumber": "2003다30159",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_2_038_tort": [
+      {
+        "caseNumber": "97다55829",
+        "citedDate": "1998-03-10",
+        "rawCaseNumber": "97다55829",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_2_040_tort": [
+      {
+        "caseNumber": "97다13023",
+        "citedDate": "1997-08-22",
+        "rawCaseNumber": "97다13023",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_2_042_tort": [
+      {
+        "caseNumber": "97다13023",
+        "citedDate": "1997-08-22",
+        "rawCaseNumber": "97 다13023",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_2_080_tort": [
+      {
+        "caseNumber": "2001다9496",
+        "citedDate": "2001-09-04",
+        "rawCaseNumber": "2001다9496",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_005_tort": [
+      {
+        "caseNumber": "2020다230239",
+        "citedDate": "2021-02-25",
+        "rawCaseNumber": "2020다230239",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_033_tort": [
+      {
+        "caseNumber": "2011다8980",
+        "citedDate": "2011-06-10",
+        "rawCaseNumber": "2011 다8980",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_034_tort": [
+      {
+        "caseNumber": "2004다63019",
+        "citedDate": "2006-10-26",
+        "rawCaseNumber": "2004다63019",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_038_tort": [
+      {
+        "caseNumber": "93다52808",
+        "citedDate": "1994-08-12",
+        "rawCaseNumber": "93다52808",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_041_tort": [
+      {
+        "caseNumber": "2011다38325",
+        "citedDate": "2012-03-29",
+        "rawCaseNumber": "2011다38325",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_050_tort": [
+      {
+        "caseNumber": "94다19129",
+        "citedDate": "1995-07-28",
+        "rawCaseNumber": "94다19129",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2006다84874",
+        "citedDate": "2008-06-26",
+        "rawCaseNumber": "2006다84874",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_053_tort": [
+      {
+        "caseNumber": "2001다82507",
+        "citedDate": "2004-03-18",
+        "rawCaseNumber": "2001다82507",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "98다22048",
+        "citedDate": "1998-09-08",
+        "rawCaseNumber": "98다22048",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_054_tort": [
+      {
+        "caseNumber": "98다21366",
+        "citedDate": "1998-09-22",
+        "rawCaseNumber": "98다21366",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "88다카16867",
+        "citedDate": "1989-12-26",
+        "rawCaseNumber": "88다카16867",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2018다248909",
+        "citedDate": "2019-02-21",
+        "rawCaseNumber": "2018다248909",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_055_tort": [
+      {
+        "caseNumber": "2001다82507",
+        "citedDate": "2004-03-18",
+        "rawCaseNumber": "2001다82507",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_056_tort": [
+      {
+        "caseNumber": "2020다230239",
+        "citedDate": "2021-02-25",
+        "rawCaseNumber": "2020다230239",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2020다230239",
+        "citedDate": "2021-02-25",
+        "rawCaseNumber": "2020다230239",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_060_tort": [
+      {
+        "caseNumber": "2014다16968",
+        "citedDate": "2014-07-10",
+        "rawCaseNumber": "2014 다16968",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "93다180",
+        "citedDate": "1993-04-09",
+        "rawCaseNumber": "93다180",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_061_tort": [
+      {
+        "caseNumber": "75다819",
+        "citedDate": "1976-06-22",
+        "rawCaseNumber": "75다819",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "89다카29129",
+        "citedDate": "1990-05-08",
+        "rawCaseNumber": "89다카29129",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "96다30113",
+        "citedDate": "1996-10-25",
+        "rawCaseNumber": "96다30113",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_063_tort": [
+      {
+        "caseNumber": "98다48033",
+        "citedDate": "1999-01-15",
+        "rawCaseNumber": "98다48033",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "75다819",
+        "citedDate": "1976-06-22",
+        "rawCaseNumber": "75다819",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_106_tort": [
+      {
+        "caseNumber": "2011다52727",
+        "citedDate": null,
+        "rawCaseNumber": "2011 다52727",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_109_tort": [
+      {
+        "caseNumber": "2003다24147",
+        "citedDate": "2005-10-13",
+        "rawCaseNumber": "2003다24147",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_111_tort": [
+      {
+        "caseNumber": "2010다52225",
+        "citedDate": "2010-12-23",
+        "rawCaseNumber": "2010다52225",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_112_tort": [
+      {
+        "caseNumber": "2002다15917",
+        "citedDate": "2002-09-27",
+        "rawCaseNumber": "2002다15917",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2005다7085",
+        "citedDate": "2007-10-11",
+        "rawCaseNumber": "2005다7085",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2013다46023",
+        "citedDate": "2013-11-14",
+        "rawCaseNumber": "2013 다46023",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_113_tort": [
+      {
+        "caseNumber": "96다3791",
+        "citedDate": "1996-03-26",
+        "rawCaseNumber": "96다3791",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2011다52727",
+        "citedDate": "2012-03-15",
+        "rawCaseNumber": "2011다52727",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_116_tort": [
+      {
+        "caseNumber": "2007다37530",
+        "citedDate": null,
+        "rawCaseNumber": "2007다37530",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_134_tort": [
+      {
+        "caseNumber": "2010다97426",
+        "citedDate": "2012-02-23",
+        "rawCaseNumber": "2010다97426",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_4_146_tort": [
+      {
+        "caseNumber": "2012다15336",
+        "citedDate": "2015-07-23",
+        "rawCaseNumber": "2012 다15336",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_6_011_tort": [
+      {
+        "caseNumber": "2011므2997",
+        "citedDate": "2014-11-20",
+        "rawCaseNumber": "2011 므2997",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "83므18",
+        "citedDate": "1985-06-25",
+        "rawCaseNumber": "83므18",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2009다32454",
+        "citedDate": "2009-07-23",
+        "rawCaseNumber": "2009다32454",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_bar_6_042_tort": [
+      {
+        "caseNumber": "92므143",
+        "citedDate": "1993-05-27",
+        "rawCaseNumber": "92므143",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_002_tort": [
+      {
+        "caseNumber": "2004다71881",
+        "citedDate": "2005-05-13",
+        "rawCaseNumber": "2004다71881",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_005_tort": [
+      {
+        "caseNumber": "2015다217843",
+        "citedDate": "2016-06-10",
+        "rawCaseNumber": "2015다217843",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_012_tort": [
+      {
+        "caseNumber": "2020다240021",
+        "citedDate": "2022-04-14",
+        "rawCaseNumber": "2020다240021",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_020_tort": [
+      {
+        "caseNumber": "2008다15438",
+        "citedDate": "2011-04-28",
+        "rawCaseNumber": "2008다15438",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_021_tort": [
+      {
+        "caseNumber": "2020다215469",
+        "citedDate": "2020-06-25",
+        "rawCaseNumber": "2020다2 1 5469",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "86다카1170",
+        "citedDate": "1987-12-08",
+        "rawCaseNumber": "86다카1170",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_024_tort": [
+      {
+        "caseNumber": "2003다30159",
+        "citedDate": "2005-12-23",
+        "rawCaseNumber": "2003다30159",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_025_tort": [],
+    "extra_civil_mock_2_033_tort": [
+      {
+        "caseNumber": "2003다30159",
+        "citedDate": "2005-12-23",
+        "rawCaseNumber": "2003다30159",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2003다15280",
+        "citedDate": "2004-02-27",
+        "rawCaseNumber": "2003다15280",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "99다19384",
+        "citedDate": "1999-07-27",
+        "rawCaseNumber": "99다19384",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_047_tort": [
+      {
+        "caseNumber": "97다13023",
+        "citedDate": "1997-08-22",
+        "rawCaseNumber": "97다\n13023",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_050_tort": [],
+    "extra_civil_mock_2_077_tort": [
+      {
+        "caseNumber": "92다29924",
+        "citedDate": "1992-12-08",
+        "rawCaseNumber": "92다29924",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2004다71881",
+        "citedDate": "2005-05-13",
+        "rawCaseNumber": "2004다71881",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_2_079_tort": [
+      {
+        "caseNumber": "2018다240462",
+        "citedDate": "2018-11-09",
+        "rawCaseNumber": "2018다240462",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2019다282197",
+        "citedDate": "2022-01-14",
+        "rawCaseNumber": "2019다282197",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_3_096_tort": [
+      {
+        "caseNumber": "98다34126",
+        "citedDate": "1998-11-10",
+        "rawCaseNumber": "98다34126",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_001_tort": [
+      {
+        "caseNumber": "2020다230239",
+        "citedDate": "2021-02-25",
+        "rawCaseNumber": "2020다\n230239",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2020다230239",
+        "citedDate": "2021-02-25",
+        "rawCaseNumber": "2020다230239",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_018_tort": [
+      {
+        "caseNumber": "2017다261882",
+        "citedDate": "2022-12-29",
+        "rawCaseNumber": "2017다261882",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_020_tort": [
+      {
+        "caseNumber": "2001다42677",
+        "citedDate": "2001-12-24",
+        "rawCaseNumber": "2001다42677",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_026_tort": [
+      {
+        "caseNumber": "2024다204696",
+        "citedDate": "2024-08-01",
+        "rawCaseNumber": "2024다\n204696",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_031_tort": [
+      {
+        "caseNumber": "2014다19776",
+        "citedDate": "2017-02-15",
+        "rawCaseNumber": "2014다19776",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2014다19783",
+        "citedDate": "2017-02-15",
+        "rawCaseNumber": "19783",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_035_tort": [
+      {
+        "caseNumber": "93다52808",
+        "citedDate": "1994-08-12",
+        "rawCaseNumber": "93다52808",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2004다63019",
+        "citedDate": "2006-10-26",
+        "rawCaseNumber": "2004다63019",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_038_tort": [
+      {
+        "caseNumber": "2005다19378",
+        "citedDate": "2006-01-27",
+        "rawCaseNumber": "2005다19378",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_044_tort": [
+      {
+        "caseNumber": "2001다82507",
+        "citedDate": "2004-03-18",
+        "rawCaseNumber": "200 1 다82507",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "80다3277",
+        "citedDate": "1981-06-09",
+        "rawCaseNumber": "80다3277",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "96다30113",
+        "citedDate": "1996-10-25",
+        "rawCaseNumber": "96 다30113",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_045_tort": [
+      {
+        "caseNumber": "94다22446",
+        "citedDate": "1994-11-11",
+        "rawCaseNumber": "94다22446",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_049_tort": [
+      {
+        "caseNumber": "2002다35461",
+        "citedDate": "2002-10-11",
+        "rawCaseNumber": "2002다35461",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_053_tort": [
+      {
+        "caseNumber": "2013다31137",
+        "citedDate": "2016-04-12",
+        "rawCaseNumber": "2013다31137",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2004다12240",
+        "citedDate": "2006-10-27",
+        "rawCaseNumber": "2004다12240",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_054_tort": [
+      {
+        "caseNumber": "75다819",
+        "citedDate": "1976-06-22",
+        "rawCaseNumber": "75다819",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_055_tort": [
+      {
+        "caseNumber": "2010다48561",
+        "citedDate": "2010-10-14",
+        "rawCaseNumber": "2010다48561",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "75다819",
+        "citedDate": "1976-06-22",
+        "rawCaseNumber": "75 다819",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2006다43767",
+        "citedDate": "2008-07-10",
+        "rawCaseNumber": "2006다43767",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_097_tort": [
+      {
+        "caseNumber": "2012다74236",
+        "citedDate": "2018-03-22",
+        "rawCaseNumber": "2012다74236",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_105_tort": [
+      {
+        "caseNumber": "2014다49241",
+        "citedDate": "2015-12-24",
+        "rawCaseNumber": "2014다49241",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_4_119_tort": [
+      {
+        "caseNumber": "2012다15336",
+        "citedDate": "2015-07-23",
+        "rawCaseNumber": "2012다15336",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_5_002_tort": [
+      {
+        "caseNumber": "2001다53059",
+        "citedDate": "2003-04-11",
+        "rawCaseNumber": "2001다53059",
+        "status": "verified",
+        "note": ""
+      },
+      {
+        "caseNumber": "2021다216773",
+        "citedDate": "2022-07-14",
+        "rawCaseNumber": "202 1 다216773",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_5_071_tort": [],
+    "extra_civil_mock_6_005_tort": [
+      {
+        "caseNumber": "2009다32454",
+        "citedDate": "2009-07-23",
+        "rawCaseNumber": "2009다32454",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_6_009_tort": [
+      {
+        "caseNumber": "92므143",
+        "citedDate": "1993-05-27",
+        "rawCaseNumber": "92므143",
+        "status": "verified",
+        "note": ""
+      }
+    ],
+    "extra_civil_mock_6_010_tort": [
+      {
+        "caseNumber": "2004다1899",
+        "citedDate": "2005-05-13",
+        "rawCaseNumber": "2004다1899",
+        "status": "verified",
+        "note": ""
+      }
+    ]
+  },
+  "unmatched": [
+    {
+      "parentId": "civil_mock_2_057",
+      "caseNumber": "2016다12656",
+      "citedDate": "2019-01-31",
+      "raw": "2016다12656"
+    }
+  ]
+}

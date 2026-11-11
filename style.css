@@ -16,3 +16,10 @@ main{max-width:1120px;margin:auto;padding:38px 28px 56px;min-height:calc(100svh 
 @media(max-width:359px){main{padding-left:12px;padding-right:12px}.builder{padding:18px 14px}.brand{font-size:14px}.topic-card{padding-left:8px;padding-right:8px}.topic-card b{font-size:12px}.topic-card small{font-size:9px}.segmented button{font-size:11px}.mode-option{padding:12px 9px;gap:7px}.mode-icon{min-width:25px;font-size:18px}.mode-option b{font-size:12px}.mode-option small{font-size:9px}.step-title .hint{font-size:9px}.question-card{padding:20px 14px}.question-title>span{max-width:37%;text-align:right;flex-shrink:1}.question-title h1{font-size:18px}.text-statements li{padding:12px 10px;font-size:15px}.answer-choice{min-height:46px}.question-content td,.question-content th{font-size:12px;padding:10px 8px}.summary-card .primary-button{font-size:13px}.resume-banner{display:block}.resume-banner button{margin-top:11px}.stats-grid{gap:8px}.stat-card{padding:17px 13px}}
 @media(max-height:500px) and (orientation:landscape){.site-header{position:static}.question-actions{position:static;border:0;box-shadow:none;padding:0;margin-top:23px;background:white;display:flex;flex-wrap:wrap}.summary-card{position:static!important;display:block!important;border:1px solid var(--line)!important;padding:22px!important;border-radius:12px!important}.summary-detail{display:block}body[data-view] .site-footer{padding-bottom:20px}body[data-view="study"] .finish-actions{display:flex}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* Additional statements use the same study controls and mobile layout. */
+.bank-selector button b,.bank-selector button small{display:block}
+.bank-selector button small{font-size:11px;font-weight:400;margin-top:4px;line-height:1.45;white-space:normal}
+.bank-selector button{min-height:62px;min-width:0;white-space:normal;word-break:keep-all}
+.original-text{margin-top:18px;border-top:1px solid var(--line,#dce4ef);padding-top:12px}
+.original-text>summary{cursor:pointer;font-weight:600}
+.original-text .question-content{margin-top:18px}
