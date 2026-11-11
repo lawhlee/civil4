@@ -2,11 +2,14 @@
   "summary": {
     "statements": 157,
     "parents": 111,
-    "uniqueCaseNumbers": 119,
-    "officialIndexMatched": 118,
+    "uniqueCaseNumbers": 123,
+    "officialIndexMatched": 120,
     "unmatched": 1,
     "checkedAt": "2026-11-11",
-    "method": "공식 원문 및 공식 사건 목록 대조 기록의 사건번호를 선지별 해설과 다시 대조함. 각 원문의 확인일은 사건별 verifiedAt에 보존하며, 공식 원문 미확인 판례는 별도로 표시함."
+    "method": "공식 원문 및 공식 사건 목록 대조 기록의 사건번호를 선지별 해설과 다시 대조함. 각 원문의 확인일은 사건별 verifiedAt에 보존하며, 공식 원문 미확인 판례는 별도로 표시함.",
+    "officialHeaderMatched": 2,
+    "verifiedCases": 122,
+    "ocrCorrectedAt": "2026-11-11"
   },
   "cases": {
     "2007다55477": {
@@ -2144,6 +2147,60 @@
       "verificationSource": "barexam official case index",
       "sourceCommit": "41305e4694fa0f71787b449cc30a73645ae86805",
       "liveChecked": false
+    },
+    "2001다52506": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=81233",
+      "kind": "prec",
+      "title": "대여금",
+      "court": "대법원",
+      "decisionDate": "2002-01-25",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "2001다52506",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=28",
+      "caseNumber": "2001다52506",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "liveChecked": false
+    },
+    "96다51332": {
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/data/precView.do?seqn=196538",
+      "kind": "prec",
+      "title": "부당이득금",
+      "court": "대법원",
+      "decisionDate": "1997-06-27",
+      "verifiedAt": "2026-10-17",
+      "verification": "official-metadata",
+      "provider": "nhis",
+      "sourceInstitution": "국민건강보험공단 건강LAW (국가법령정보센터 제공)",
+      "metadataCaseNumber": "96다51332",
+      "metadataUrl": "https://www.nhis.or.kr/lm/lmxsrv/data/precList.do?pageShow=1000&page=34",
+      "caseNumber": "96다51332",
+      "status": "verified",
+      "verificationSource": "barexam official case index",
+      "liveChecked": false
+    },
+    "2009다57033": {
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=143351",
+      "title": "손해배상(기)",
+      "decisionDate": "2009-11-26",
+      "caseNumber": "2009다57033",
+      "status": "verified",
+      "verifiedAt": "2026-11-11",
+      "verificationSource": "official header checked during 2026-11-11 audit",
+      "liveChecked": true
+    },
+    "2009다91828": {
+      "url": "https://www.law.go.kr/LSW/precInfoP.do?evtNo=2009%EB%8B%A491828",
+      "title": "손해배상(기)",
+      "decisionDate": "2010-04-29",
+      "caseNumber": "2009다91828",
+      "status": "verified",
+      "verifiedAt": "2026-11-11",
+      "verificationSource": "official header checked during 2026-11-11 audit",
+      "liveChecked": true
     }
   },
   "questions": {
@@ -2493,7 +2550,15 @@
         "note": ""
       }
     ],
-    "extra_civil_mock_3_019_unjust": [],
+    "extra_civil_mock_3_019_unjust": [
+      {
+        "caseNumber": "98다6800",
+        "citedDate": "1998-06-12",
+        "rawCaseNumber": "98다6800",
+        "status": "verified",
+        "note": "OCR 사건번호 정정 후 판례 확인 표시에 반영(2026-11-11)."
+      }
+    ],
     "extra_civil_mock_3_021_unjust": [
       {
         "caseNumber": "97다32680",
@@ -2548,7 +2613,15 @@
         "note": ""
       }
     ],
-    "extra_civil_mock_3_114_unjust": [],
+    "extra_civil_mock_3_114_unjust": [
+      {
+        "caseNumber": "2012다92258",
+        "citedDate": "2015-05-29",
+        "rawCaseNumber": "2012다92258",
+        "status": "verified",
+        "note": "OCR 사건번호 정정 후 판례 확인 표시에 반영(2026-11-11)."
+      }
+    ],
     "extra_civil_mock_4_007_unjust": [
       {
         "caseNumber": "78다1292",
@@ -2583,7 +2656,15 @@
         "note": ""
       }
     ],
-    "extra_civil_mock_4_024_unjust": [],
+    "extra_civil_mock_4_024_unjust": [
+      {
+        "caseNumber": "2001다52506",
+        "citedDate": "2002-01-25",
+        "rawCaseNumber": "2001다52506",
+        "status": "verified",
+        "note": "OCR 사건번호 정정 후 판례 확인 표시에 반영(2026-11-11)."
+      }
+    ],
     "extra_civil_mock_4_041_unjust": [
       {
         "caseNumber": "2009다24187",
@@ -2641,6 +2722,13 @@
         "rawCaseNumber": "98다6800",
         "status": "verified",
         "note": ""
+      },
+      {
+        "caseNumber": "96다51332",
+        "citedDate": "1997-06-27",
+        "rawCaseNumber": "96다51332",
+        "status": "verified",
+        "note": "OCR 사건번호 정정 후 판례 확인 표시에 반영(2026-11-11)."
       }
     ],
     "extra_civil_mock_5_045_unjust": [
@@ -2867,13 +2955,6 @@
       }
     ],
     "extra_civil_bar_4_056_tort": [
-      {
-        "caseNumber": "2020다230239",
-        "citedDate": "2021-02-25",
-        "rawCaseNumber": "2020다230239",
-        "status": "verified",
-        "note": ""
-      },
       {
         "caseNumber": "2020다230239",
         "citedDate": "2021-02-25",
@@ -3123,7 +3204,15 @@
         "note": ""
       }
     ],
-    "extra_civil_mock_2_025_tort": [],
+    "extra_civil_mock_2_025_tort": [
+      {
+        "caseNumber": "2009다57033",
+        "citedDate": "2009-11-26",
+        "rawCaseNumber": "2009다57033",
+        "status": "verified",
+        "note": "OCR 사건번호 정정 후 판례 확인 표시에 반영(2026-11-11)."
+      }
+    ],
     "extra_civil_mock_2_033_tort": [
       {
         "caseNumber": "2003다30159",
@@ -3156,7 +3245,15 @@
         "note": ""
       }
     ],
-    "extra_civil_mock_2_050_tort": [],
+    "extra_civil_mock_2_050_tort": [
+      {
+        "caseNumber": "2009다91828",
+        "citedDate": "2010-04-29",
+        "rawCaseNumber": "2009다91828",
+        "status": "verified",
+        "note": "OCR 사건번호 정정 후 판례 확인 표시에 반영(2026-11-11)."
+      }
+    ],
     "extra_civil_mock_2_077_tort": [
       {
         "caseNumber": "92다29924",
@@ -3203,13 +3300,6 @@
         "caseNumber": "2020다230239",
         "citedDate": "2021-02-25",
         "rawCaseNumber": "2020다\n230239",
-        "status": "verified",
-        "note": ""
-      },
-      {
-        "caseNumber": "2020다230239",
-        "citedDate": "2021-02-25",
-        "rawCaseNumber": "2020다230239",
         "status": "verified",
         "note": ""
       }
@@ -3340,6 +3430,13 @@
       }
     ],
     "extra_civil_mock_4_054_tort": [
+      {
+        "caseNumber": "2004다63019",
+        "citedDate": "2006-10-26",
+        "rawCaseNumber": "2004다63019",
+        "status": "verified",
+        "note": "OCR 사건번호 정정 후 판례 확인 표시에 반영(2026-11-11)."
+      },
       {
         "caseNumber": "75다819",
         "citedDate": "1976-06-22",

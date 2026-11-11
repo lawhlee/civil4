@@ -5,8 +5,9 @@ const hash=x=>crypto.createHash('sha256').update(JSON.stringify(x)).digest('hex'
 const selection=extra.flatMap(q=>q.oxItemIds.map(id=>[id,q.truths[id]])).sort((a,b)=>a[0].localeCompare(b[0]));
 // Fingerprints of the approved 202-minus-45 selection and the complete 111 source questions.
 assert.equal(hash(selection),'4584007f4a82ad4d04ce5aca0bf8e28d20a8499ce5207dd4edf8facfb3252c1e');
+// Approved complete parent text fingerprint after the 2026-11-11 OCR repairs.
 const originals=[...new Map(extra.map(q=>[q.sourceParentId,q.text])).values()].sort((a,b)=>a.id.localeCompare(b.id));
-assert.equal(hash(originals.map(q=>({id:q.id,stem:q.stem,items:q.items.map(({id,label,text,contextText})=>({id,label,text,contextText})),choiceTable:q.choiceTable}))),'7be5bcd051901ea3927347af2006f65e9f8c5b6a564bd706b8c93c5c9743703a');
+assert.equal(hash(originals.map(q=>({id:q.id,stem:q.stem,items:q.items.map(({id,label,text,contextText})=>({id,label,text,contextText})),choiceTable:q.choiceTable}))),'708d4e3c84b8959e4ecba10a29c0e0f91b714b63b377d711db732dea8c4dd0a8');
 assert.equal(extra.length,119);assert.equal(originals.length,111);assert.equal(selection.length,157);assert.equal(new Set(selection.map(x=>x[0])).size,157);
 assert.deepEqual(data.selection.excludedNumbers,[15,16,17,18,19,20,21,25,30,49,53,55,57,58,59,60,61,62,63,64,65,66,68,70,73,74,75,76,77,78,88,105,106,107,108,109,164,165,166,167,168,169,171,172,173]);
 const topicCounts={};for(const q of extra)topicCounts[q.section]=(topicCounts[q.section]||0)+q.oxItemIds.length;
@@ -40,7 +41,7 @@ for(const q of extra){
 }
 assert.equal(images.size,357);assert.equal(C.wrongItems(qs,records).length,0);
 assert.equal(C.pool(qs,{...config,bank:'extra',status:'unseen'},records).length,0);
-assert.equal(audit.summary.uniqueCaseNumbers,119);assert.equal(audit.summary.officialIndexMatched,118);assert.equal(audit.summary.unmatched,1);
+assert.equal(audit.summary.uniqueCaseNumbers,123);assert.equal(audit.summary.officialIndexMatched,120);assert.equal(audit.summary.officialHeaderMatched,2);assert.equal(audit.summary.verifiedCases,122);assert.equal(audit.summary.unmatched,1);
 assert.equal(audit.cases['2016다12656'].status,'unverified');assert.ok(Object.values(audit.questions).flat().some(r=>r.caseNumber==='2016다12656'&&r.status==='unverified'));
 for(const c of Object.values(audit.cases).filter(c=>c.status==='verified')){assert.ok(c.verifiedAt);assert.ok(['law.go.kr','www.law.go.kr','www.nhis.or.kr'].includes(new URL(c.url).hostname));}
 console.log('PASS · approved 157 O/X / 111 complete originals / 357 crops / 319 total O/X / filters, grading and wrong review');
