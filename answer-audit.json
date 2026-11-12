@@ -18,8 +18,8 @@
       "civil_mock_2_057__ox_5"
     ],
     "statutesReviewed": 51,
-    "changedDisplayFields": 138,
-    "uniqueTextRepairs": 136,
+    "changedDisplayFields": 139,
+    "uniqueTextRepairs": 137,
     "statusCounts": {
       "case-reviewed": 411,
       "statute-reviewed": 16,
@@ -4140,7 +4140,8 @@
         "공식 판례 본문과 대조한 OCR 교정",
         "OCR 공백 정정",
         "변경된 종전 판례를 현행 전원합의체 법리로 정정",
-        "주체 OCR 복원"
+        "주체 OCR 복원",
+        "OCR 잔여 연결기호 정정"
       ]
     },
     "civil_mock_5_109": {
@@ -11015,7 +11016,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "1cbbbb8b38821e7959f002f6bcaa53172b38b04ee927150924eca94f7e426ecc",
+      "statementSha256": "413f9adb6141d9c48c918c69f1b1ecfa7314f1086e8736658231b115f1b3b292",
       "explanationSha256": "1c31d96b6fb858dcc7ff132db9592b9b0fa3c9f17a3936220d077ff51970fc3c",
       "cases": [
         "91다33070"
