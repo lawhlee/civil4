@@ -4,6 +4,7 @@ const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&
 // Unknown or changed text keeps its line breaks; no global space substitution.
 const lineBreaks=typeof module!=='undefined'&&module.exports?require('./line-breaks.js'):root.StudyLineBreaks;
 const textSpacing=typeof module!=='undefined'&&module.exports?require('./text-spacing.js'):root.StudyTextSpacing;
+const legalText=typeof module!=='undefined'&&module.exports?require('./text-legal.js'):root.StudyLegalText;
 function spacingKey(s){let a=2166136261,b=5381;for(let i=0;i<s.length;i++){const c=s.charCodeAt(i);a=Math.imul(a^c,16777619);b=Math.imul(b,33)^c;}return s.length.toString(36)+'-'+(a>>>0).toString(16)+'-'+(b>>>0).toString(16);}
 function applyLineBreaks(text,flags){
  const raw=String(text||'').replace(/\r\n?/g,'\n'),lines=raw.split('\n');
@@ -16,7 +17,7 @@ function applyLineBreaks(text,flags){
  }
  return out.trim();
 }
-function reflow(text){
+function spacingReflow(text){
  const raw=String(text||'').replace(/\r\n?/g,'\n'),key=spacingKey(raw);
  const joined=applyLineBreaks(raw,textSpacing?.lineBreaks?.[key]??lineBreaks?.decisions?.[key]);
  const repair=textSpacing?.repairs?.[key];
@@ -29,6 +30,18 @@ function reflow(text){
  let out=joined;
  for(const [start,stop,value]of repair.edits.slice().reverse())out=out.slice(0,start)+value+out.slice(stop);
  return spacingKey(out)===repair.afterKey?out:joined;
+}
+function reflow(text){
+ const joined=spacingReflow(text),patch=legalText?.repairs?.[spacingKey(joined)];
+ if(!patch)return joined;
+ let end=0;
+ for(const [start,stop,value]of patch.edits){
+  if(!Number.isInteger(start)||!Number.isInteger(stop)||start<end||stop<start||stop>joined.length||typeof value!=='string')return joined;
+  end=stop;
+ }
+ let out=joined;
+ for(const [start,stop,value]of patch.edits.slice().reverse())out=out.slice(0,start)+value+out.slice(stop);
+ return spacingKey(out)===patch.afterKey?out:joined;
 }
 function paragraphs(text){return reflow(text).split(/\n\s*\n/).filter(Boolean).map(p=>'<p>'+escape(p)+'</p>').join('');}
 function body(item){const text=String(item.text||'').trim();return text.startsWith(item.label)?text.slice(item.label.length).replace(/^[.．、)）\s]+/,''):text;}
@@ -60,6 +73,6 @@ function questionHTML(record){
  return html;
 }
 function questionPlain(record){if(record.questionText)return fieldHTML(record,'questionText',true);let text=fieldHTML(record,'stem',true)+'\n\n'+record.items.map(i=>i.label+' '+statementPlain(record,i)).join('\n\n');if(sharedReference(record))text+='\n\n'+referenceHTML(record,true);if(record.choiceTable)text+='\n\n'+[record.choiceTable.headers,...record.choiceTable.rows].map(row=>row.join('\t')).join('\n');return text;}
-const api={sharedReference,referenceHTML,contextPlain,statementPlain,fieldHTML,contextHTML,statementHTML,escape,spacingKey,applyLineBreaks,reflow,paragraphs,body,valid,questionHTML,questionPlain};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.StudyText=api;
+const api={sharedReference,referenceHTML,contextPlain,statementPlain,fieldHTML,contextHTML,statementHTML,escape,spacingKey,applyLineBreaks,spacingReflow,reflow,paragraphs,body,valid,questionHTML,questionPlain};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.StudyText=api;
 })(typeof window!=='undefined'?window:globalThis);
 

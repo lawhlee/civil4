@@ -1,8 +1,13 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
-const root=path.resolve(__dirname,'..'),T=require('../text.js'),C=require('../study-core.js'),Cite=require('../citations.js'),spacing=require('../text-spacing.js');
+const root=path.resolve(__dirname,'..'),currentT=require('../text.js'),C=require('../study-core.js'),Cite=require('../citations.js'),spacing=require('../text-spacing.js');
+// Keep the original spacing regression isolated from the later legal/OCR
+// correction layer, which has its own exhaustive exact-text checks.
+const spacingOnly={exports:{}};
+vm.runInNewContext(fs.readFileSync(root+'/text.js','utf8'),{module:spacingOnly,require:p=>p==='./text-legal.js'?{}:require(path.resolve(root,p))});
+const T=spacingOnly.exports;
 const qs=[...require('../questions.json').questions,...require('../supplemental-ox.json').questions];
 const baseline={exports:{}};
-vm.runInNewContext(fs.readFileSync(root+'/text.js','utf8'),{module:baseline,require:p=>p==='./text-spacing.js'?{}:require(path.resolve(root,p))});
+vm.runInNewContext(fs.readFileSync(root+'/text.js','utf8'),{module:baseline,require:p=>['./text-spacing.js','./text-legal.js'].includes(p)?{}:require(path.resolve(root,p))});
 const oldT=baseline.exports,fields=[];
 for(const q of qs){
  const add=(key,raw)=>{if(typeof raw==='string'&&raw.trim())fields.push({id:q.text.id,key,raw:key.endsWith('.text')?T.body({text:raw,label:q.text.items[Number(key.split('.')[1])]?.label}):raw});};
@@ -44,6 +49,7 @@ assert.match(repaired,/형평의 원칙에 비추어/);assert.match(repaired,/�
 const structure=html=>(html.match(/<(?:table|section)\b[^>]*class="[^"]*"/g)||[]).join('\n');
 for(const q of qs){
  assert.equal(structure(T.questionHTML(q.text)),structure(oldT.questionHTML(q.text)),'Table/box structure changed: '+q.id);
+ assert.equal(structure(currentT.questionHTML(q.text)),structure(T.questionHTML(q.text)),'Legal correction changed table/box: '+q.id);
  for(const i of C.oxItems(q))assert.equal(structure(T.statementHTML(q.text,i)),structure(oldT.statementHTML(q.text,i)),'O/X layout changed: '+i.id);
 }
 assert.equal(T.reflow('새로운\n문단\n\n목록  A'), '새로운\n문단\n\n목록  A');
