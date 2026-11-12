@@ -3,6 +3,7 @@ const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&
 // Every corpus line boundary has an explicit, text-bound spacing decision.
 // Unknown or changed text keeps its line breaks; no global space substitution.
 const lineBreaks=typeof module!=='undefined'&&module.exports?require('./line-breaks.js'):root.StudyLineBreaks;
+const textSpacing=typeof module!=='undefined'&&module.exports?require('./text-spacing.js'):root.StudyTextSpacing;
 function spacingKey(s){let a=2166136261,b=5381;for(let i=0;i<s.length;i++){const c=s.charCodeAt(i);a=Math.imul(a^c,16777619);b=Math.imul(b,33)^c;}return s.length.toString(36)+'-'+(a>>>0).toString(16)+'-'+(b>>>0).toString(16);}
 function applyLineBreaks(text,flags){
  const raw=String(text||'').replace(/\r\n?/g,'\n'),lines=raw.split('\n');
@@ -15,7 +16,20 @@ function applyLineBreaks(text,flags){
  }
  return out.trim();
 }
-function reflow(text){const raw=String(text||'').replace(/\r\n?/g,'\n');return applyLineBreaks(raw,lineBreaks?.decisions?.[spacingKey(raw)]);}
+function reflow(text){
+ const raw=String(text||'').replace(/\r\n?/g,'\n'),key=spacingKey(raw);
+ const joined=applyLineBreaks(raw,textSpacing?.lineBreaks?.[key]??lineBreaks?.decisions?.[key]);
+ const repair=textSpacing?.repairs?.[key];
+ if(!repair||repair.key!==spacingKey(joined)||!Array.isArray(repair.edits))return joined;
+ let end=0;
+ for(const [start,stop,value]of repair.edits){
+  if(!Number.isInteger(start)||!Number.isInteger(stop)||start<end||stop<start||stop>joined.length||typeof value!=='string')return joined;
+  end=stop;
+ }
+ let out=joined;
+ for(const [start,stop,value]of repair.edits.slice().reverse())out=out.slice(0,start)+value+out.slice(stop);
+ return spacingKey(out)===repair.afterKey?out:joined;
+}
 function paragraphs(text){return reflow(text).split(/\n\s*\n/).filter(Boolean).map(p=>'<p>'+escape(p)+'</p>').join('');}
 function body(item){const text=String(item.text||'').trim();return text.startsWith(item.label)?text.slice(item.label.length).replace(/^[.．、)）\s]+/,''):text;}
 function valid(record,id){return !!(record?.id===id&&typeof record.stem==='string'&&record.stem.trim()&&typeof record.explanation==='string'&&record.explanation.trim()&&Array.isArray(record.items)&&record.items.length&&record.items.every(i=>i.id&&i.label&&typeof i.text==='string'&&i.text.trim()));}

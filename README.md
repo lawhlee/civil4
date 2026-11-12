@@ -58,3 +58,9 @@ GitHub Pages: https://lawhlee.github.io/civil4/
 남은 OCR 오인식과 훼손된 문장을 원문 이미지에 맞추어 복원했습니다. `civil_mock_5_045` ①의 부당이득 반환채권은 임대인 甲의 임차인 乙에 대한 채권으로 정정하고 정정 사유를 표시합니다. 선고연도 오인식 및 사건번호 숫자 누락도 정정했습니다. 기존 문제의 누락 인용 2011므2997을 공식 원문 확인 목록에 추가했으며, 2016다12656은 공식 원문 미확인 표시를 유지합니다.
 
 검증: `node scripts/check.cjs`, `node scripts/check-supplemental.cjs`, `node scripts/check-corrections.cjs`.
+
+## 2026-11-12 띄어쓰기 정정
+
+O/X 해설 111곳의 줄 경계를 대조하여 단어·인용번호 중간의 강제 줄바꿈과 띄어쓰기·중복 공백을 정리했습니다. `civil_mock_4_055` ⑤의 해설에서 분리·누락된 문장 조각도 답안지 원문에 맞추어 복원했습니다. 정확히 일치하는 원문에만 `text-spacing.js`의 표시 규칙을 적용하며 문단·조문·목록 구조를 유지합니다. 원문 이미지, 문항 ID, 정오 및 학습 기록 키는 바꾸지 않습니다.
+
+추가 검증: `node scripts/check-spacing.cjs`.
