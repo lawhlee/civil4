@@ -45,11 +45,18 @@ function reflow(text){
 }
 function paragraphs(text){return reflow(text).split(/\n\s*\n/).filter(Boolean).map(p=>'<p>'+escape(p)+'</p>').join('');}
 const questionSpacing=typeof module!=='undefined'&&module.exports?require('./question-spacing.js'):root.StudyQuestionSpacing;
+const questionOCR=typeof module!=='undefined'&&module.exports?require('./question-ocr.js'):root.StudyQuestionOCR;
 function questionProse(text){
  const edits=questionSpacing?.[spacingKey(text)];
- if(!edits)return text;
  let result=text;
- for(const [offset,remove,insert] of edits)result=result.slice(0,offset)+insert+result.slice(offset+remove);
+ for(const [offset,remove,insert] of edits||[])result=result.slice(0,offset)+insert+result.slice(offset+remove);
+ const correction=questionOCR?.[spacingKey(result)];
+ if(!correction)return result;
+ const spaced=result;
+ for(const [offset,before,after] of correction.edits){
+  if(result.slice(offset,offset+before.length)!==before)return spaced;
+  result=result.slice(0,offset)+after+result.slice(offset+before.length);
+ }
  return result;
 }
 function questionParagraphs(text){return reflow(text).split(/\n\s*\n/).filter(Boolean).map(p=>'<p>'+escape(questionProse(p))+'</p>').join('');}
