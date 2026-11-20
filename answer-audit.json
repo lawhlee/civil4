@@ -6486,7 +6486,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "aeb8f30b424adfceba4fdde13d61cc2bbd03b889b4e6356124c6fc0e161d753b",
+      "statementSha256": "147707576950f6559bda9262ddccdd437892e68150e8eca50eadf533c817fe84",
       "explanationSha256": "8b60cd68ca361331de842e38d7872c3b9749320cb02b7872947fcbce10b1d92b",
       "cases": [
         "2012다15602"
@@ -6671,7 +6671,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "a375ab0f08885ae022f12daeecd831fc32010816b36175fa373a463359533443",
+      "statementSha256": "a6914373a95efa646f3a477057e00111775690d2a18db7f00fd80d064766385e",
       "explanationSha256": "5a8a6f7dafceaab2a5eb8cf0d4cdc723a75e8823e2f81f9db471cf5a4a97dcbd",
       "cases": [
         "2017다37324"
@@ -6690,7 +6690,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "50dd7afc02f4e9f291548f150c94dc3de2af511317052e39957ce2ce16f7dc76",
+      "statementSha256": "402764e6e3a8bd1db5ad7f5b946f08c913c3a147f530267ed79b242b2fb4db8d",
       "explanationSha256": "e8a6f8c40544bc30228cd62f34c00b606bb14c48b322b7ff01f8529534c24521",
       "cases": [
         "2023다315155",
@@ -6797,7 +6797,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "82faad8002b97223c80323cc4c9b671b139085f7e5a1b5e2b85fd682256f146d",
+      "statementSha256": "5441413ed9f9757587bb05a4f4b4a19439e37b558b0b51982e24afd4c49cf923",
       "explanationSha256": "57bc5b8c6aee94437317f5da5ab8eb80d4dc8fae274c837d251dd753b1cde121",
       "cases": [
         "2014다206983"
@@ -6833,7 +6833,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "bbb76a0336dfcbb1efc4b02c08784ce9507a36dc6cb5428c641556cda6446f27",
+      "statementSha256": "705127c76a9d38d8412cc37fbda1573659a1178f51c90b02da6215c6b67f3e78",
       "explanationSha256": "602b51225d3468bcf09acb86c6bd3f27dacc360a54220bd29534594e0c78ec88",
       "cases": [
         "2011다74246"
@@ -6904,7 +6904,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "64c2ffc7195f596a2f793456545d1a8d9f616756b4b51406f543d76c17fab447",
+      "statementSha256": "cbf883f9fe9d0b81bb0069d6f6124e0236a0b7898e5a490d790cea14a3ebc81e",
       "explanationSha256": "b3ac4b19a989c1495a97a0af0a621b0d5ffa627c20c35240ceb50ab1c4c3a735",
       "cases": [
         "2011다17106"
@@ -6921,7 +6921,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "45572e2ef090996452f3d4642d37e05c12f004d7067d1e5df6b13e6642b05238",
+      "statementSha256": "c1aa5223dcc4cb8b944ce967de146b3c364d4e9071aa1d6b9b772ade79fae244",
       "explanationSha256": "248f6f8630ca652feb336891f1c3945fc9b9a128e60551c9ca30f1d378d8400b",
       "cases": [
         "99다66564"
@@ -7025,7 +7025,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "446ee9e93ddf7c073cc570e3ccc6c9ce477675910ef22c95936bf219ae0444a0",
+      "statementSha256": "3289e1082f1e53205b39e3a334d76c5d2d3b4221b99b8d45d732ae7b575998a4",
       "explanationSha256": "6c465647e2b0fb3322862ab85f4fa0333837a040d31928607bdb90ee0254edb7",
       "cases": [
         "2009다76522"
@@ -7078,7 +7078,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "445b61574004b854ddb27ae78bff4604fe813bc1054051bfeec5ff5dcee6dfc1",
+      "statementSha256": "fc1c1ed55f57093cdf9dcb1c4021b89281dcf199dfb6f87d2616ad60d9c45053",
       "explanationSha256": "06c2c85a61a91c61f1725828f9d00e3f889a46d40130754aab1d0bcc5684238e",
       "cases": [
         "2004다27488"
@@ -7097,7 +7097,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "132bd9ed108a86da6a076690d02822a80ddcf85fa5027f55240699a1de3131f7",
+      "statementSha256": "d1944d8d1090700fb5c115ad9b6ad9d43c041944b86a168b6a199c0ed0be5c03",
       "explanationSha256": "f340ec067dd711b0ff076989e0992a806e603361726ed4dfc0b0acf814d8293b",
       "cases": [
         "2009다12580"
@@ -7131,7 +7131,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "481f10b6047ca93aea31cea49e8e75ce89c229eb33ccef2694a064fb8888acbf",
+      "statementSha256": "ec1334bad0e223d786c148210c8170738c255949d937354a483149056c2d07ce",
       "explanationSha256": "fe9e1239a08151b5d1011f2a004394a91ad0b1088748110a260a67892b412213",
       "cases": [
         "94다54108"
@@ -7167,7 +7167,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "d929adb9ae3543a4f76c0e0aad34c6c442a6f812e8babc6a2bb53def494d22d0",
+      "statementSha256": "1f350d11f29d2ff68bf7b8cf48e109232b15595c61888105cb13bd8580c15176",
       "explanationSha256": "b832bbc2c7d04f474a3c28f661d1198ccb9a5b4318c5667fc6abcd9714d37af4",
       "cases": [
         "2006다61536"
@@ -7201,7 +7201,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "d332598ee62648f5d6d4e113706af13070baf153585343cff6089af921e83f95",
+      "statementSha256": "b8db7aeed94096c35f7cc37eb0523c2d02643cb1f2c7f635e81374f60560143a",
       "explanationSha256": "2c34e80988936fbed4164be76780022e2b8f005dad14929c43e6025d85e52189",
       "cases": [
         "2018다204992"
@@ -7218,7 +7218,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "8857fa0fc1350af73d40a438e0834abacc3ce7f1cc45a5065d9b3d14e1bb9996",
+      "statementSha256": "41f33280d1e6c3787a934432419dab6c62c93ab424ab018d112e95b39f0072b5",
       "explanationSha256": "ba9c135bb27b96770f12c7d3db4a79535158025b8307e2165d25130acc4788b7",
       "cases": [
         "2005다7566"
@@ -7288,7 +7288,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "9c6c4c2c8efb3cddc13ff057919c0dcc99e747164fd95b91cfec93c9ea6c22a7",
+      "statementSha256": "71cf36ddea79b6f78fcba25c28ad5cf88d10d05c9f577e56fde4773b5758cb65",
       "explanationSha256": "934a25ef1a6c665b51d1817623d30ccd9d1dd36aaead6b26bfa31255f28c90f3",
       "cases": [
         "2010다31860"
@@ -7324,7 +7324,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "a3f7cdbcb0247146fa3900c2111eac6f1316aef1790b0ff3016f54bec1ade37f",
+      "statementSha256": "c869411b59f099a6262d96cbed1662d07cb588e56530f13858dcc15d8aa866f7",
       "explanationSha256": "d136122f022a3d07762a3e184b87af90115b33427de642d3bc06ad3bd39ccddd",
       "cases": [
         "2001다61869"
@@ -7344,7 +7344,7 @@
       "truth": true,
       "status": "statute-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "e3426ee61720be0d737c5f2f4f4f8d89558bc3f4c8b0f87d2d4c9a77180b8927",
+      "statementSha256": "e0fc7db8ca44a5018fad8e14440bb99638c7b66b0960ed131dbe71fa1f7d93fa",
       "explanationSha256": "f85eda421517598bb33426d1943c95fda0e7c20984bae48ac92f3f1b4cf78675",
       "cases": [],
       "articles": [
@@ -7361,7 +7361,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "70739f89e8618a8080c91fec95cf2e5aeb32336e61eed00a1237abb09a1ca63d",
+      "statementSha256": "007bb4d0365a8d08d023d0ded4bfad7bc404c8a7d9b251861c20d2a947487fcc",
       "explanationSha256": "64f3d377cde7af0fb759ef8ef77fd0d6cbe2b6e08654bcd4506702b25c430234",
       "cases": [
         "2004다54633"
@@ -7473,7 +7473,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "c901084091aa2180569ffc946da7b00a7d4e909ed4d7a6ad6f066fe97f2463f1",
+      "statementSha256": "73a989a45b39bb141970689c8692f370da70eead0809a642d59c0ffd55d0e510",
       "explanationSha256": "7eadaeb20504a63b82939cefcca976553591b115301261ca0ce5a306d6769545",
       "cases": [
         "2009다98706"
@@ -7547,7 +7547,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "87f162014516589c2f6d0d597a48a1a24f4dc02f397c5fa6588471614ba2af9f",
+      "statementSha256": "0f71455d231bdb8597aec70becb30ded1152876c89a219e313f06fdf49a0cfd3",
       "explanationSha256": "1cc584a0c3145d757861cdbdc127c9b71a862ba7c3438636acaeb65eef1d0148",
       "cases": [
         "2013다35412"
@@ -7600,7 +7600,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "9b5d7e5f3eb6313c7cc820be548b396231f8a7f9ff6cf50926d98845c1745b5b",
+      "statementSha256": "8feaeb159039c58eef038015fb5eb97185616c6264a8b50448cc1f0b20134631",
       "explanationSha256": "c2b7546d599763f497ec0a3a03802e4bf7f9c7826e7551409556c9ddaf48fa35",
       "cases": [
         "2008다55290"
@@ -7761,7 +7761,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "c61ff13b7af4f27d66ecd2bb02afeeb84cdb36de2fee0284c34ba41d8174d000",
+      "statementSha256": "e869cedc468e87de7db6fd076ea609a96f57624aae918ae9d78875f2736215c6",
       "explanationSha256": "c64846af27b21a43272c8f23d121ec0f709ae41ec77a04c60dda87011cc56360",
       "cases": [
         "2021다265010"
@@ -7795,7 +7795,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "6dcb0e011557d69795b838f4a777b496f7719294cb3d3eeedde7004dc212b9b9",
+      "statementSha256": "25cc831dfe32384e68c0824cf84b4c415762f6a3b6e4eb9eb561a0ea1696e366",
       "explanationSha256": "d862a3b9e83a1f6c71e64d8dff276fd416d53c93dafe6940d218afe316ac09fd",
       "cases": [
         "2021다213866"
@@ -7846,7 +7846,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "658dec6d6660ad7145926528800a16f195be43caebd6bdbfd41790eb417a6204",
+      "statementSha256": "2212db5e290ad1acb88b2ad1c027cb514366ccb539d77adc112610b132a305ba",
       "explanationSha256": "14049c795a1faa787093ef3a4e164845231b88bb4f1a785d53441f0a6a5f79ce",
       "cases": [
         "2019다268061"
@@ -7882,7 +7882,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "171dcc4b27b1905c95e76fccb703777ebdd3d0fa6bd93c21751b7d02c8f639bc",
+      "statementSha256": "cbc517284eb58c81f8e3253c41b0f3a5d2a16cb0cdfac713e225bf40494b303b",
       "explanationSha256": "4b352b1b2116b1bc74a39aeb2697737352c5c3c2d46c903374a1eab3d6fce148",
       "cases": [
         "92다34582"
@@ -7899,7 +7899,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "8f8461b105517cae3b67745d936e79bb8ddb0fa43436d3eda958f5131ebb8c89",
+      "statementSha256": "844d09745ba490295aedcc53e3a0514226c3999dd21fea60c885c496306d82cb",
       "explanationSha256": "64b5c1dea92298498b76ef26218a4a908de91e4598a02a772ffb0402b1a654a7",
       "cases": [
         "91다33070"
@@ -7916,7 +7916,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "77d0e7291c3ff62b72796f7177ebe24ba2b204450dfffe023f6ad3696c6426c5",
+      "statementSha256": "b6e6b7f7114f20ff300306600521128a2d4426fd5e693fe445dbc453425c07ce",
       "explanationSha256": "817dd3b5b876a5ca08ecd9399ec4d62b50808d23e6d1d061059ce6e20b3429d1",
       "cases": [
         "2020다230239"
@@ -7936,7 +7936,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "ffd1c9e12eb51e946413317712916c2050016f5c5303a6cac65700b8aafac6fc",
+      "statementSha256": "3c6b3b4c55e6c69b6a7598f77bb15424f438a990f6ad92765c296e3771e7e676",
       "explanationSha256": "26209fb3d82eccee672146e74eaa839dda19e39671d7432f7e637703b37780b1",
       "cases": [
         "97다39520"
@@ -7953,7 +7953,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "3e85fd91e7fdbb67364d90f5fb866a2beae5cc44541c9d1c23305df492b8941a",
+      "statementSha256": "1c46d787cb29935c08a2aa6656eafd0fd7a236ee8fb866159c1810577eeb16df",
       "explanationSha256": "5d5d2aaca6fe924d4974023461045b145e1e4f61b7c1f2b1dbd2bb85c548a344",
       "cases": [
         "2002다15917",
@@ -8026,7 +8026,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "1e7cbf4e2761c9c4b1e22f0888c1ed5c27f9e0b43344ab1f62c21d37491eaff5",
+      "statementSha256": "748646dd5c8dce0e7bbfa9c3856263b5637ac623138bb2e845baabf4787721aa",
       "explanationSha256": "6f0fc002b3490914d1cae8c93c22f0bed9b8c54e0f761150cb045523d29836e4",
       "cases": [
         "2017다227103"
@@ -8060,7 +8060,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "0060d00a7d550ec63dc21431d313fb3b5eda66677b13037444b666ec135b8bf6",
+      "statementSha256": "726e582005842480f2d4c31c59f66d8341d322ff446a3aecd1eceb69d32aefe9",
       "explanationSha256": "d0139c78c5c357479661ad9a91c7aa1bdf16102bde0976b36adb9c9a9a496217",
       "cases": [
         "2000다56952"
@@ -8114,7 +8114,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "86f5f6b1d34027a4bb859156664af75739161f168cace2e69964c8eb9308ea1b",
+      "statementSha256": "e21a65f0113448dfc6bdc7ebef0e7d6c7c866cbc921957f45d630c3165693cc6",
       "explanationSha256": "a000cccc27ef5c86d1d16317e9dc302a9f7983cff8611bfd67ee5638cd3d5152",
       "cases": [
         "2017다865"
@@ -8131,7 +8131,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "dd34b0b83771f99fb11056b32b5fb1b3bc9a422448f844a281993ba98700529c",
+      "statementSha256": "11ee9e7e11fbb2bcf8826311d34273dd61d5d010a149067933bd5c8897f4b1b5",
       "explanationSha256": "28d9d2c7f516829f6f4617023d4e6777b3c583ecec4756d01599a3856620d738",
       "cases": [
         "2008다97218"
@@ -8148,7 +8148,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "7f74b59826c6ad37b6636eb330b7aa913df16c435b9cb07a2ed3921d73b3248b",
+      "statementSha256": "27a947df5ccf8d66b38c9abe3983383b7464d67de37945d34cef0ad5b076a6c8",
       "explanationSha256": "6dbd81a552f5c5745fbf718519a8b77692d13fae903bad4afbb290da6ccb35b4",
       "cases": [
         "2005다32999"
@@ -8165,7 +8165,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "122b27b5d07f2b43feba00259218b17c1836f5336a980e1514f065e9704710c3",
+      "statementSha256": "1469f4c2600abd8e5649145f539e4bf6a66757fa806cafc3f0f5493d6116e51e",
       "explanationSha256": "2b114e1db809003f89c37d82e36f4619cc9a733934324bc25037436501464567",
       "cases": [
         "2000다60227",
@@ -8184,7 +8184,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "c804a164876596efc074a311f97f6fbb7d58d9fc495a449d0a4978a658adedf4",
+      "statementSha256": "aa4e799b347d9aea36ce8e28ca61bef5929f1a13816022dcf08546186ab42d9c",
       "explanationSha256": "8c861b0ca3b14c8bb14ec54a1de97ddab9464bc775c0c810247052476c495fcb",
       "cases": [
         "2008다97218",
@@ -8226,7 +8226,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "29a17a884cec1d1c7e9e9f685e16ef5c592e698292fd4c551981045ac75c60b4",
+      "statementSha256": "2b43c9f6200b4c679fcdb614c98549da8f9331087e87dfa6805efaad52c900e3",
       "explanationSha256": "b4a4633a526c8d1ba4c8f396e80c7f077a3c8bb823c5525f67ed684c38356bab",
       "cases": [
         "2001다24655"
@@ -8243,7 +8243,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "2785f6eab6b5492deda2e539794876735b835e944e774c134b2f140d53b80d98",
+      "statementSha256": "e5c297272b131161f04f8217073e6df751296dd7b52f769e36ad22a3e5da94f6",
       "explanationSha256": "3d494dde8e8d7f3ccfba276c1f20c1703097ae80f321031cc768b8ef529aad88",
       "cases": [
         "98다53141"
@@ -8260,7 +8260,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "0dc5c4d4b737632648e0d80084ebd1f552cc316e1280e514d8866d981ace88ee",
+      "statementSha256": "0b5d860b5ded97f0653261128149454892f38fae736810b3ea18e4af272dd4f6",
       "explanationSha256": "e142e349dcc6e3e543d77f43cfc2d97c99bf9c1072dcf235220445befc4d3b71",
       "cases": [
         "75다1193",
@@ -8312,7 +8312,7 @@
       "truth": true,
       "status": "statute-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "f9c409238c3ace9b25b357039cd7f0c7e6f37f8ecff1ccac556b991c200649cb",
+      "statementSha256": "ed38fee676c2c29428ced860813217b11daae26e1eb5433171260340748da2c6",
       "explanationSha256": "f1fccdce720c22d29b4c343805834f71d1af98af317080798d2a9f3a6ac46898",
       "cases": [],
       "articles": [
@@ -8346,7 +8346,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "ee9d1fe2769ee6365f7214c57d10824a12102b7c488022b9fc05f8ff5fb9b88f",
+      "statementSha256": "90a2e2359d7eb790ab6f735bdeb40395c7c151650f12cd424555429ad3b52137",
       "explanationSha256": "de4f99bc1001401c3daa72203e3c86c47f435cdf3311567bc332f2facb871af7",
       "cases": [
         "90다20206"
@@ -8367,7 +8367,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "2771c4325315745dad2fc39a5c9ce81434effb16b918db77215c50ea44e9f2aa",
+      "statementSha256": "a1105281a4e321ecb1322245b1d58ad7e9459dc279200757a2078f18057d1650",
       "explanationSha256": "89c6318f60867210adff668defb4f6d4979d5334ee4f02c44396f4165fa03654",
       "cases": [
         "93다40614"
@@ -8384,7 +8384,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "54043c7a01a51cb9560d9f382d549fae3da1a517c1910c5eb0796718c16b9949",
+      "statementSha256": "227d94a947211708888273297163fbf1b51cddf97cb2220df494b7248379e0d3",
       "explanationSha256": "2757f74dfd5a03cdab0b5d8f8118b8e2accfa0385ba022aa11c28d4d15abd42e",
       "cases": [
         "99다70365"
@@ -8556,7 +8556,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "ee168c390a12f87f50e7d46ae0ad8f99672733e056d3e5d248941088f4c25102",
+      "statementSha256": "fdd14c7396e6f4bca791e84c3cefdf91066b954bad65c448c4249bbac7731497",
       "explanationSha256": "d65e584c2f94022861630cea321fa37e2b437a7b416cb629ced5dac7ece750e0",
       "cases": [
         "90다14423"
@@ -8590,7 +8590,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "e0a92ea076aaba17954f4d439a3e33c509f3b3e96a3bb946239579217571bb8a",
+      "statementSha256": "24b27543564a7b1ed1a056524463cb6f56084596d246ddb75c48e040e5ee65dc",
       "explanationSha256": "cb4a81936f39cf6ed6c6ed710cd20fbd71c6693a4deb08c5cae4ea2e65de4a20",
       "cases": [
         "2003다24147"
@@ -8607,7 +8607,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "62c56e4ade853c5f4b5c43a2f3016e0de4f07a91ad9e90c6b4890aba7b259e98",
+      "statementSha256": "94cdeb2d5d09d827ab1332c3761b760348726a51aa6a515748c14c0518880451",
       "explanationSha256": "c5db0d5b31eda6a4553cf75583fba664491e6bd75b716a3bd99a4e4611c8071b",
       "cases": [
         "2010다52225"
@@ -8742,7 +8742,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "318bbdc046f35bc7e12c4e07b43fa8c760ecbfcc72ce1e3d989a28ce08d241c3",
+      "statementSha256": "682c1e91f7865f2ba19953a079dee95d6c64e8b97dc0c8f54101e10ac093ee39",
       "explanationSha256": "cd40f447d036d0c9de2a90708f9154aed429854aa08cd0dfbfb2822be0ad6006",
       "cases": [
         "79다1107"
@@ -8759,7 +8759,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "c1a61dc5f8fa9ddd763cfa273cc6000b92383f318a2ffd68c47b3ab5ec137431",
+      "statementSha256": "4b3bd8e544e22c4f170784de247c8e98abdbca84bb550608717a8f1040270bbd",
       "explanationSha256": "9692cd0246c9a74ce126014b2f80775e5db8d405acf7811afac0ec9b87424aab",
       "cases": [
         "2004다63019"
@@ -8779,7 +8779,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "c47fb61bb0cf0c22ad41413e92910b23e75d2c55d06c025ea900078653942e89",
+      "statementSha256": "8bef9a6102e2db50cb66824831bacf3196e7b7836b4c2ba38dce81620c21e671",
       "explanationSha256": "b8e6eaabad970dd8d871371986f767c8efa7dbdca76aebd380d4de3619078b14",
       "cases": [
         "2012다74236"
@@ -8813,7 +8813,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "4c49f89e57382a64d7a59008a406dfb636cab5db24eb0a8a4f5568fcc5a0d155",
+      "statementSha256": "cbcca6d136428cc69b3b71af0c7db4d04dd8744ec0d7cf88bc716ea78afd60fe",
       "explanationSha256": "5c1d051f0790ad2a3595c6c3d29084f9528eb089879d4ecc28ca9764ebc7a099",
       "cases": [
         "2003다24147"
@@ -8830,7 +8830,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "21b22ec378b525abe418e9385fee04c82a9a3a07903d85a64281a8bb5d949d67",
+      "statementSha256": "57010ee66c689d7079b523e0c050cd2509bd66449acf3db2b5d79d28f85949f7",
       "explanationSha256": "eb5af7cf60fba56ded574a055e46c6bd6cd00d9a31370aec97df251519dd4e71",
       "cases": [
         "96다7854"
@@ -8898,7 +8898,7 @@
       "truth": true,
       "status": "statute-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "27e3d9c2aa45ad4a7b9d2adedb659769b179015ccf973d7e5393fe55e37fe6bc",
+      "statementSha256": "b08a242a82b127362fe3dd07df39818c99b3d959735e710e03ae457d71a87293",
       "explanationSha256": "2db0cf26e6ce48e56c931939e4ba93ff009dab80b0d9e86cbc11d25dd1ddb09c",
       "cases": [],
       "articles": [
@@ -8949,7 +8949,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "560b5aa25480b74b2aa9ff574d136206df206e2c4cbe4a939848e7bded523a38",
+      "statementSha256": "d60194ccb67cb534b021e53835570ba5bc9a6a27eab2bbc2339a9ac5252d3af0",
       "explanationSha256": "14ec5e59e8225da0793c185d388fb7a521e307362a7ee384ddc3d901647bde60",
       "cases": [
         "2018다284233"
@@ -8966,7 +8966,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "f236545f94fcfcff28f3b999f4ddd85a397e8fb8e05a2acde873a0b95e313a25",
+      "statementSha256": "bded12163ae89340026f84496e6a7df8997a333ac19a0f0062febbafb9002752",
       "explanationSha256": "c2f0b14bc46e50eff0e51a3a48b4bbf3f2bbdcbf9ec676fbe7499d603836f979",
       "cases": [
         "2017다257067"
@@ -8983,7 +8983,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "809e5f9364ec51372fc28e5af80a746838b8d94ab1e7be2d8ff4e5c56599409d",
+      "statementSha256": "5ec3bc254fc422a75d294a7a0eedb7e7d8e2fd6e836652f98080845f22ada84b",
       "explanationSha256": "c961225432c5f6486a3be8079ffb265a68059ce1b5b605c14499018c82237752",
       "cases": [
         "2022다296165"
@@ -9000,7 +9000,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "13d80b5ce060a1452dfa61ebe8e66e0aa68951c2b8110cedcf92b98915ace456",
+      "statementSha256": "8985c63441b59442194fbfc0b18339df99746a28ded03523c01fa3ac65453777",
       "explanationSha256": "4fdd8f0625edfb8e0985caf3db11c8606eeb8c7a23cccd179b967bc5ecb06691",
       "cases": [
         "2023다257600"
@@ -9017,7 +9017,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "2498b1c829bd803a959aa2264fb4f276fd83afe72f2d9bb3a6c2dba82b7d08bb",
+      "statementSha256": "37bd69a56ad5daa240392db97f16d074347d611b07f0b625c45f0e829c922bd2",
       "explanationSha256": "351e15516eda6f962267db7187251d55c261791b12e981470aa833e5f1372e2d",
       "cases": [
         "2017다216523",
@@ -9054,7 +9054,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "4a603a0ebacee09a5a7b2cfd383596f55335fa7b43f13c1ba637aec70fdb4b5e",
+      "statementSha256": "651f9842aa6e8fc636feb096500030913324d6d81c4bbc83eb443a1a8bf12dfe",
       "explanationSha256": "ffa32c45171c629012bbab2e3905e50f4623649f62f586671adfc75530391f1d",
       "cases": [
         "2022다296165"
@@ -9141,7 +9141,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "d0045f7ead24d8254c829110ab20f9724776c259b71b39882712dd4acdf97281",
+      "statementSha256": "d78fe04247306b5b534f006137075d35a771b91a04bba0e3c62e4f477c3c9bc7",
       "explanationSha256": "346fbf8e331a5da9e7897bcabb353c224c16b4921f7e8bbe3a61d87757ac013f",
       "cases": [
         "2023다228107"
@@ -9175,7 +9175,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "e4a0e1dd41feb9ef92f84fa42fab6d181cc102168c55a61911f7288e4f3f69f4",
+      "statementSha256": "39644d0314d9a570278af7c7fdc6aa0cc1fd05d7130fa3a84a072cf7178b3bff",
       "explanationSha256": "68d2e401c12d468d69f28f30192117370dd53accf0391fed1b42de33f695c73d",
       "cases": [
         "2014다206983"
@@ -9192,7 +9192,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "3215ba670d479d6d2a63e76f13b11acca9bf4c75660a7cc0eaa6824d384e6011",
+      "statementSha256": "171a59ddba6ca1e912323d23632a984f9eaeaa26f07b6754b0cc890ca1a34043",
       "explanationSha256": "199dd99bf34302708bd95f74314ba071852f09f069ce3b3a913b64706a3c41b3",
       "cases": [
         "99다66564",
@@ -9246,7 +9246,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "c493c9d98fc66e2019fc4e0bb809fce4f2886c90bed9c2c63c820ba6801b2af1",
+      "statementSha256": "fa9ae72f25368c61bb8774fb319db99ff577bf42b63c882f56444aabf87be02b",
       "explanationSha256": "44d76f3a428fafc7930d7c5fb5ec2f400ff00208d71bf6a0670dfb87819e6de4",
       "cases": [
         "2014다2662"
@@ -9263,7 +9263,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "95a8065400d037830b48329023797d1404e3a09cb5649924b9bfd53ddbb70160",
+      "statementSha256": "d2b363bfb4f9db603e25ee964e942aad561e9223de160c87a9397521bbb7fc51",
       "explanationSha256": "4fa4242bda24339005cedd02b99730e3234994e496da3a6b931d695aabb699f8",
       "cases": [
         "95다44290"
@@ -9350,7 +9350,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "b36e205f44b24c61cc6aeaea661b8d62388c61618092cc6a0ea7bca807438884",
+      "statementSha256": "4356f80a3491af7ca0e3697fcadfba8afb971e20284ca00f1e92cce399924732",
       "explanationSha256": "6540b60600e66d4811f50f9988c0493e166d78d6b9967ccafebefbc035bd09a2",
       "cases": [
         "2017다220744"
@@ -9407,7 +9407,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "8a407b7c304e2f9c1f9f8caffd4923dffe0c6d7f251071c55d62b5d7c9c18443",
+      "statementSha256": "06513b6f93947d615cd1969b222179e9960b80e1fc57987c4ec29eeae959c5f4",
       "explanationSha256": "dfab72f43ebadb16f5b889cb778e8a38e69b67b3d1c64ca3a6c049738e24053c",
       "cases": [
         "94다61144"
@@ -9495,7 +9495,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "3d72d089e796b86300fe7c8d4301e5a7cb9f6681eaf85657eba021a172cdb061",
+      "statementSha256": "dc0662d972f726a9e89f527e2a7c789b0015dd0c3b32188c921f7add85f2f9bb",
       "explanationSha256": "56a0fd536d94722fbecc230b891a295b232b148308c26171e592d4b5b4698306",
       "cases": [
         "2003다8862"
@@ -9602,7 +9602,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "c623ec709d526f7753bae7a4011cb458e0fb3a7fde193bb37429af9e00a50a74",
+      "statementSha256": "4c5bf1ed6b4b8228d84b1c2f69d096bfc1d2f96b1ea580bde10750240a5197a8",
       "explanationSha256": "eba6f684f542a540611b3a8eb8a37f4cc69eb65ea94b68eb9d8cd1abe11d60a4",
       "cases": [
         "2019다298222",
@@ -9637,7 +9637,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "b8bfb6fe36e2216a3f68289c5b291b6af8435449d8b4c6c97b2ed9b4527c9207",
+      "statementSha256": "0dbe2768cee88c63363a2170a9cc3b8244d61d703fecee4f03aac86e42543e4d",
       "explanationSha256": "59d17bffb0bde357cb8ea4a13261bc715b8ed2bde068b33828b0d20add0a8599",
       "cases": [
         "94다54108"
@@ -9795,7 +9795,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "86c79da0567797cb9976982ebbafd3e2ee95a88c1b420435f5a4511da7ce777c",
+      "statementSha256": "2058faf42ec489b0ad20a8ad465887c93bb9ca73794cc58f4cbc9de8e4fa0d1f",
       "explanationSha256": "09f1c4915a33d47b47f07ba598f2ad01860b349b807c6f0801b32c8ffd63286f",
       "cases": [
         "2017다207727"
@@ -9884,7 +9884,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "63d1f87a1bb61f57345969e63b33aafebafe6721647ad3242705d24f8799527c",
+      "statementSha256": "5b8ae9bf87dec28f7bb0402e5f4c66097875f265cca8f8b0c2cddc3c858e6006",
       "explanationSha256": "ce7cdf53b3109e9b09210c6b1742f70535f10d49e476bca473937ea4289697a3",
       "cases": [
         "2007다37394"
@@ -9954,7 +9954,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "2b18b0103d7ce92fed14c4ef54b10166197c962f506dace4d1a5913f66fa721e",
+      "statementSha256": "ddec4c4f875a6f9a1c5326b13deb8df270c7f2dbc10f6e5067b1721f482df109",
       "explanationSha256": "0f2a3092fa6b6185706613dde96b2f664d95ac9fb88fb4d7ab16d459beadf9cc",
       "cases": [
         "2017다239311"
@@ -10005,7 +10005,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "bc48ab78e6ec7b5471d0b2fe9592ccfebbe6afeac7e2b88f5fd459c4bfe72cb7",
+      "statementSha256": "af90a240f8bfb0ad11b82f1dcabe1ca8ca0af0d2e0a866ea65a652394855732d",
       "explanationSha256": "f34b90efda0721b494cd06758c1546e051c54998b372e49cc3d2fca885992359",
       "cases": [
         "2018다248183"
@@ -10022,7 +10022,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "a4a633492ae770596c62903fbe566ac3b593e4e2cbabcb082843f2ac967619bf",
+      "statementSha256": "926245b302eb189bc1de8993b7d10e27a9704072f7685f3140f0ff4f190189fa",
       "explanationSha256": "1050aadcfbbd8cb031bebaa1d27939a725ca5f1e37c662c91364583a1b25d6a1",
       "cases": [
         "2012다74236"
@@ -10039,7 +10039,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "db2b9e338cffcc2f9556d9c0f2ede08c0124d395d1d02681a5e4ceef2a65ba13",
+      "statementSha256": "874c66d3307acf6b1e58de63eaeaeefae3d435cd8aa72076ae1ed991647cf2cd",
       "explanationSha256": "eba580040ca91dedcbdfd407aaededa0e0273861317ef4b015581e32975dc4c8",
       "cases": [
         "97다42830"
@@ -10143,7 +10143,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "62bfeceb9199a405237336610f2e79ca414912a90a0ccdda136d2d0d94165019",
+      "statementSha256": "654437638652633a55bea1bbb3d23c76de7aecaad639e4220fdef258ceef9da5",
       "explanationSha256": "787491f88e361112eefed1af628e152f40839f88d50831b06cdb6bd771512fdc",
       "cases": [
         "96다30182"
@@ -10230,7 +10230,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "1a3693fa8bdcbc4b7347851f82fc81fb78a9c342d3d1d471651b44b05585b8a5",
+      "statementSha256": "a4d1cce5428deb4cbf5d6c7e9e53635922c0e27a676b0ad7cde49a133b73255f",
       "explanationSha256": "4024cdadd846b2f999a855ef2032ccad831e89d66b057d922adf0eda4daaad24",
       "cases": [
         "96다38971"
@@ -10315,7 +10315,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "91d85921b15ce706aa877c47c9e42a98ddd56657a191fd0a2a13ebb37b41bff3",
+      "statementSha256": "99890af49425bb6ac8e01f1abc6f077215a664a85057ce633729bb44fbc6e3ee",
       "explanationSha256": "a03728c9c98781ba12ba162da97580d8a08732b73b42f0088c864dd7a21a194c",
       "cases": [
         "2002다34581"
@@ -10368,7 +10368,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "4bdbe80963ae4b5b29a2f1f5c316ae43c988e559a52a091c06a6836345fba6f5",
+      "statementSha256": "1e126ee371ea1226694e97769aba0b5f8f1754519a5e0a715ce97796009b8325",
       "explanationSha256": "a00f9b59960553f9458fe548417fe2a02e776b935fd07ef84b46d286e7eef741",
       "cases": [
         "2013다31137"
@@ -10437,7 +10437,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "b791a997cbb1798353fafd32b3d95a6025f6978936f0f65422cb165d03572fb3",
+      "statementSha256": "ba5bdf943be63898d717d3a8c7a07f53c4c7be4cbf75872ac30bf9e038e9c474",
       "explanationSha256": "752ed2aa2f516f5f2674f1b80f9c2d60fa76500f673bfa8caeb939a3db0f62fe",
       "cases": [
         "2017다261882"
@@ -10611,7 +10611,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "0ab50cabef919bcadc68f1c7ae6d2ff9c3dabe9e9b752aafeead3b5dd7a52e7b",
+      "statementSha256": "92402fa0d76b8b7c1323c28a0d0ad8c33411caaafa2ea21346f773f586549ce8",
       "explanationSha256": "1886bfceaa3e31231a31f88b3b6ccf1dd851699bf70c4eee100e887451603e86",
       "cases": [
         "94다48257"
@@ -10662,7 +10662,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "5d8debfdac9b35f42cb7ad60fbcd3799acb601d17f7ea2b435fcfd2aa6e13e76",
+      "statementSha256": "4511e8c2c425c1fecca6044d8cfdcf4baea54008d3df573cee9904d46071cdd1",
       "explanationSha256": "3c4d364f9e0c9ada27e827b8c67574c2e7d4dec81a04bef298fefe6016d3c7f0",
       "cases": [
         "97다42830"
@@ -10748,7 +10748,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "bc8bdcbb0badd9297c3487315c8bcc4b4154916401bed0ff317a3bec5360dc5e",
+      "statementSha256": "d4a4fa2127c592950f3041fbcd7c084f66ffe86c85cffa2c2b6c7f53a216a653",
       "explanationSha256": "20cf16c915f4d8707fdd2bd820cd9c89c96cd9ae640ee5abe8c0f964c80204bb",
       "cases": [
         "91다33070"
@@ -10765,7 +10765,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "f1a0c674bb113639684a9d9288da6b7bcab1acbe674590a284f22d5b098cc153",
+      "statementSha256": "47d9815cffbf9265ed248c19d00cb2151dd27d07d1a4fde538907c1a4e28c4a6",
       "explanationSha256": "9f2891f477fc76728aded42b2b44563a10383018722e85af8fcb3946c946ea24",
       "cases": [
         "2008다89712"
@@ -10891,7 +10891,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "162803744b7f06b76aca77432d03d72ca83931f8f2f29e033c89a24d966df40a",
+      "statementSha256": "a887ef5294d54cad2b03e7dbcffb9981a0d2cc6f48830b962d6c52a55240ceef",
       "explanationSha256": "2bc2a4d1970ba1eaac16a28a900e5cecb8de1226e47dec16f361fb219e4dd866",
       "cases": [
         "91다33070"
@@ -10908,7 +10908,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "402bbf80dcb446c27ee7e2b36f0456090f91f141ee0ea355822f13b6b3c5fad1",
+      "statementSha256": "24b1418a4f00ad62e1489fb76e6388133ef2689b8d18cf86127bdc92dcd20306",
       "explanationSha256": "39ce9629722799d3611db467b43750549acecedad9e24ddad6f45ea4183b6476",
       "cases": [
         "2012다74236"
@@ -11067,7 +11067,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "de17c0cd69fc12f5f1bde869b86a7bf01fbf2aa7260401f0208acf27bfe8a273",
+      "statementSha256": "ff15fa9b5b9f4b75fb5a7a81bb42ce0910cd8fa754a1cd854dab916382a3d623",
       "explanationSha256": "a20ce7b62a0da36f7c7a35748ebbf6de46cf88e5e358f125691f5d64460da5a0",
       "cases": [
         "2013다25194"
@@ -11084,7 +11084,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "2c5671de34240aeb997f088c0e4ec29b191f7632025aa125bc68c258fb2c813c",
+      "statementSha256": "23ad00ce4acbd5a46bd185f1c88fd9cb6b4c91fd296121c8faa8d033f7e42ef6",
       "explanationSha256": "2e47ef009fd7586ac89bfcc5eea551dcee078b298722a8c0c6a366e061179915",
       "cases": [
         "2000다56952"
@@ -11121,7 +11121,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "a8618d3db83e78819fc00120ac3422de99a6a8f71f0b88787d8361802b6460ee",
+      "statementSha256": "9b1e7d3b5f3496a65722cfb46246b426ce8c82236e28f085e7752a30edc92bb8",
       "explanationSha256": "30d9d56810332fd3e95a4a07e07a6b9979ea91ac9caf7907a0c6928df3e53c3b",
       "cases": [
         "2005다32999"
@@ -11155,7 +11155,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "5631cb81d43d30baf1e6ed6129a4edcc124b210dc234d18516f827534692e0e0",
+      "statementSha256": "7bd0d3a42072a2800ae32f4ef715fc7ba0c2c0d1150363738f702344721a8093",
       "explanationSha256": "ee8f82b657f044f41ed19b884f07ae15afb380532696d4ac536b3cd28defcfbb",
       "cases": [
         "97다13702"
@@ -11284,7 +11284,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "c40c4c050c8673410720006210e16745f78517b0eb1d01d2cfb50d76e411455d",
+      "statementSha256": "78c7f466d65752ee1c86fd9b637e88682db098d9d75c199538d81b3d0c5c28a5",
       "explanationSha256": "1cb488a04ff6ae0d153883419e9373e77257775244a0a5979b89342a94ef37fd",
       "cases": [
         "81다209"
@@ -11336,7 +11336,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "fe105ff45fbd37d2a07476f1e359c64a64e55c64d98c957f485a62720642d543",
+      "statementSha256": "2cab2df73e86df228a92d24bd5b2c673fcc7d77df0c50a2a1237be737b8c9cda",
       "explanationSha256": "90b4bda9bb9a57327686d2328b54680ed154671b02775388bb9e514df65276bd",
       "cases": [
         "2013다218156"
@@ -11429,7 +11429,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "3cdfb7cbb840dfeac0a827196364153140e13923295996b26c69bb68d784e09f",
+      "statementSha256": "e888b929adfef0db615a778365704ff1fa325577343020da2f21c8ce52350842",
       "explanationSha256": "c6102ed3d5ac265f93a8c15415437d0e5a587d5157baaf5e72ecee85ccc279ee",
       "cases": [
         "2002다64957"
@@ -11484,7 +11484,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "271cf7d4e906fac9dd7733562597576a56faf46cec74f9a8e62221ad787a89e1",
+      "statementSha256": "a60efc50e7419ef34adffd2181142821f371c5a102cdd98db1f65d93cc93be4f",
       "explanationSha256": "badfe0ee3e2871e3d6caa279657f5b41c9c734f42b45a97e5a4045d28bef978c",
       "cases": [
         "2015다210811"
@@ -11501,7 +11501,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "e350cea2e20e06be5af74a995233a1d9cca86a12162e9db5264de216aba1ff6d",
+      "statementSha256": "199b3d6e2023ff9061afd1d9be894f863498fb8feb79b9a6fbf2336eb425a860",
       "explanationSha256": "caf9e1175b31305f3fbbf49fb4dcd24007fa4fc0d1bcffb012b810551d001da1",
       "cases": [
         "2009다23313"
@@ -11520,7 +11520,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "06109a14ddb4743b366f8ed3e868bc62529528cf4d45d7c75826e221c1436586",
+      "statementSha256": "7f7881f64bfff6223d32ed500bcbcf367666d19e9b303691905a839d14062df2",
       "explanationSha256": "1d8f8fe4f820a8138fc6684b8237a8ed082d9bec62150ef98f0515dbbbe0ea31",
       "cases": [
         "2001다61869"
@@ -11540,7 +11540,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "657465a3278f47c1bbc821b10784c81e46b4327659b2a2c6485e33c11f41022a",
+      "statementSha256": "f331708f8b8aead5a047774c9cd32b11f6e6c7f2b5f61d92e2cb15c1610ec041",
       "explanationSha256": "870514b75170813cc50f21ceb7474bdf15cd7a2a1fb38af5a3942a8debcf09c2",
       "cases": [
         "2009다15602"
@@ -11593,7 +11593,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "5497a4576a1e14e63c17c8cf42e2aa6de0ba21649ad8c740ce50059b12cda6ac",
+      "statementSha256": "9afe3a7662491b0564100ffbdd474b8eaafe66dc3a0d80523af40fb081cf67f8",
       "explanationSha256": "125fe9d9b128433b41813ffeb423a9ed068817d321e7a426cb553c9eed28af6c",
       "cases": [
         "2012다92258"
@@ -11627,7 +11627,7 @@
       "truth": true,
       "status": "statute-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "b61de3a702a84f74d20f4825d4ccd3351e2bef09a9524d121b5de3ce78d9c7aa",
+      "statementSha256": "09c45b9615a1ff215a820b13378a6807ab773d45f0c6ba153a63e304ec3c8960",
       "explanationSha256": "eeaffbb6d40ec9bd727347fdbd96d49860578344615764ee9d9440437d7281af",
       "cases": [],
       "articles": [
@@ -11663,7 +11663,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "0e77f974f2f302792ee09bc948ece3400254262779e4b76665ac0f0918296efa",
+      "statementSha256": "f64dfca5d7d5abfd3312891aa32a110cb11b4f7420307642eebfa50324926b13",
       "explanationSha256": "276eb30a01139e92687181bf8a78df2d9d4ef5783e03b0080fcc40cc0b64666b",
       "cases": [
         "2016다47478"
@@ -11682,7 +11682,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "a3aff77f4532597b87692a36c8a7ca3616d045e714265335765d0be103261589",
+      "statementSha256": "6af1d89577771d08efb9e7849d7c360b05dbf48784c3d5006092462ec4b13d41",
       "explanationSha256": "394b425d67f9c114c1aa7c453c5b68b54713a8ff254093d4982f58e0f54f8c85",
       "cases": [
         "2000다13948"
@@ -11699,7 +11699,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "f07fcefdc40cf1eff71baba866db7342557348a5d9cdfcac917216fc8a245046",
+      "statementSha256": "36d5166693f139133b5acfb032339bee4112feb8b044eb27a308eb6c05ee908e",
       "explanationSha256": "193f439153c184d36d25a8ab8b71e55eaad9d9c49d23e3b14b6d9e92bdd570bb",
       "cases": [
         "2000다13948"
@@ -11750,7 +11750,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "11af59548e07a5ff4020ef5c6010ffa388771f614b9c6143794af29ef08aa54b",
+      "statementSha256": "5b7f9efc16b5604eec40158d135a0934d86fe20562dcb30b6a3101bd845612b1",
       "explanationSha256": "9cce14338f26a133e7c5987aa53a4d8b1f4f9f2c37137a9d66eddc223f3a444f",
       "cases": [
         "2001다46730"
@@ -11803,7 +11803,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "3b389ac53a5dc086cb773690be2365210e2215bcb0ce26c96db8a1e8c82890d7",
+      "statementSha256": "35db2bc2356757a75d27e412e6d631fee142597471b901dfb40d26ba01c90077",
       "explanationSha256": "df9a38c58280f8905e6217b7f652c9c1b09cb043f6c40df7b654152e2b70bfc9",
       "cases": [
         "2000다68290"
@@ -11820,7 +11820,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "161aac0de1fcc5048047a754e287f404ea8124c54fe49b2bc83ca2d7a04f5579",
+      "statementSha256": "419f66c53d2deb7a9bb8b2db6d35f97a1789a5933753c77683fafab4fd67af97",
       "explanationSha256": "e3e10c6539f32c0ed61e832600e2f5d5f97ad5076e9091d77a3978b43ba47fb7",
       "cases": [
         "95다44290"
@@ -11910,7 +11910,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "bd792c3b325bbf61c6c59372876e800ca460194e6d15258769f5981605e32e04",
+      "statementSha256": "d640de6dbde92446d07892a3ec75c7fb9330d4ebd517443ac3a1781c8b6b2b6b",
       "explanationSha256": "19c37fb4e944bbc72a1ba152ff13ea64ccb51e9ee82eef4348bdc5dc4e8608c1",
       "cases": [
         "2023다302920"
@@ -11982,7 +11982,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "940388ff3a0f7b7490c1b70ad874ce28ebdc15995d4c6425838a225c1cfff027",
+      "statementSha256": "eccf79cc759fad21bdce0ca840bde7848f770e9b7c166e945552556e52a11e1e",
       "explanationSha256": "f17ec90885ddd627185f014e888aba08ec52f985f188c025e14c545cfaf0696f",
       "cases": [
         "2019다272275"
@@ -12111,7 +12111,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "e4a7feff76941dcf9c3cd3aa08303282bb54795a108c4ef3adf04dfbc73f34cd",
+      "statementSha256": "11437889d3ad8bd3e94132ba1b11a226ee7980e9c30a8873eeed817dba01c2cf",
       "explanationSha256": "4bb3fe6b0a04d096547089db736818cac8f990fa119be151c04dd74928aa385e",
       "cases": [
         "2013다218156"
@@ -12179,7 +12179,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "df06c2536286a1e0921a5b7be17691805b8a7834e846edb7a084ea936e828a5d",
+      "statementSha256": "930b895d5f5f21d0e440bf0d9f22abdb5a8c3e54e09eeed1166fbdeffa2b8d4d",
       "explanationSha256": "bc0e6b1ed94353c89c3ea8e218891536f4c1b9e5d5bd41c982e854fa71a4458d",
       "cases": [
         "2009다98706"
@@ -12253,7 +12253,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "592e1d888dafbca952305a4431766c76f7dde644105299c77c655bfb9de68b5d",
+      "statementSha256": "58b9aae868268f7c838506cf7fb485a74f657eefc6e9886d14c0189a63c1e4f0",
       "explanationSha256": "87f3df452f8e825af805269c73fccb659e2757b0043a76f700c107c3ef240f40",
       "cases": [
         "2000다13948"
@@ -12270,7 +12270,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "9a92ea2283b0f2e0c07caff449c3fe5fabfe64fed51a216409c7dc60c9467685",
+      "statementSha256": "ed162f006a878f0b2192b73b5cf5ec36831418e31966ddb75f14904cba684065",
       "explanationSha256": "feeee5a4839c99d82b29a2556cbd512c52fbc0ca804225342e0950877a5e70a8",
       "cases": [
         "87다카2114"
@@ -12321,7 +12321,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "f8a4706fe8affcc5d4e0785d130fab6c7c25cb41e848cc2847969e1523ef0f55",
+      "statementSha256": "441264a1e775a243e0ffe8fb60bf58af93e91ab4227d02b26f8f90df74492234",
       "explanationSha256": "12d7c35e70def436d231f813517747fb79e3b2360fb8f1f137564cf487d52386",
       "cases": [
         "98다6800",
@@ -12339,7 +12339,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "9d73188fb947498f95c465d1458acb9f90887688c4051a522096c7c3df49f936",
+      "statementSha256": "d4c89987f9ad5be2b7cce529b7e5fbbb773d70a721120020447afe0719b101c6",
       "explanationSha256": "b9ff7fdcf681700b34fcb7c784d27e486b8a7a7d34064eb0e5ef8d4cff8288ff",
       "cases": [
         "2012다4633"
@@ -12356,7 +12356,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "415e976fe7fee4acbb555dc3ba148b7765e4faf54bad026336524ae74c7f441e",
+      "statementSha256": "3fa9789f07949ea5d21890a6159f37e9727f371f5fcd1618ca710e457780e710",
       "explanationSha256": "183db6645caf30fc65711cf59923a3f5dde9ac4f84b4c62d66301f0961db9c84",
       "cases": [
         "2023다257600"
@@ -12610,7 +12610,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "d7c43f07d0e32875877b457f9ad524873bd51b1d0852528f0842721c46665c58",
+      "statementSha256": "527e25afd18f31c9f8acc7accec60d0ee01f03f1ed875f88aa226d761c064770",
       "explanationSha256": "e298ab27aea0d8b8757c3a400247aaaa37d7fa0c9a8cd505119ecec97afee0f2",
       "cases": [
         "2020다230239"
@@ -12806,7 +12806,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "7c5fe65526f788648287f1f8e6ff541c55f7734863072c41f64570147386e0e1",
+      "statementSha256": "bc16fd8e0faca13bf36e5d3e83a511ef88d9673ea2d112a58b93be6e7b0fa42a",
       "explanationSha256": "9581169212f7f444245db85c654a85ae32dfdb3c1b2bab9dc838aee72d27eb14",
       "cases": [
         "88다카16867",
@@ -12930,7 +12930,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "a1321a93062264467de8efc95d103c03af08cbc250afdae41b033341674710b2",
+      "statementSha256": "3ec41b0392981773da2348feaf47a5b88d04abfd3aa1b1f63802fd72dac79193",
       "explanationSha256": "e2d79c09eb6d3ff0becb396a301e1653f08fe9d3a5fb08fd92513d9694eb8aad",
       "cases": [
         "89다카29129"
@@ -13015,7 +13015,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "a0495a55cb2723a4aa3901d9ada37bcbaa8570dbc681afd60135f9fd45aeaecc",
+      "statementSha256": "ca932e2bce0ea441763334288f9ac3288cca3907f2e751f8dca8c64d8ce7a388",
       "explanationSha256": "a585c886bb419a31b2c2257339d63727ddc68ec4adb0b08e7ca615ad768394eb",
       "cases": [
         "2003다24147"
@@ -13032,7 +13032,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "d3e3c119e0c42640a34e81657796aa0d5de9487453e8e1584fc264b865e2760e",
+      "statementSha256": "718d56d77809cbdf0327ce453154ae598a8efbd1526733f2c6d9ff40244b607b",
       "explanationSha256": "8b219eb22093bb00d43788499bd49440ec4e44d32eb56ee483e3f668039358e1",
       "cases": [
         "2010다52225"
@@ -13049,7 +13049,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "e374cdafdfbfc0266bbde513f9ec93bcaa8bea87857f8620bb9185ac626f362a",
+      "statementSha256": "1ba793955bf0b8ebb03fdd5a3c9ee4fc405dbb694e77a8ae553921253355ee04",
       "explanationSha256": "b0fe41ea698d1e0aefa2a686535aa1d0c5f2dbe76ae834e07c6f5fbc805bfab4",
       "cases": [
         "2002다15917"
@@ -13103,7 +13103,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "7a499749a640fad06bb74475367d58f5eb818557f5c47ef98544588a937a53fd",
+      "statementSha256": "dcb58df88d98b0ed6ab08184be1158c820f42b7722f49a28a390c132bf0b7b14",
       "explanationSha256": "f6919eb61abdb72b693ddbf07bfedc861ec183b4bdb1d9a6a3227b9bc9ff3945",
       "cases": [
         "2011다52727"
@@ -13120,7 +13120,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "164dc332d027203eaf79062242d86ecc4da00cfead68cd9ea5c14179f1651eb1",
+      "statementSha256": "03cfea9ad23fd7ab88613b03484937f043424a6fa9412976a72c6aab6aa3b3fb",
       "explanationSha256": "1e360e83cb66aecfa5e0aeed6cae2ffcd53a373f699be7374d393b0ebdc73fb0",
       "cases": [
         "2007다37530"
@@ -13137,7 +13137,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "c2cdab35514872af2180148d8827341a21ff09c46be61ecb4135f65d5dc277a3",
+      "statementSha256": "23a61e1138295ed35eccd7403add53d02535563b6c4eb0c2fcbbb78ee225d30c",
       "explanationSha256": "07833977fdcac5faf9a6fd46a99e2c45b712d415017563c9525ef6456403ddc2",
       "cases": [
         "2010다97426"
@@ -13154,7 +13154,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "ca4f56d4ad589181bfcc09c2fc783de34fa5fbaccdb6de8d48b3d4187e5cebda",
+      "statementSha256": "32fef0b048d4fd2f647ab65c38811f11e84316a2e905d60617be5f7ff933ad17",
       "explanationSha256": "05d02c346449599dae2b9a35610dccd4dd132266b8d7d9ecea80783001576132",
       "cases": [
         "2012다15336"
@@ -13205,7 +13205,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "bc47d17e38f7536c1fe8977e671f8dbd0f5f6aa8ed75c8345d3ba8239873230a",
+      "statementSha256": "06f9f36200b3d0335ae189a0bbb653693e4886234ac0870a755d9c614c10660a",
       "explanationSha256": "4d681a60e7490aad87f7b152e2c3c804e9e6ca0a43fda6511ab3b15f66cee0ac",
       "cases": [
         "2009다32454"
@@ -13239,7 +13239,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "cf4ef5204e7fac603166cc43e83e7357e87b710e18852ef6f6f4ac395fc3e97a",
+      "statementSha256": "741cbf72fa9c16c4b33d204e390a0afce98dbf2571c6e538f9549872f337be9f",
       "explanationSha256": "71df8771d8d8f5dfa3c7d6251a5d9070b88c6459858638f4d09f338d7c471274",
       "cases": [
         "2004다71881"
@@ -13329,7 +13329,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "a80e67b79c3f6a3733155cb3a3202b1038a27acafc3feca77ba10afb324cddc1",
+      "statementSha256": "e81777e453c4613d11a9c6bf86f0802f0f082604b30dcc619cf922f9541eeab6",
       "explanationSha256": "07fd5f032f31b985346873d2ba8ec5e456d49d275827cbad5d3b87da6e3cffee",
       "cases": [
         "86다카1170"
@@ -13492,7 +13492,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "f4e9d0918646a64267019ade20cb76f25c5b45caa0d8e6d94f3733587ecd069a",
+      "statementSha256": "e0a7627861f72723d6a0c857b40b73ed75b5894cae2c13fda97fa4e2021117ec",
       "explanationSha256": "4a92f5a5f3cdd08fab531290b71565f3edad68d6ec4edd6812985ccf2dc5162d",
       "cases": [
         "92다29924"
@@ -13528,7 +13528,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "c475d0b640537ed7af01d01b95434eceae9702ef7df541daabd5eb988d243a95",
+      "statementSha256": "60a670f1b1084ffba60754f74d04fd284e6b05e011b42bc0298b9ef9a7d2cc18",
       "explanationSha256": "a67d205cd4960cc69cef00cee5fa741a49ddb2e2232672c3a17c1e3bf6f32847",
       "cases": [
         "2018다240462"
@@ -13562,7 +13562,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "e055df7da4bfb2c77df1122849a5beb2a1f3fddab3a1e4ab0869a432db2d2cbe",
+      "statementSha256": "8cf7151ebe6fde6b9406bdc129551e76fcc6825a8ebcbe4385d102a0bf760226",
       "explanationSha256": "4831f8e9d21ac89dec12374147cf65fd4463bc89b5735ddfe929ebd6788ede8b",
       "cases": [
         "98다34126"
@@ -13695,7 +13695,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "be7eb8faa0b1d8edaa0853cb6b3c04782e7ade869394f62041ecbc1990ba341d",
+      "statementSha256": "d4f05ca022121b986a5e81874179c11956d2a3fe870a0bb22a073c89e8ddb388",
       "explanationSha256": "6507a784f9ed9a0211cf8c9bd5150f86190a6ac875cb2fd051620075506f2795",
       "cases": [
         "2004다63019"
@@ -13715,7 +13715,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "2ce98cbc6573209c7adcf6c5a647b7219e18df7ff30d431d866ba9aef981b4db",
+      "statementSha256": "43d1b8f0bd650f51d0d3bd36e33ec9b16b47d03b107887ca6e633c1b05820e3e",
       "explanationSha256": "804b7cbcc5ab1faa15c2e3cd775b0ff89de74934d9e59b6ab91b1ec006803014",
       "cases": [
         "2005다19378"
@@ -13732,7 +13732,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "fae88fdec0b257d8d7149c197c50cb09f63255a26dead29c0bca50f107b5364d",
+      "statementSha256": "7eb98e046d28110faaa8025a2627a09ad5daa7ded9b15b220e0728a0f5486038",
       "explanationSha256": "66e08184270b6bbe7f9ba7953f0ec9e25cc6fa71cb0d867e5b5566c4b97f83c3",
       "cases": [
         "2001다82507"
@@ -13749,7 +13749,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "d5f15ff050354bd6c6724187897b13c90775be3055660129eabff53c0f366b75",
+      "statementSha256": "aec6f3419eaa561d6faada26b8df6b91df07aa8d0c14e9ae870d109751847775",
       "explanationSha256": "92ca3e421cfa703c5507c0ecf1fdf75bef855f2e83abe5250e3164b6386a1246",
       "cases": [
         "80다3277"
@@ -13766,7 +13766,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "0a0443ab83627c8b930124a5cadbb8b438966764c82d465a611c495e2055cdb3",
+      "statementSha256": "2f009f91dff0be7540a55a648fa234e3a95fdf2a79df614d6db7eacbbf3c6007",
       "explanationSha256": "1f441ca7e4b9ddd5bfcec2ceb16f5bed67580bc778b5ad9e3855f714d820273b",
       "cases": [
         "96다30113"
@@ -13783,7 +13783,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "4fe674462725f9e946fcdea67be977a4b059f789e99d727b3938a2aab0465041",
+      "statementSha256": "fceb7d619569d51184d74cadca54238a338daea0957eab43bdf46a74d38a13ca",
       "explanationSha256": "7a5cb820bc5aca97724d85e0e3f158f0608b6a6285942ad34bec3a3d1cd7388c",
       "cases": [
         "94다22446"
@@ -13871,7 +13871,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "e2ab35629e15e4ad7e8435e5ebd297f949ecd5a16c5664692e19f9f4be1d3309",
+      "statementSha256": "3fa3ac50b93fbf1cf7d4b615370b081c5fe65e4d9690d31bad4d3136f383eb9e",
       "explanationSha256": "6ee83ce0a8202f8ea63a2daf8e7725f0f3b7f2cf05f5be2a520428007d425ef6",
       "cases": [
         "75다819"
@@ -13922,7 +13922,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "d1a87c202df0c95dc10aa92985f5852b4e0b575ed73a2e7eda29b303a28cd67d",
+      "statementSha256": "dcaf846b87bc6d78951453c264226c677a7fb84b990026a39f36d5b4861a8ab7",
       "explanationSha256": "59330d15a4c5f3044beb447436f7b6db5502b5b4f93e60697cba06a47ba150eb",
       "cases": [
         "2006다43767"
@@ -13939,7 +13939,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "55394ff2b8962cfed990bf972b5496f75aaa212f8b91049bf7f1bb8697f6f0d6",
+      "statementSha256": "e9d3928473d0050eedd9383f9a228a46ecd5ff34b40db060214518e4798a4b6f",
       "explanationSha256": "58b1e4b506298de2da5a6beeddb28781222de68fd2338b1bff46dc15028defb5",
       "cases": [
         "2012다74236"
@@ -14041,7 +14041,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "9d42762292e0dc47afa12dcc6e43c12fa97840356eb8117d5893e63d1aa776b3",
+      "statementSha256": "568a3aec11c10723093a5956e9ee445ad6bad27a268dd1df1da95500d52bd69c",
       "explanationSha256": "e6071120fae4ebe73a5240ce3263eef0c54257b3b63c121ea447d94b178e4c93",
       "cases": [
         "2009다32454"

@@ -44,20 +44,29 @@ function reflow(text){
  return spacingKey(out)===patch.afterKey?out:joined;
 }
 function paragraphs(text){return reflow(text).split(/\n\s*\n/).filter(Boolean).map(p=>'<p>'+escape(p)+'</p>').join('');}
+const questionSpacing=typeof module!=='undefined'&&module.exports?require('./question-spacing.js'):root.StudyQuestionSpacing;
+function questionProse(text){
+ const edits=questionSpacing?.[spacingKey(text)];
+ if(!edits)return text;
+ let result=text;
+ for(const [offset,remove,insert] of edits)result=result.slice(0,offset)+insert+result.slice(offset+remove);
+ return result;
+}
+function questionParagraphs(text){return reflow(text).split(/\n\s*\n/).filter(Boolean).map(p=>'<p>'+escape(questionProse(p))+'</p>').join('');}
 function body(item){const text=String(item.text||'').trim();return text.startsWith(item.label)?text.slice(item.label.length).replace(/^[.．、)）\s]+/,''):text;}
 function valid(record,id){return !!(record?.id===id&&typeof record.stem==='string'&&record.stem.trim()&&typeof record.explanation==='string'&&record.explanation.trim()&&Array.isArray(record.items)&&record.items.length&&record.items.every(i=>i.id&&i.label&&typeof i.text==='string'&&i.text.trim()));}
 const layout=typeof module!=='undefined'&&module.exports?require('./layout.js'):root.StudyLayout;
 function fieldValue(record,field){const item=/^items\.(\d+)\.text$/.exec(field);return item&&record.items[Number(item[1])]?body(record.items[Number(item[1])]):field.split('.').reduce((v,k)=>v?.[k],record)||'';}
-function fieldHTML(record,field,plain=false){const text=reflow(fieldValue(record,field));return layout?layout.render(text,layout.plan(record.id,field,text,spacingKey),paragraphs,escape,plain):(plain?text:paragraphs(text));}
+function fieldHTML(record,field,plain=false){const text=reflow(fieldValue(record,field));const rendered=layout?layout.render(text,layout.plan(record.id,field,text,spacingKey),questionParagraphs,escape,plain):(plain?text:questionParagraphs(text));return plain?questionProse(rendered):rendered;}
 function sharedReference(record){const ref=layout?.reference(record.id);if(!ref)return null;const text=reflow(fieldValue(record,ref.field));return ref.key===spacingKey(text)&&ref.start>=0&&ref.end<=text.length?{...ref,text:text.slice(ref.start,ref.end)}:null;}
-function referenceHTML(record,plain=false){const ref=sharedReference(record);return ref?(plain?ref.text:'<section class="question-material shared-reference" aria-label="공통 참고자료">'+paragraphs(ref.text)+'</section>'):'';}
+function referenceHTML(record,plain=false){const ref=sharedReference(record);return ref?(plain?questionProse(ref.text):'<section class="question-material shared-reference" aria-label="공통 참고자료">'+questionParagraphs(ref.text)+'</section>'):'';}
 function contextPlain(record,item){return [fieldHTML(record,'stem',true),fieldHTML(record,'items.'+record.items.indexOf(item)+'.contextText',true),referenceHTML(record,true)].filter(Boolean).join('\n\n');}
 function contextHTML(record,item){const index=record.items.indexOf(item);return fieldHTML(record,'stem')+fieldHTML(record,'items.'+index+'.contextText')+referenceHTML(record);}
-function statementPlain(record,item){const field='items.'+record.items.indexOf(item)+'.text',ref=sharedReference(record);return ref?.field===field?reflow(fieldValue(record,field)).slice(0,ref.start).trim():fieldHTML(record,field,true);}
-function statementHTML(record,item){const field='items.'+record.items.indexOf(item)+'.text',ref=sharedReference(record);if(ref?.field===field)return paragraphs(statementPlain(record,item));return layout?.choiceHTML(record.id,[{...item,text:reflow(body(item))}],paragraphs,escape,spacingKey,false)||fieldHTML(record,field);}
+function statementPlain(record,item){const field='items.'+record.items.indexOf(item)+'.text',ref=sharedReference(record);return ref?.field===field?questionProse(reflow(fieldValue(record,field)).slice(0,ref.start).trim()):fieldHTML(record,field,true);}
+function statementHTML(record,item){const field='items.'+record.items.indexOf(item)+'.text',ref=sharedReference(record);if(ref?.field===field)return questionParagraphs(statementPlain(record,item));return layout?.choiceHTML(record.id,[{...item,text:reflow(body(item))}],questionParagraphs,escape,spacingKey,false)||fieldHTML(record,field);}
 function questionHTML(record){
  if(record.questionText)return '<div class="text-stem">'+fieldHTML(record,'questionText')+'</div>';
- const stem=fieldHTML(record,'stem'),answerTable=layout?.choiceHTML(record.id,record.items.map(i=>({...i,text:reflow(body(i))})),paragraphs,escape,spacingKey);
+ const stem=fieldHTML(record,'stem'),answerTable=layout?.choiceHTML(record.id,record.items.map(i=>({...i,text:reflow(body(i))})),questionParagraphs,escape,spacingKey);
  let html='<div class="text-stem">'+stem+'</div>';
  const groupStarts=new Map((layout?.groups(record.id,record.items.length)||[]).map(g=>[g[0],g]));
  if(answerTable)html+=answerTable;
