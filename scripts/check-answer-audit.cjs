@@ -15,6 +15,21 @@ for(const q of bank){
 }
 assert.equal(covered.size,429);assert.equal(applied.size,Object.keys(P.repairs).length);assert.equal(A.summary.officialBodies,277);assert.equal(A.summary.originalCaseNumbers,278);assert.equal(A.summary.answerChanges,0);
 assert.deepEqual(A.summary.pendingItems.sort(),['civil_bar_2_067__ox_2','civil_mock_2_057__ox_5']);
+const ratificationItems=[['civil_bar_2_067__ox_2',false],['civil_mock_2_057__ox_5',true]];
+const ratificationCases=['2001다44291','2020다210686','2020다210693'];
+for(const [id,truth] of ratificationItems){
+ const r=A.items[id],q=bank.find(q=>q.id===r.questionId),i=q.text.items.find(i=>i.id===id),rendered=T.reflow(i.explanation);
+ assert.equal(q.truths[id],truth);
+ assert.equal(r.explanationSha256,hash(rendered));
+ assert.match(rendered,/\[판례 근거 보강\].*2001다44291.*2020다210686, 210693/s);
+ assert.ok(ratificationCases.every(n=>r.cases.includes(n)&&A.cases[n].status==='web-body-reviewed'));
+ assert.ok(r.articles.includes(741));
+ assert.equal(r.status,'citation-pending');
+ assert.ok(r.cases.includes('2016다12656'));
+}
+assert.equal(A.cases['2016다12656'].status,'unavailable');
+assert.match(T.reflow(bank.find(q=>q.id==='extra_civil_bar_2_067_unjust').text.items[1].explanation),/2017다3499/);
+
 const q=id=>bank.find(q=>(q.sourceParentId||q.id)===id),ex=id=>T.reflow(q(id).text.explanation);
 for(const id of ['civil_mock_5_107','civil_mock_5_108']){assert.ok(!ex(id).includes('그 변제금 중 사용자의 과실비율'));assert.match(ex(id),/2012다74236/);assert.match(ex(id),/단독으로 부담하는 부분부터/);}
 assert.match(ex('civil_mock_5_084'),/종료되면 소유자인 임대인/);assert.ok(!ex('civil_mock_5_106').includes('피용자의 불법행위는 사무집행관련성 x'));
