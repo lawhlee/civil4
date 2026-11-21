@@ -7617,7 +7617,7 @@
       "truth": true,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "24ddda538f417a64c5d52c930874985562315d9a3b7475a6ed92c687a9754baa",
+      "statementSha256": "b078d23abcb7d208f0fbed8df1fefe000a0fcebc3c67447d10dad58efcc45afa",
       "explanationSha256": "15147cb2321d3ab9391daeb2d37e3be4c4cc4f8c86cdec09fe41c798be912c3c",
       "cases": [
         "2003다8862"
@@ -7795,7 +7795,7 @@
       "truth": false,
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
-      "statementSha256": "25cc831dfe32384e68c0824cf84b4c415762f6a3b6e4eb9eb561a0ea1696e366",
+      "statementSha256": "22838e5209de91d31d26c286ffa5a5e26e1c3344a3691d7eabfbb529562e09b6",
       "explanationSha256": "d862a3b9e83a1f6c71e64d8dff276fd416d53c93dafe6940d218afe316ac09fd",
       "cases": [
         "2021다213866"

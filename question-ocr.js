@@ -1,6 +1,8 @@
 (function(root){
 // Corrections checked against each original printed option. Offsets address the displayed text.
 const corrections={
+"2d-7bfb10ed-8dc72df7":{"id":"civil_bar_5_080__ox_4","edits":[[12,"丙이 회사의 공금","丙이 甲 회사의 공금"]]},
+"2x-57fc933-3f9344ff":{"id":"civil_bar_5_083__ox_1","edits":[[36,"乙이 甲에 불법행위","乙이 甲에게 불법행위"]]},
 "37-36a7596b-48ab46a1":{"id":"civil_bar_5_085__ox_2","edits":[[40,"-","·"]]},
 "2z-4e41d446-61e058f8":{"id":"civil_mock_5_082__ox_2","edits":[[107,"","."]]},
 "2y-5d802962-edcd76a2":{"id":"civil_mock_5_083__ox_4","edits":[[106,"","."]]},
