@@ -24,3 +24,18 @@ main{max-width:1120px;margin:auto;padding:38px 28px 56px;min-height:calc(100svh 
 .original-text>summary{cursor:pointer;font-weight:600}
 .original-text .question-content{margin-top:18px}
 .site-footer .footer-audit-link{margin-left:auto;font-size:11px;font-weight:400;color:var(--muted);text-decoration:none;line-height:1.8;padding:8px 0}.site-footer .footer-audit-link:hover,.site-footer .footer-audit-link:focus-visible{color:var(--primary);text-decoration:underline;text-underline-offset:3px}@media(max-width:600px){.site-footer .footer-audit-link{font-size:10px;padding:10px 0}}
+
+@media (max-width:760px){
+ .study-top{flex-wrap:wrap}
+ .study-top [data-action="return-main"]{order:1;width:100%}
+ .table-card .history-table{width:100%;min-width:0!important;display:block}
+ .history-table thead{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%)}
+ .history-table tbody{display:block}
+ .history-table tbody tr{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"question result" "date mode";gap:4px 12px;align-items:center;border-bottom:1px solid var(--line);padding:12px 0}
+ .history-table tbody tr:last-child{border-bottom:0}
+ .table-card .history-table td{white-space:normal;overflow-wrap:anywhere;padding:0;border:0;font-size:13px}
+ .history-table td:nth-child(1){grid-area:date;color:var(--muted)}
+ .table-card .history-table td:nth-child(2){grid-area:question;font-size:14px;font-weight:600}
+ .history-table td:nth-child(3){grid-area:mode;text-align:right;color:var(--muted)}
+ .history-table td:nth-child(4){grid-area:result;text-align:right}
+}

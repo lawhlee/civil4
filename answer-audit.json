@@ -18,8 +18,8 @@
       "civil_mock_2_057__ox_5"
     ],
     "statutesReviewed": 51,
-    "changedDisplayFields": 139,
-    "uniqueTextRepairs": 137,
+    "changedDisplayFields": 146,
+    "uniqueTextRepairs": 144,
     "statusCounts": {
       "case-reviewed": 411,
       "statute-reviewed": 16,
@@ -37,6 +37,24 @@
     "검토일에 확보한 법령·판례와 수록 사실관계에 따른 검토이며 모든 후속 판례의 부존재까지 증명하는 인증은 아니다."
   ],
   "updates": [
+    {
+      "id": "transcription-20261125",
+      "title": "2026. 11. 25. 조문·판례 인용 및 발문 전사 교정",
+      "note": "민법 제740조의 본인의 현존이익, 제745조의 채무자 및 항 번호, 2012다15602 판결의 선고일과 띄어쓰기, 추가 선지 원문 발문의 사기·강박 표기를 대조해 고쳤습니다.",
+      "cases": [
+        "2012다15602"
+      ],
+      "articles": [
+        740,
+        745
+      ],
+      "questionIds": [
+        "civil_mock_5_082",
+        "extra_civil_bar_4_011_unjust",
+        "civil_bar_5_066",
+        "extra_civil_mock_2_050_tort"
+      ]
+    },
     {
       "id": "partial-payment",
       "title": "일부 변제에 관한 변경 판례 반영",
@@ -2759,8 +2777,10 @@
       ],
       "status": "reviewed",
       "note": "국가 사무도 긴급성 등 사인의 개입을 정당화할 사정이 있으면 사무관리가 가능하다. 제3자와의 계약에 따른 처리는 사무관리가 아니며, 사무관리의 사실상 수익자인 제3자에게 직접 반환을 청구할 수 없다. 공동상속등기 비용과 직업상 제공한 용역의 통상 보수 상당 비용은 판례가 인정한다.",
-      "corrected": false,
-      "corrections": []
+      "corrected": true,
+      "corrections": [
+        "대법원 2012다15602 판결의 선고일 및 인용문 띄어쓰기 교정"
+      ]
     },
     "civil_bar_5_067": {
       "id": "civil_bar_5_067",
@@ -3497,7 +3517,9 @@
       "corrections": [
         "공식 판례 본문과 대조한 OCR 교정",
         "불필요한 기호 제거",
-        "판례 문구 OCR 복원"
+        "판례 문구 OCR 복원",
+        "민법 제740조의 조 번호와 ‘본인의 현존이익’을 교재 및 조문과 대조",
+        "같은 답안지 ⑤ 해설의 소항목 기호 ‘가.’ 복원"
       ]
     },
     "civil_mock_5_083": {
@@ -4515,8 +4537,10 @@
       ],
       "status": "reviewed",
       "note": "",
-      "corrected": false,
-      "corrections": []
+      "corrected": true,
+      "corrections": [
+        "민법 제745조의 항 번호와 ‘채무자 아닌 자’를 조문과 대조"
+      ]
     },
     "extra_civil_bar_4_040_unjust": {
       "id": "extra_civil_bar_4_040_unjust",
@@ -6042,8 +6066,10 @@
       ],
       "status": "reviewed",
       "note": "",
-      "corrected": false,
-      "corrections": []
+      "corrected": true,
+      "corrections": [
+        "객관식 원문 이미지와 대조하여 발문의 ‘사기·강박’ 복원"
+      ]
     },
     "extra_civil_mock_2_077_tort": {
       "id": "extra_civil_mock_2_077_tort",
@@ -6514,7 +6540,7 @@
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
       "statementSha256": "147707576950f6559bda9262ddccdd437892e68150e8eca50eadf533c817fe84",
-      "explanationSha256": "8b60cd68ca361331de842e38d7872c3b9749320cb02b7872947fcbce10b1d92b",
+      "explanationSha256": "df6a9c893ec0a35cbb7f4ea3036acadea29475014cc6365df392e872511f7ba6",
       "cases": [
         "2012다15602"
       ],
@@ -8926,7 +8952,7 @@
       "status": "statute-reviewed",
       "checkedAt": "2026-11-12",
       "statementSha256": "b08a242a82b127362fe3dd07df39818c99b3d959735e710e03ae457d71a87293",
-      "explanationSha256": "2db0cf26e6ce48e56c931939e4ba93ff009dab80b0d9e86cbc11d25dd1ddb09c",
+      "explanationSha256": "f72a3dfe6023943c51bdef8befca121dbaf05bb864e8c032725d00d3aa0a5463",
       "cases": [],
       "articles": [
         740
@@ -8960,7 +8986,7 @@
       "status": "case-reviewed",
       "checkedAt": "2026-11-12",
       "statementSha256": "beaddc9c7d98088c8ac459d3e323f65a6ccf91318679b8d8d01b08e32c303ff9",
-      "explanationSha256": "480000bf5234f644d2d6483e9c9b7ea5a69fec5a8b101d02089d6116597bf503",
+      "explanationSha256": "2538a635a1345085798135b0b637d134242b53429232f13ec26fbb5963936bdb",
       "cases": [
         "93다36332"
       ],
@@ -11678,7 +11704,7 @@
       "status": "statute-reviewed",
       "checkedAt": "2026-11-12",
       "statementSha256": "55e09e1e197cfbc83d9578c6110c8d3a734e451780b39fbb0cc6907648457981",
-      "explanationSha256": "6078d076cfa94275945f744f2e5551023475da4f50532642f91e5425bc4c6c9a",
+      "explanationSha256": "834d8bbd41184850809dc3a01eaf479b580ea7deba792acfbc7db5e5678f7cc1",
       "cases": [],
       "articles": [
         745

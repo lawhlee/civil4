@@ -2,25 +2,89 @@
 (()=>{'use strict';
 const C=Civil4Core,T=StudyText,$=id=>document.getElementById(id),esc=T.escape;
 const KEY='civil4-objective-study-v1';let data,questions=[],lookup=new Map(),tasksByKey=new Map(),state,reviewTopic='all',toastTimer;
-const fresh=()=>({version:1,records:{},history:[],session:null,config:{...C.defaults,topics:[...C.topics]}});
+const progressKey=KEY+':progress', configKey=KEY+':config';
+let memoryOnly=false;
+const fresh=()=>({version:1,records:{},history:[],session:null,otherSession:null,config:{...C.defaults,topics:[...C.topics]}});
 const fmt=n=>Number(n||0).toLocaleString('ko-KR');
 const date=s=>{const d=new Date(s);return isNaN(d)?'':d.toLocaleString('ko-KR',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});};
 const circ=n=>['','①','②','③','④','⑤'][n]||n;
 function notify(s){$('toast').textContent=s;$('toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,3000);}
 function storageError(){ $('storage-alert').hidden=false;$('storage-alert').textContent='브라우저 저장 공간을 사용할 수 없습니다. 학습 기록에서 기록 파일을 내려받아 보관해 주세요.'; }
-function save(){try{localStorage.setItem(KEY,JSON.stringify(state));}catch{storageError();}}
+function store(key,value){
+ if(memoryOnly)return;
+ try{localStorage.setItem(key,JSON.stringify(value));}
+ catch{memoryOnly=true;storageError();}
+}
+function save(){
+ const {version,records,history,session,otherSession}=state;
+ store(progressKey,{version,records,history,session,otherSession});
+}
+function saveConfig(){store(configKey,state.config);}
+
 function cleanConfig(c={}){return {bank:['base','extra','all'].includes(c.bank)?c.bank:'all',topics:Array.isArray(c.topics)?C.topics.filter(t=>c.topics.includes(t)):[...C.topics],type:['concept','case','mixed'].includes(c.type)?c.type:'mixed',conceptMode:c.conceptMode==='ox'?'ox':'mcq',source:['bar','mock','all'].includes(c.source)?c.source:'all',count:c.count==='all'?'all':[10,20,30].includes(c.count)?c.count:20,shuffle:c.shuffle!==false,status:c.status==='unseen'?'unseen':'all'};}
 function cleanRecord(r){return {attempts:Math.min(1000000,Math.max(0,Math.floor(Number(r.attempts)||0))),correctCount:Math.min(1000000,Math.max(0,Math.floor(Number(r.correctCount)||0))),wrongCount:Math.min(1000000,Math.max(0,Math.floor(Number(r.wrongCount)||0))),lastCorrect:typeof r.lastCorrect==='boolean'?r.lastCorrect:null,lastAt:typeof r.lastAt==='string'?r.lastAt.slice(0,40):null};}
-function readState(){let s=fresh();try{const raw=JSON.parse(localStorage.getItem(KEY)||'null');if(raw?.version===1){s.config=cleanConfig(raw.config);for(const [k,r]of Object.entries(raw.records||{}))if(tasksByKey.has(k)&&r&&typeof r==='object')s.records[k]=cleanRecord(r);s.history=Array.isArray(raw.history)?raw.history.filter(h=>tasksByKey.has(h.key)&&typeof h.correct==='boolean').slice(-1000):[];const x=raw.session;if(x&&Array.isArray(x.tasks)&&x.tasks.length&&x.tasks.length<=tasksByKey.size&&x.tasks.every(t=>tasksByKey.has(t.key))&&Number.isInteger(x.index)&&x.index>=0&&x.index<x.tasks.length){s.session={...x,tasks:x.tasks.map(t=>tasksByKey.get(t.key)),results:Array.isArray(x.results)?x.results:[],selected:Array.isArray(x.selected)?x.selected:[]};}}}catch{storageError();}return s;}
+function cleanSession(x){
+ if(!x||!Array.isArray(x.tasks)||!x.tasks.length||x.tasks.length>tasksByKey.size||
+    !x.tasks.every(t=>t&&tasksByKey.has(t.key))||!Number.isInteger(x.index)||x.index<0||x.index>=x.tasks.length)return null;
+ const tasks=x.tasks.map(t=>tasksByKey.get(t.key));
+ const pass=Array.isArray(x.pass)&&x.pass.includes(x.index)&&x.pass.every((n,i)=>Number.isInteger(n)&&n>=0&&n<tasks.length&&(i===0||n>x.pass[i-1]))?x.pass:null;
+ return {...x,tasks,pass,results:Array.isArray(x.results)?x.results:[],selected:Array.isArray(x.selected)?x.selected:[]};
+}
+function readState(){
+ if(memoryOnly)return state||fresh();
+ try{
+  const progress=localStorage.getItem(progressKey),prefs=localStorage.getItem(configKey);
+  const legacy=progress===null||prefs===null?JSON.parse(localStorage.getItem(KEY)||'null'):null;
+  const saved=progress===null?legacy:JSON.parse(progress),next=fresh();
+  next.config=cleanConfig(prefs===null?(legacy?.config||{}):JSON.parse(prefs));
+  if(saved?.version===1){
+   for(const [k,r] of Object.entries(saved.records||{}))if(tasksByKey.has(k)&&r&&typeof r==='object')next.records[k]=cleanRecord(r);
+   if(Array.isArray(saved.history))next.history=saved.history.filter(h=>h&&tasksByKey.has(h.key)&&typeof h.correct==='boolean').slice(-1000);
+   next.session=cleanSession(saved.session);
+   next.otherSession=cleanSession(saved.otherSession);
+  }
+  return next;
+ }catch{memoryOnly=true;storageError();return state||fresh();}
+}
+// Every write reads the latest committed data while holding the same origin-wide lock.
+function updateState(action,guard=false,checkSelection=false){
+ const previous=guard?state.session:null, index=previous?.index, routeBefore=route();
+ const submitted=previous?.selected[index];
+ return Civil4Lock.run(()=>{
+  state=readState();
+  if(guard&&(route()!==routeBefore||state.session?.startedAt!==previous?.startedAt||
+    state.session?.index!==index||state.session?.tasks[index]?.key!==previous?.tasks[index]?.key||
+    (checkSelection&&submitted!==state.session?.selected[index]))){
+   render();return;
+  }
+  action();
+ });
+}
 function route(){return location.hash.replace('#','')||'home';}
 function navigate(to){if(route()===to)render();else location.hash=to;}
 function focusMain(){window.scrollTo(0,0);$('main').focus({preventScroll:true});}
 function render(){const r=route();document.body.dataset.view=['study','finish','review','records'].includes(r)?r:'home';document.querySelectorAll('[data-nav]').forEach(a=>a.classList.toggle('active',a.dataset.nav===r));$('wrong-badge').textContent=fmt(C.wrongItems(questions,state.records).length);if(r==='study'&&state.session)renderStudy();else if(r==='finish'&&state.session)renderFinish();else if(r==='review')renderReview();else if(r==='records')renderRecords();else renderHome();}
 function totals(){const rec=Object.values(state.records),attempts=rec.reduce((s,r)=>s+r.attempts,0),correct=rec.reduce((s,r)=>s+r.correctCount,0);const mcq=questions.filter(q=>state.records[q.id]?.attempts).length,ox=[...tasksByKey.values()].filter(t=>t.mode==='ox'&&state.records[t.key]?.attempts).length;return {attempts,correct,mcq,ox,accuracy:attempts?Math.round(correct/attempts*100):null,wrong:C.wrongItems(questions,state.records).length};}
 function inventory(){return {mcq:questions.filter(q=>!q.oxOnly).length,ox:questions.flatMap(C.oxItems).length,extra:questions.filter(q=>q.oxOnly).flatMap(C.oxItems).length};}
+function pendingIndices(s){return s.tasks.map((_,i)=>i).filter(i=>s.results[i]?.kind!=='graded');}
+function isReview(s){return s?.label==='오답 복습';}
+function resumeBanner(s){
+ if(!s)return '';
+ const remaining=pendingIndices(s).length,review=isReview(s);
+ if(s.finished&&!remaining)return '';
+ const label=review?'오답 복습':'문제 세트';
+ const action=s.finished?'pending':'resume';
+ const button=s.finished?'미채점 '+remaining+'개 이어 풀기':review?'복습 이어 풀기':'이어서 학습';
+ return `<div class="resume-banner"><div><strong>${label} 이어 풀기</strong><p>${s.index+1} / ${s.tasks.length}번 문제 · 미채점 ${remaining}개</p></div><button data-action="${action}" data-session-type="${review?'review':'regular'}">${button}</button></div>`;
+}
+function homeBanners(){
+ const regular=isReview(state.session)?state.otherSession:state.session;
+ const review=isReview(state.session)?state.session:state.otherSession;
+ return resumeBanner(regular)+resumeBanner(review);
+}
 function renderHome(){const cfg=state.config,s=totals(),inv=inventory(),extraOnly=cfg.bank==='extra';$('main').innerHTML=`
  <section class="hero"><div><p class="eyebrow">법정채권관계</p><h1>문제 세트 만들기</h1><p>단원과 풀이 방식을 선택하고 학습을 시작하세요.</p></div><div class="home-overview" aria-label="수록 문제"><span><strong>${inv.mcq}</strong>객관식 문항</span><span><strong>${inv.ox}</strong>O/X 지문</span><span><strong>3</strong>학습 단원</span></div></section>
- ${state.session&&!state.session.finished?`<div class="resume-banner"><div><strong>이어 풀던 문제 세트가 있어요.</strong><p>${state.session.index+1} / ${state.session.tasks.length}번 문제 · 지금까지의 답안이 저장되어 있습니다.</p></div><button data-action="resume">이어서 학습 →</button></div>`:''}
+ ${homeBanners()}
  <div class="dashboard"><section class="card builder" aria-label="문제 세트 만들기"><div class="card-heading"><h2>학습 조건</h2><span class="tag">나에게 맞게 선택</span></div>
  <div class="section-control"><div class="step-title">학습 자료<span class="hint">추가 선지는 O/X 전용</span></div><div class="segmented bank-selector" role="group" aria-label="학습 자료">${[['all','모두','기존 문항과 추가 선지'],['base','기존 문항','객관식 60문항'],['extra','추가 선지 O/X','157개 선지']].map(([v,l,d])=>`<button data-config="bank" data-value="${v}" aria-pressed="${cfg.bank===v}" class="${cfg.bank===v?'active':''}"><b>${l}</b><small>${d}</small></button>`).join('')}</div><p class="option-help">추가 선지는 사무관리 1개 · 부당이득 60개 · 불법행위 96개입니다.</p></div>
  <div class="section-control"><div class="step-title"><span class="step-number">1</span>학습할 단원<span class="hint">여러 단원 선택 가능</span></div><div class="topic-grid">${C.topics.map(t=>{const qs=questions.filter(q=>q.section===t),n=qs.filter(q=>!q.oxOnly).length,extra=qs.filter(q=>q.oxOnly).flatMap(C.oxItems).length;return `<button class="topic-card ${cfg.topics.includes(t)?'selected':''}" data-topic="${t}" aria-pressed="${cfg.topics.includes(t)}"><span class="check-box" aria-hidden="true"></span><b>${t}</b><small>${cfg.bank==='extra'?`추가 O/X ${extra}개`:cfg.bank==='base'?`객관식 ${n}문항`:`객관식 ${n} · 추가 O/X ${extra}`}</small></button>`;}).join('')}</div></div>
@@ -36,39 +100,114 @@ function renderSummary(){
  summary.innerHTML=`<div class="summary-info"><div class="overline">준비된 문제</div><div class="summary-count">${fmt(n)}<span>${ox?'개':'문항'}</span></div><p class="summary-description">${n?(ox?`객관식 ${mcq}문항 · O/X ${ox}지문 중 출제`:`총 ${fmt(pool.length)}문항 중 출제`):'단원을 선택하거나 조건을 바꿔 주세요.'}</p></div><div class="summary-detail"><dl class="summary-lines"><div><dt>단원</dt><dd>${cfg.topics.length?cfg.topics.join(' · '):'선택 없음'}</dd></div><div><dt>자료</dt><dd>${{all:'모두',base:'기존 문항',extra:'추가 선지 O/X'}[cfg.bank]}</dd></div><div><dt>유형</dt><dd>${cfg.bank==='extra'?'개념형 O/X':{concept:'개념형',mixed:'개념형 + 사례형',case:'사례형'}[cfg.type]}</dd></div><div><dt>개념형 풀이</dt><dd>${cfg.bank==='extra'?'O/X 전용':cfg.type==='case'?'해당 없음':cfg.conceptMode==='ox'?'선지별 O/X':'객관식'}</dd></div><div><dt>기출 출처</dt><dd>${{all:'모두',bar:'변호사시험',mock:'모의고사'}[cfg.source]}</dd></div><div><dt>순서</dt><dd>${cfg.shuffle?'무작위':'교재 순서'}</dd></div></dl></div><button class="primary-button light" data-action="start" ${n?'':'disabled'}>학습 시작 <span class="arrow" aria-hidden="true">→</span></button>`;
 }
 
-function start(tasks,label='새 문제 세트'){if(!tasks.length)return notify('선택한 조건에 해당하는 문제가 없습니다.');state.session={tasks,index:0,selected:[],results:[],startedAt:new Date().toISOString(),finished:false,label};save();navigate('study');focusMain();}
+function start(tasks,label='새 문제 세트'){
+ if(!tasks.length)return notify('선택한 조건에 해당하는 문제가 없습니다.');
+ if(label==='오답 복습'){
+  if(!isReview(state.session))state.otherSession=state.session;
+ }else if(isReview(state.session))state.otherSession=state.session;
+ state.session={tasks,index:0,selected:[],results:[],startedAt:new Date().toISOString(),finished:false,pass:null,label};
+ save();navigate('study');focusMain();
+}
+function swapSessions(){[state.session,state.otherSession]=[state.otherSession,state.session];}
+function resumeSession(type,pending){
+ if(type&&isReview(state.session)!==(type==='review')){
+  if(!state.otherSession)return render();
+  swapSessions();
+ }
+ const s=state.session;if(!s)return navigate('home');
+ if(pending){
+  s.pass=pendingIndices(s);
+  if(!s.pass.length){s.pass=null;save();return navigate('finish');}
+  s.finished=false;openPassItem(s,s.pass[0]);
+ }
+ save();navigate(s.finished?'finish':'study');focusMain();
+}
+function returnButton(){
+ return isReview(state.session)&&state.otherSession?'<button class="secondary-button" data-action="return-main">원래 세트로 돌아가기</button>':'';
+}
+function openPassItem(s,index){
+ s.index=index;
+ if(s.pass&&s.results[index]?.kind==='reveal')s.results[index]=null;
+}
+function stepIndex(s,direction){
+ if(s.pass)return s.pass[s.pass.indexOf(s.index)+direction];
+ const index=s.index+direction;
+ return index>=0&&index<s.tasks.length?index:undefined;
+}
 function startConfigured(){let pool=C.pool(questions,state.config,state.records);if(state.config.shuffle)pool=C.shuffle(pool);if(state.config.count!=='all')pool=pool.slice(0,state.config.count);start(pool);}
 function originalHTML(q,field){const extra=q.oxOnly&&field==='question';return `<details class="original-toggle" data-original="${field}"><summary>${extra?'객관식 원문 보기 · 해당 선지 포함':(field==='question'?'문제':'답안지 해설')+' 원문 보기 · 캡처'}</summary><div class="originals"><p>${extra?'이 선지가 포함된 객관식 문항 전체입니다. ':''}교재 원문 캡처입니다. 이미지를 누르면 크게 볼 수 있습니다.</p>${field==='question'&&q.originalTextNote?`<p class="option-help">${esc(q.originalTextNote)}</p>`:''}${q[field+'Images'].map((p,i)=>`<a href="${esc(p)}" target="_blank" rel="noopener"><img src="${esc(p)}" loading="lazy" alt="${q.section} 문 ${q.number} ${field==='question'?'문제':'답안지 해설'} 원문 ${i+1}"></a>`).join('')}${extra?`<details class="original-text"><summary>객관식 원문 텍스트 보기</summary><div class="question-content">${T.questionHTML(q.text)}</div></details>`:''}</div></details>`;}
 function renderStudy(){const s=state.session,task=s.tasks[s.index],q=lookup.get(task.parentId);if(!q)return navigate('home');const result=s.results[s.index],locked=!!result,selected=s.selected[s.index],ox=task.mode==='ox',item=ox?q.text.items.find(i=>i.id===task.itemId):null;const mode=ox?'O/X':q.type==='case'?'사례형 · 객관식':'개념형 · 객관식';const source=`${q.year}년 ${q.kind==='bar'?'변호사시험':(q.month?q.month+'월 ':'')+'모의시험'} · 교재 문 ${q.number} · p.${q.printPage}`;
- $('main').innerHTML=`<div class="study-layout"><div class="study-top"><button class="text-button" data-action="leave">← 세트 만들기로</button><span class="study-progress"><strong>${s.index+1}</strong> / ${s.tasks.length} ${ox?'지문':'문제'}</span><button class="text-button" data-action="goto-review">오답 복습</button></div><div class="study-progress-line"><span style="width:${(s.index+1)/s.tasks.length*100}%"></span></div><article class="card question-card"><div class="question-meta"><span class="pill">${q.section}</span><span class="pill ${q.type==='case'?'case':''}">${q.oxOnly?'추가 선지':q.type==='case'?'사례형':'개념형'}</span>${ox?'<span class="pill ox">O/X</span>':''}<span class="question-source">${source}${q.oxOnly?` · 원문 ${esc(q.originalPart)} / ${esc(q.originalSection)}`:''}</span></div><div class="question-title"><h1>${ox?'다음 지문은 옳은가요?':q.section+' 객관식'}</h1><span>${ox?'지문 '+esc(item.label):'원래 문항으로 풀기'}</span></div><div id="question-content" class="question-content">${ox?`<p class="ox-instruction">지문 자체가 옳으면 O, 옳지 않으면 X를 선택하세요.</p>${item.contextText?T.fieldHTML(q.text,'items.'+q.text.items.indexOf(item)+'.contextText'):''}<div class="ox-statement"><span class="ox-label">지문 ${esc(item.label)}</span>${T.statementHTML(q.text,item)}</div>${T.referenceHTML(q.text)}`:T.questionHTML(q.text)}</div><div class="answer-zone"><div class="answer-heading"><span>${ox?'O / X 선택':'답안 선택'}</span><span>${ox?'':'키보드 1–5 · Enter로 확인'}</span></div><div class="answer-buttons ${ox?'ox-buttons':''}" role="group" aria-label="답안 선택">${ox?[[true,'O'],[false,'X']].map(([v,l])=>`<button class="answer-choice ${selected===v?'active':''} ${result?.kind==='graded'?(q.truths[task.itemId]===v?'good':selected===v?'bad':''):''}" data-ox="${v}" aria-pressed="${selected===v}" ${locked?'disabled':''}>${l}</button>`).join(''):[1,2,3,4,5].map(v=>`<button class="answer-choice ${selected===v?'active':''} ${result?.kind==='graded'?(q.answers.includes(v)?'good':selected===v?'bad':''):''}" data-answer="${v}" aria-pressed="${selected===v}" aria-label="${v}번" ${locked?'disabled':''}>${circ(v)}</button>`).join('')}</div></div>${q.answerNote?`<p class="option-help">${esc(q.answerNote)}</p>`:''}<div class="question-actions"><div><button class="secondary-button" data-action="previous" ${s.index===0?'disabled':''}>이전</button>${!locked?`<button class="primary-button" data-action="grade" ${selected===undefined||selected===null?'disabled':''}>정답 확인</button>`:''}<button class="${locked?'primary-button':'secondary-button'}" data-action="next">${s.index===s.tasks.length-1?(locked?'학습 결과 보기':'결과 보기'):ox?'다음 지문 →':'다음 문제 →'}</button></div>${locked?'<button class="text-button" data-action="retry">이 문제 다시 풀기</button>':'<button class="text-button" data-action="reveal">정답·해설만 보기</button>'}</div>${originalHTML(q,'question')}</article>
- ${locked?`<div id="grade-result" class="result-banner ${result.kind==='reveal'?'neutral':result.correct?'':'wrong'}" role="status"><span class="result-icon">${result.kind==='reveal'?'↳':result.correct?'✓':'×'}</span><div><h2>${result.kind==='reveal'?'해설을 확인하고 있어요.':result.correct?'정답입니다.':'다시 한 번 살펴보세요.'} <span>정답 ${ox?(q.truths[task.itemId]?'O':'X'):q.answers.map(circ).join(', ')}</span></h2><p>${result.kind==='reveal'?'풀이 기록과 정답률에는 반영하지 않았습니다.':result.correct?'학습 기록에 저장했습니다.': '오답 복습에 저장했습니다. 해설을 읽고 다시 도전해 보세요.'}</p></div></div><section class="card explanation-card" aria-label="답안지 해설"><div class="explanation-heading"><h2>${ox?'해당 선지 해설':'답안지 해설'}</h2><span>${ox?'지문 '+esc(item.label)+' 해설':'교재 해설 텍스트'}</span></div><div class="explanation-text">${T.paragraphs(ox?item.explanation:q.text.explanation)}</div>${originalHTML(q,'explanation')}</section><div class="finish-actions"><button class="primary-button" data-action="next">${s.index===s.tasks.length-1?'학습 결과 보기':ox?'다음 지문 →':'다음 문제 →'}</button></div>`:''}<div class="study-bottom"><span>${mode} · 선택한 답과 학습 위치가 자동 저장됩니다.</span><span>${s.label==='오답 복습'?'틀렸던 문제를 복습 중입니다.':''}</span></div></div>`;
+ $('main').innerHTML=`<div class="study-layout"><div class="study-top"><button class="text-button" data-action="leave">← 세트 만들기로</button>${returnButton()}<span class="study-progress"><strong>${s.index+1}</strong> / ${s.tasks.length} ${ox?'지문':'문제'}</span><button class="text-button" data-action="goto-review">오답 복습</button></div><div class="study-progress-line"><span style="width:${(s.index+1)/s.tasks.length*100}%"></span></div><article class="card question-card"><div class="question-meta"><span class="pill">${q.section}</span><span class="pill ${q.type==='case'?'case':''}">${q.oxOnly?'추가 선지':q.type==='case'?'사례형':'개념형'}</span>${ox?'<span class="pill ox">O/X</span>':''}<span class="question-source">${source}${q.oxOnly?` · 원문 ${esc(q.originalPart)} / ${esc(q.originalSection)}`:''}</span></div><div class="question-title"><h1>${ox?'다음 지문은 옳은가요?':q.section+' 객관식'}</h1><span>${ox?'지문 '+esc(item.label):'원래 문항으로 풀기'}</span></div><div id="question-content" class="question-content">${ox?`<p class="ox-instruction">지문 자체가 옳으면 O, 옳지 않으면 X를 선택하세요.</p>${item.contextText?T.fieldHTML(q.text,'items.'+q.text.items.indexOf(item)+'.contextText'):''}<div class="ox-statement"><span class="ox-label">지문 ${esc(item.label)}</span>${T.statementHTML(q.text,item)}</div>${T.referenceHTML(q.text)}`:T.questionHTML(q.text)}</div><div class="answer-zone"><div class="answer-heading"><span>${ox?'O / X 선택':'답안 선택'}</span><span>${ox?'':'키보드 1–5 · Enter로 확인'}</span></div><div class="answer-buttons ${ox?'ox-buttons':''}" role="group" aria-label="답안 선택">${ox?[[true,'O'],[false,'X']].map(([v,l])=>`<button class="answer-choice ${selected===v?'active':''} ${result?.kind==='graded'?(q.truths[task.itemId]===v?'good':selected===v?'bad':''):''}" data-ox="${v}" aria-pressed="${selected===v}" ${locked?'disabled':''}>${l}</button>`).join(''):[1,2,3,4,5].map(v=>`<button class="answer-choice ${selected===v?'active':''} ${result?.kind==='graded'?(q.answers.includes(v)?'good':selected===v?'bad':''):''}" data-answer="${v}" aria-pressed="${selected===v}" aria-label="${v}번" ${locked?'disabled':''}>${circ(v)}</button>`).join('')}</div></div>${q.answerNote?`<p class="option-help">${esc(q.answerNote)}</p>`:''}<div class="question-actions"><div><button class="secondary-button" data-action="previous" ${stepIndex(s,-1)===undefined?'disabled':''}>이전</button>${!locked?`<button class="primary-button" data-action="grade" ${selected===undefined||selected===null?'disabled':''}>정답 확인</button>`:''}<button class="${locked?'primary-button':'secondary-button'}" data-action="next">${stepIndex(s,1)===undefined?(locked?'학습 결과 보기':'결과 보기'):ox?'다음 지문 →':'다음 문제 →'}</button></div>${locked?'<button class="text-button" data-action="retry">이 문제 다시 풀기</button>':'<button class="text-button" data-action="reveal">정답·해설만 보기</button>'}</div>${originalHTML(q,'question')}</article>
+ ${locked?`<div id="grade-result" class="result-banner ${result.kind==='reveal'?'neutral':result.correct?'':'wrong'}" role="status"><span class="result-icon">${result.kind==='reveal'?'↳':result.correct?'✓':'×'}</span><div><h2>${result.kind==='reveal'?'해설을 확인하고 있어요.':result.correct?'정답입니다.':'다시 한 번 살펴보세요.'} <span>정답 ${ox?(q.truths[task.itemId]?'O':'X'):q.answers.map(circ).join(', ')}</span></h2><p>${result.kind==='reveal'?'풀이 기록과 정답률에는 반영하지 않았습니다.':result.correct?'학습 기록에 저장했습니다.': '오답 복습에 저장했습니다. 해설을 읽고 다시 도전해 보세요.'}</p></div></div><section class="card explanation-card" aria-label="답안지 해설"><div class="explanation-heading"><h2>${ox?'해당 선지 해설':'답안지 해설'}</h2><span>${ox?'지문 '+esc(item.label)+' 해설':'교재 해설 텍스트'}</span></div><div class="explanation-text">${T.paragraphs(ox?item.explanation:q.text.explanation)}</div>${originalHTML(q,'explanation')}</section><div class="finish-actions"><button class="primary-button" data-action="next">${stepIndex(s,1)===undefined?'학습 결과 보기':ox?'다음 지문 →':'다음 문제 →'}</button></div>`:''}<div class="study-bottom"><span>${mode} · 선택한 답과 학습 위치가 자동 저장됩니다.</span><span>${s.label==='오답 복습'?'틀렸던 문제를 복습 중입니다.':''}</span></div></div>`;
  if(!ox)decorateChoices(q,result,selected);}
 function decorateChoices(q,result,selected){const el=$('question-content');if(q.text.choiceTable){el.querySelectorAll('.text-choice-table tbody tr').forEach((tr,i)=>activateOption(tr,i+1,q,result,selected));}else if(q.text.items.length===5&&q.text.items.every(i=>/^[①②③④⑤]$/.test(i.label))){el.querySelectorAll('li[data-text-id]').forEach((li,i)=>activateOption(li,i+1,q,result,selected));}}
 function activateOption(el,n,q,result,selected){el.dataset.option=n;if(!result){el.tabIndex=0;el.setAttribute('role','button');el.setAttribute('aria-label',n+'번 선택');el.setAttribute('aria-pressed',String(selected===n));}if(selected===n)el.classList.add('selected');if(result?.kind==='graded'){if(q.answers.includes(n))el.classList.add('correct-option');else if(selected===n)el.classList.add('wrong-option');}}
 function select(value){const s=state.session;if(!s||s.results[s.index])return;s.selected[s.index]=value;save();renderStudy();const target=typeof value==='boolean'?`[data-ox="${value}"]`:`[data-answer="${value}"]`;document.querySelector(target)?.focus({preventScroll:true});}
 function grade(){const s=state.session;if(!s||s.results[s.index])return;const selected=s.selected[s.index];if(selected===undefined||selected===null)return;const task=s.tasks[s.index],q=lookup.get(task.parentId),correct=C.grade(task,q,selected),now=new Date().toISOString();s.results[s.index]={kind:'graded',correct,selected,at:now};state.records=C.addAttempt(state.records,task.key,correct,now);state.history.push({key:task.key,correct,at:now});state.history=state.history.slice(-1000);save();render();$('grade-result')?.scrollIntoView({behavior:'smooth',block:'center'});}
 function reveal(){const s=state.session;if(s.results[s.index])return;s.results[s.index]={kind:'reveal'};save();renderStudy();$('grade-result')?.scrollIntoView({behavior:'smooth',block:'center'});}
-function next(){const s=state.session;if(s.index<s.tasks.length-1){s.index++;save();renderStudy();focusMain();}else{s.finished=true;save();navigate('finish');focusMain();}}
-function previous(){const s=state.session;if(s.index>0){s.index--;save();renderStudy();focusMain();}}
+function next(){
+ const s=state.session,index=stepIndex(s,1);
+ if(index===undefined){s.finished=true;s.pass=null;save();navigate('finish');}
+ else{openPassItem(s,index);save();renderStudy();}
+ focusMain();
+}
+function previous(){
+ const s=state.session,index=stepIndex(s,-1);
+ if(index!==undefined){openPassItem(s,index);save();renderStudy();focusMain();}
+}
 function retry(){const s=state.session;s.results[s.index]=null;s.selected[s.index]=null;save();renderStudy();focusMain();}
 function renderReview(){const tasks=C.wrongItems(questions,state.records,reviewTopic);$('main').innerHTML=`<section class="page-heading"><div><div class="eyebrow">틀린 문제 다시 풀기</div><h1 class="page-title">오답 복습</h1><p class="page-description">마지막 풀이가 오답인 문제를 모았습니다. 다시 맞히면 오답 목록에서 빠집니다.</p></div><button class="primary-button" data-action="review-all" ${tasks.length?'':'disabled'}>${fmt(tasks.length)}개 오답 복습하기 →</button></section><div class="review-controls"><div class="filter-chips">${['all',...C.topics].map(t=>`<button data-review-topic="${t}" class="${reviewTopic===t?'active':''}">${t==='all'?'전체 단원':t}</button>`).join('')}</div><span class="page-description">객관식과 O/X 기록을 각각 보관합니다.</span></div><div class="card review-list">${tasks.length?tasks.map((t,i)=>reviewRow(t,i)).join(''):`<div class="empty-state"><div class="empty-icon">✓</div><h2>아직 남아 있는 오답이 없어요.</h2><p>새 문제를 풀며 학습을 시작해 보세요.<br>틀린 문제는 여기에 자동으로 모입니다.</p><button class="primary-button" data-action="home">문제 세트 만들기 →</button></div>`}</div>`;}
 function reviewRow(t,i){const q=lookup.get(t.parentId),r=state.records[t.key],item=q.text.items.find(x=>x.id===t.itemId);const snippet=t.mode==='ox'?T.statementPlain(q.text,item):T.fieldHTML(q.text,'stem',true);return `<div class="review-row"><span class="review-index">${i+1}</span><div class="review-body"><span class="pill">${q.section}</span><span class="pill ${t.mode==='ox'?'ox':q.type==='case'?'case':''}">${t.mode==='ox'?'O/X · '+esc(item.label):q.type==='case'?'사례형':'개념형'}</span><h3>${esc(snippet)}</h3><p>${q.kind==='bar'?'본시험':'모의시험'} ${q.year} · 교재 문 ${q.number} · 오답 ${r.wrongCount}회 · ${date(r.lastAt)}</p></div><button class="secondary-button" data-practice="${esc(t.key)}">다시 풀기</button></div>`;}
 function renderRecords(){const s=totals(),inv=inventory();$('main').innerHTML=`<section class="page-heading"><div><div class="eyebrow">학습 현황</div><h1 class="page-title">학습 기록</h1><p class="page-description">객관식과 O/X의 학습 기록은 구별해서 저장합니다.</p></div><button class="secondary-button" data-action="home">새 문제 세트 만들기 →</button></section><div class="stats-grid"><div class="card stat-card"><label>객관식 학습 문항</label><strong>${s.mcq}<small>/ ${inv.mcq}</small></strong></div><div class="card stat-card"><label>O/X 학습 지문</label><strong>${s.ox}<small>/ ${inv.ox}</small></strong></div><div class="card stat-card"><label>누적 정답률</label><strong>${s.accuracy===null?'—':s.accuracy+'%'}<small>${fmt(s.attempts)}회 풀이</small></strong></div><div class="card stat-card"><label>현재 남은 오답</label><strong>${s.wrong}<small>개</small></strong></div></div><section class="card table-card"><h2>단원별 학습 현황</h2><table><thead><tr><th>단원</th><th>객관식 풀이</th><th>O/X 풀이</th><th>남은 오답</th></tr></thead><tbody>${C.topics.map(topic=>{const qs=questions.filter(q=>q.section===topic),allox=qs.flatMap(C.oxItems),doneox=allox.filter(x=>state.records[x.id]?.attempts).length,done=qs.filter(q=>state.records[q.id]?.attempts).length;return `<tr><td>${topic}</td><td>${done} / ${qs.filter(q=>!q.oxOnly).length}</td><td>${doneox} / ${allox.length}</td><td>${C.wrongItems(questions,state.records,topic).length}</td></tr>`;}).join('')}</tbody></table></section><section class="card table-card"><h2>최근 풀이 기록</h2>${state.history.length?`<table class="history-table"><thead><tr><th>풀이 일시</th><th>문제</th><th>방식</th><th>결과</th></tr></thead><tbody>${state.history.slice(-30).reverse().map(h=>{const t=tasksByKey.get(h.key),q=lookup.get(t.parentId);return `<tr><td>${date(h.at)}</td><td>${esc(C.taskLabel(t,q))}</td><td>${t.mode==='ox'?'O/X':'객관식'}</td><td><span class="pill ${h.correct?'':'red'}">${h.correct?'정답':'오답'}</span></td></tr>`;}).join('')}</tbody></table>`:'<p class="page-description">아직 풀이 기록이 없습니다. 답안을 제출하면 자동으로 기록됩니다.</p>'}</section><div class="record-tools"><button class="secondary-button" data-action="export">기록 내려받기</button><button class="secondary-button" data-action="import">기록 불러오기</button><button class="text-button danger-text" data-action="reset">학습 기록 초기화</button><input type="file" id="record-file" accept="application/json,.json" hidden></div><p class="option-help">기록은 현재 기기·브라우저에 저장됩니다. 다른 기기로 옮기거나 브라우저 데이터를 지우기 전 기록을 내려받아 주세요.</p>`;}
-function renderFinish(){const s=state.session,graded=s.results.filter(r=>r?.kind==='graded'),right=graded.filter(r=>r.correct).length,wrong=graded.length-right,ungraded=s.tasks.length-graded.length;$('main').innerHTML=`<div class="finish-hero"><div class="finish-seal">✓</div><div class="eyebrow" style="justify-content:center">이번 세트 결과</div><h1>오늘의 학습을 마쳤어요.</h1><p>한 번 더 생각하고, 한 걸음 더 익숙해졌습니다.<br>틀린 문제는 오답 복습에서 다시 풀 수 있어요.</p></div><div class="finish-stats"><div><strong>${right}</strong><span>정답</span></div><div><strong>${wrong}</strong><span>오답</span></div><div><strong>${ungraded}</strong><span>미채점</span></div><div><strong>${graded.length?Math.round(right/graded.length*100)+'%':'—'}</strong><span>이번 세트 정답률</span></div></div><div class="finish-actions"><button class="primary-button" data-action="review-session" ${wrong?'':'disabled'}>이번 세트 오답 다시 풀기</button><button class="secondary-button" data-action="home">새 문제 세트 만들기 →</button></div><div class="card review-list finish-table">${s.tasks.map((t,i)=>{const q=lookup.get(t.parentId),r=s.results[i];return `<div class="review-row"><span class="review-index ${r?.kind==='graded'?(r.correct?'right':'wrong'):''}">${r?.kind==='graded'?(r.correct?'✓':'×'):'—'}</span><div class="review-body"><h3>${esc(C.taskLabel(t,q))}</h3><p>${t.mode==='ox'?'O/X':'객관식'} · ${r?.kind==='graded'?(r.correct?'정답':'오답'):'미채점'}</p></div><button class="secondary-button" data-open-index="${i}">문제·해설</button></div>`;}).join('')}</div>`;}
+function renderFinish(){const s=state.session,graded=s.results.filter(r=>r?.kind==='graded'),right=graded.filter(r=>r.correct).length,wrong=graded.length-right,ungraded=s.tasks.length-graded.length;$('main').innerHTML=`<div class="finish-hero"><div class="finish-seal">✓</div><div class="eyebrow" style="justify-content:center">이번 세트 결과</div><h1>${ungraded?'미채점 문제가 '+ungraded+'개 남았어요.':'오늘의 학습을 마쳤어요.'}</h1><p>${ungraded?'건너뛰었거나 해설만 본 문제를 이어서 풀 수 있습니다.':'이번 세트의 모든 문제를 채점했습니다.'}</p></div><div class="finish-stats"><div><strong>${right}</strong><span>정답</span></div><div><strong>${wrong}</strong><span>오답</span></div><div><strong>${ungraded}</strong><span>미채점</span></div><div><strong>${graded.length?Math.round(right/graded.length*100)+'%':'—'}</strong><span>이번 세트 정답률</span></div></div><div class="finish-actions">${returnButton()}${ungraded?`<button class="primary-button" data-action="pending">미채점 ${ungraded}개 이어 풀기</button>`:''}<button class="secondary-button" data-action="review-session" ${wrong?'':'disabled'}>이번 세트 오답 다시 풀기</button><button class="secondary-button" data-action="home">새 문제 세트 만들기 →</button></div><div class="card review-list finish-table">${s.tasks.map((t,i)=>{const q=lookup.get(t.parentId),r=s.results[i];return `<div class="review-row"><span class="review-index ${r?.kind==='graded'?(r.correct?'right':'wrong'):''}">${r?.kind==='graded'?(r.correct?'✓':'×'):'—'}</span><div class="review-body"><h3>${esc(C.taskLabel(t,q))}</h3><p>${t.mode==='ox'?'O/X':'객관식'} · ${r?.kind==='graded'?(r.correct?'정답':'오답'):'미채점'}</p></div><button class="secondary-button" data-open-index="${i}">문제·해설</button></div>`;}).join('')}</div>`;}
 function exportRecords(){const blob=new Blob([JSON.stringify({app:KEY,version:1,exportedAt:new Date().toISOString(),records:state.records,history:state.history},null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='civil4-study-records-'+new Date().toISOString().slice(0,10)+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),2000);notify('학습 기록을 내려받았습니다.');}
-async function importRecords(file){if(!file)return;if(file.size>5000000)return notify('기록 파일이 너무 큽니다.');try{const raw=JSON.parse(await file.text());if(raw.app!==KEY||raw.version!==1||!raw.records)throw Error('schema');let count=0;for(const[k,r]of Object.entries(raw.records)){if(!tasksByKey.has(k)||!r||typeof r!=='object')continue;const safe=cleanRecord(r);if(!state.records[k]||(safe.lastAt||'')>(state.records[k].lastAt||'')){state.records[k]=safe;count++;}}const history=Array.isArray(raw.history)?raw.history.filter(h=>tasksByKey.has(h.key)&&typeof h.correct==='boolean'&&typeof h.at==='string').map(h=>({key:h.key,correct:h.correct,at:h.at})):[];state.history=[...new Map([...state.history,...history].map(h=>[h.key+'|'+h.at,h])).values()].sort((a,b)=>a.at.localeCompare(b.at)).slice(-1000);save();render();notify(count+'개 기록을 불러왔습니다. 더 최근의 기록을 보존합니다.');}catch{notify('민법4에서 내려받은 올바른 기록 파일을 선택해 주세요.');}}
-document.addEventListener('click',e=>{const b=e.target.closest('button,[data-option]');if(!b||b.disabled)return;
- if(b.hasAttribute('data-topic')){const t=b.dataset.topic;state.config.topics=state.config.topics.includes(t)?state.config.topics.filter(x=>x!==t):C.topics.filter(x=>x===t||state.config.topics.includes(x));save();renderHome();document.querySelector(`[data-topic="${t}"]`)?.focus({preventScroll:true});}
- else if(b.dataset.config){state.config[b.dataset.config]=b.dataset.value;save();renderHome();document.querySelector(`[data-config="${b.dataset.config}"][data-value="${b.dataset.value}"]`)?.focus({preventScroll:true});}
- else if(b.dataset.count){state.config.count=b.dataset.count==='all'?'all':+b.dataset.count;save();renderHome();document.querySelector(`[data-count="${b.dataset.count}"]`)?.focus({preventScroll:true});}
+async function importRecords(file){if(!file)return;if(file.size>5000000)return notify('기록 파일이 너무 큽니다.');try{const raw=JSON.parse(await file.text());if(raw.app!==KEY||raw.version!==1||!raw.records)throw Error('schema');await updateState(()=>{let count=0;for(const[k,r]of Object.entries(raw.records)){if(!tasksByKey.has(k)||!r||typeof r!=='object')continue;const safe=cleanRecord(r);if(!state.records[k]||(safe.lastAt||'')>(state.records[k].lastAt||'')){state.records[k]=safe;count++;}}const history=Array.isArray(raw.history)?raw.history.filter(h=>tasksByKey.has(h.key)&&typeof h.correct==='boolean'&&typeof h.at==='string').map(h=>({key:h.key,correct:h.correct,at:h.at})):[];state.history=[...new Map([...state.history,...history].map(h=>[h.key+'|'+h.at,h])).values()].sort((a,b)=>a.at.localeCompare(b.at)).slice(-1000);save();render();notify(count+'개 기록을 불러왔습니다. 더 최근의 기록을 보존합니다.');});}catch{notify('민법4에서 내려받은 올바른 기록 파일을 선택해 주세요.');}}
+document.querySelector('.skip').addEventListener('click',e=>{e.preventDefault();focusMain();});
+document.addEventListener('click',e=>{
+ const b=e.target.closest('button,[data-option]');if(!b||b.disabled||!state)return;
+ if(b.dataset.action==='export'){exportRecords();return;}
+ if(b.dataset.action==='import'){$('record-file').click();return;}
+ if(b.dataset.action==='reset'&&!confirm('이 브라우저의 학습 기록과 진행 중인 세트를 모두 초기화할까요?'))return;
+ updateState(()=>handleButton(b),route()==='study'||route()==='finish',b.dataset.action==='grade');
+});
+function handleButton(b){
+ if(b.hasAttribute('data-topic')){const t=b.dataset.topic;state.config.topics=state.config.topics.includes(t)?state.config.topics.filter(x=>x!==t):C.topics.filter(x=>x===t||state.config.topics.includes(x));saveConfig();renderHome();document.querySelector(`[data-topic="${t}"]`)?.focus({preventScroll:true});}
+ else if(b.dataset.config){state.config[b.dataset.config]=b.dataset.value;saveConfig();renderHome();document.querySelector(`[data-config="${b.dataset.config}"][data-value="${b.dataset.value}"]`)?.focus({preventScroll:true});}
+ else if(b.dataset.count){state.config.count=b.dataset.count==='all'?'all':+b.dataset.count;saveConfig();renderHome();document.querySelector(`[data-count="${b.dataset.count}"]`)?.focus({preventScroll:true});}
  else if(b.dataset.answer)select(+b.dataset.answer);else if(b.hasAttribute('data-ox'))select(b.dataset.ox==='true');else if(b.dataset.option)select(+b.dataset.option);
  else if(b.dataset.reviewTopic){reviewTopic=b.dataset.reviewTopic;renderReview();}
  else if(b.dataset.practice)start([tasksByKey.get(b.dataset.practice)],'오답 복습');
- else if(b.hasAttribute('data-open-index')){state.session.index=+b.dataset.openIndex;save();navigate('study');focusMain();}
- else {switch(b.dataset.action){case 'start':startConfigured();break;case 'resume':navigate('study');focusMain();break;case 'home':case 'leave':navigate('home');focusMain();break;case 'goto-review':navigate('review');focusMain();break;case 'grade':grade();break;case 'reveal':reveal();break;case 'next':next();break;case 'previous':previous();break;case 'retry':retry();break;case 'review-all':{const list=C.wrongItems(questions,state.records,reviewTopic);start(state.config.shuffle?C.shuffle(list):list,'오답 복습');break;}case 'review-session':start(state.session.tasks.filter((t,i)=>state.session.results[i]?.kind==='graded'&&!state.session.results[i].correct),'오답 복습');break;case 'export':exportRecords();break;case 'import':$('record-file').click();break;case 'reset':if(confirm('이 브라우저의 학습 기록과 진행 중인 세트를 모두 초기화할까요?')){state=fresh();save();render();notify('학습 기록을 초기화했습니다.');}break;}}});
-document.addEventListener('change',e=>{if(e.target.id==='shuffle-toggle')state.config.shuffle=e.target.checked;else if(e.target.id==='unseen-toggle')state.config.status=e.target.checked?'unseen':'all';else if(e.target.id==='record-file')return importRecords(e.target.files[0]);else return;save();renderSummary();});
-document.addEventListener('keydown',e=>{if(route()!=='study'||!state.session||e.ctrlKey||e.metaKey||e.altKey||e.target.matches('input,select,textarea'))return;const s=state.session,t=s.tasks[s.index];if(e.target.closest('[data-option]')&&(e.key==='Enter'||e.key===' ')){e.preventDefault();return select(+e.target.closest('[data-option]').dataset.option);}if(s.results[s.index])return;if(t.mode==='mcq'&&/^[1-5]$/.test(e.key)){e.preventDefault();select(+e.key);}else if(t.mode==='ox'&&/^[ox]$/i.test(e.key)){e.preventDefault();select(e.key.toLowerCase()==='o');}else if(e.key==='Enter'&&(!e.target.matches('button,a,summary')||e.target.matches('[data-answer],[data-ox]'))){e.preventDefault();grade();}});
-window.addEventListener('hashchange',()=>{render();focusMain();});
-async function init(){try{const [d,extra]=await Promise.all(['questions.json','supplemental-ox.json'].map(async u=>{const r=await fetch(u,{cache:'no-cache'});if(!r.ok)throw Error(u);return r.json();}));data=d;questions=[...data.questions,...extra.questions];lookup=new Map(questions.map(q=>[q.id,q]));for(const q of questions)for(const t of C.tasks(q)){if(tasksByKey.has(t.key))throw Error('duplicate task '+t.key);tasksByKey.set(t.key,t);}state=readState();render();}catch(e){$('main').innerHTML='<div class="card empty-state"><h1>자료를 불러오지 못했습니다.</h1><p>연결을 확인하고 페이지를 새로고침해 주세요.</p><button class="primary-button" id="reload-button">다시 불러오기</button></div>';$('reload-button').onclick=()=>location.reload();console.error(e);}}
+ else if(b.hasAttribute('data-open-index')){state.session.pass=null;state.session.index=+b.dataset.openIndex;save();navigate('study');focusMain();}
+ else {switch(b.dataset.action){case 'start':startConfigured();break;case 'resume':case 'pending':resumeSession(b.dataset.sessionType,b.dataset.action==='pending');break;case 'return-main':resumeSession('regular',false);break;case 'home':case 'leave':navigate('home');focusMain();break;case 'goto-review':navigate('review');focusMain();break;case 'grade':grade();break;case 'reveal':reveal();break;case 'next':next();break;case 'previous':previous();break;case 'retry':retry();break;case 'review-all':{const list=C.wrongItems(questions,state.records,reviewTopic);start(state.config.shuffle?C.shuffle(list):list,'오답 복습');break;}case 'review-session':start(state.session.tasks.filter((t,i)=>state.session.results[i]?.kind==='graded'&&!state.session.results[i].correct),'오답 복습');break;case 'reset':state=fresh();save();saveConfig();if(!memoryOnly)localStorage.removeItem(KEY);render();notify('학습 기록을 초기화했습니다.');break;}}}
+document.addEventListener('change',e=>{
+ const {id,checked,files}=e.target;
+ if(id==='record-file')return importRecords(files[0]);
+ if(id!=='shuffle-toggle'&&id!=='unseen-toggle')return;
+ updateState(()=>{
+  if(id==='shuffle-toggle')state.config.shuffle=checked;else state.config.status=checked?'unseen':'all';
+  saveConfig();renderSummary();
+ });
+});
+document.addEventListener('keydown',e=>{
+ if(route()!=='study'||!state?.session||e.ctrlKey||e.metaKey||e.altKey||e.target.matches('input,select,textarea'))return;
+ const s=state.session,task=s.tasks[s.index],option=e.target.closest('[data-option]');
+ if(s.results[s.index])return;
+ let action;
+ if(option&&(e.key==='Enter'||e.key===' '))action=()=>select(+option.dataset.option);
+ else if(task.mode==='mcq'&&/^[1-5]$/.test(e.key))action=()=>select(+e.key);
+ else if(task.mode==='ox'&&/^[ox]$/i.test(e.key))action=()=>select(e.key.toLowerCase()==='o');
+ else if(e.key==='Enter'&&(!e.target.matches('button,a,summary')||e.target.matches('[data-answer],[data-ox]')))action=grade;
+ if(action){e.preventDefault();updateState(action,true,action===grade);}
+});
+window.addEventListener('hashchange',()=>{if(state){render();focusMain();}});
+window.addEventListener('storage',e=>{
+ if(!state||memoryOnly||(e.key!==progressKey&&e.key!==configKey&&e.key!==null))return;
+ state=readState();
+ if(e.key!==configKey||route()==='home')render();
+});
+async function init(){try{const [d,extra]=await Promise.all(['questions.json','supplemental-ox.json'].map(async u=>{const r=await fetch(u,{cache:'no-cache'});if(!r.ok)throw Error(u);return r.json();}));data=d;questions=[...data.questions,...extra.questions];lookup=new Map(questions.map(q=>[q.id,q]));for(const q of questions)for(const t of C.tasks(q)){if(tasksByKey.has(t.key))throw Error('duplicate task '+t.key);tasksByKey.set(t.key,t);}await Civil4Lock.run(()=>{
+ state=readState();
+ if(!memoryOnly&&localStorage.getItem(progressKey)===null){save();saveConfig();}
+ });render();}catch(e){$('main').innerHTML='<div class="card empty-state"><h1>자료를 불러오지 못했습니다.</h1><p>연결을 확인하고 페이지를 새로고침해 주세요.</p><button class="primary-button" id="reload-button">다시 불러오기</button></div>';$('reload-button').onclick=()=>location.reload();console.error(e);}}
 init();
 })();

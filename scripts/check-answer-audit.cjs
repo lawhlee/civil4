@@ -38,3 +38,17 @@ const age=q('civil_mock_5_103').text.items[1];assert.match(T.statementPlain(q('c
 assert.match(A.items['civil_mock_4_055__ox_3'].cases.join(','),/2012다13637/);
 const main=fs.readFileSync(require('path').resolve(__dirname,'../index.html'),'utf8');assert.ok(main.indexOf('src="text-legal.js?')<main.indexOf('src="text.js?'));
 console.log('PASS · 429 reviewed statements / 277 of 278 original case bodies / 2 citation-pending statements / '+applied.size+' exact text repairs / unchanged answers and layouts');
+
+for(const [id,index,expected] of [
+ ['civil_mock_5_082',2,['민법 제740조(관리자의 무과실손해보상청구권)','본인의 현존이익']],
+ ['civil_bar_4_011',3,['① 채무자 아닌 자가','② 전항의 경우']],
+ ['civil_bar_5_066',0,['대하여 국가의 사무를 처리하면서','대법원 2014. 12. 11. 선고 2012다15602 판결']]
+]){
+ const question=q(id),item=question.text.items[index],excerpt=T.reflow(item.explanation);
+ for(const phrase of expected){
+  assert.ok(excerpt.includes(phrase),item.id);
+  assert.ok(T.reflow(question.text.explanation).includes(phrase),id);
+ }
+ assert.equal(A.items[item.id].explanationSha256,hash(excerpt));
+}
+assert.ok(T.questionHTML(q('civil_mock_2_050').text).includes('사기·강박에 의한 법률행위'));
